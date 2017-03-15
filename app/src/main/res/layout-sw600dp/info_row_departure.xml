@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CardView_departure"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="0dp"
+    android:padding="4dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="1dp"
+    android:background="@drawable/border">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:background="@drawable/cardview_ripple">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:id="@+id/infoRow1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tvAirline"
+                android:layout_weight="0.4"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tvTo"
+                android:layout_weight="0.35"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tvStatus1"
+                android:layout_weight="0.25"
+                android:textColor="@android:color/white"
+                android:gravity="center|bottom"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:id="@+id/infoRow2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/infoRow1">
+
+            <TextView
+                android:id="@+id/tvFlightNr"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:gravity="center|top"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:paddingTop="4dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tvSchedule"
+                android:layout_weight="0.35"
+                android:textColor="@android:color/white"
+                android:gravity="center|top"
+                android:textSize="14sp"
+                android:typeface="sans"
+                android:paddingTop="3dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tvStatus2"
+                android:layout_weight="0.25"
+                android:textColor="@android:color/white"
+                android:gravity="center|top"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:typeface="sans" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

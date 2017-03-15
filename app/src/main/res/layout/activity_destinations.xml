@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                tools:context="aero.project.petritrama.prishtinainternationalairportademjashari.DestinationsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_btnback"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"/>
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="right">
+
+        <LinearLayout
+            android:id="@+id/llDesRecyclerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/gray"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvDestinations"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPubRecyclerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/gray"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvPublications"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/explore_content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:focusable="false"
+            android:layoutDirection="rtl">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivImage"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtTitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="vertical"
+                android:verticalScrollbarPosition="right">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/txtContent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:paddingBottom="40dp"
+                        android:paddingRight="10dp"
+                        android:textAlignment="center"
+                        android:textSize="14sp"/>
+
+                    <Button
+                        android:id="@+id/btnApplication"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="false"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/navdraw_listitem_ripple"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="@string/btnApplication"
+                        android:textColor="@color/backgroundColor"
+                        android:textSize="12sp"
+                        />
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/explore_drawer"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/white"
+            android:choiceMode="singleChoice"
+            android:dividerHeight="0dp"
+            android:padding="0dp"
+            android:verticalScrollbarPosition="right"/>
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</RelativeLayout>

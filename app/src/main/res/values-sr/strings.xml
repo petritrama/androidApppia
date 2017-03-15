@@ -1,0 +1,847 @@
+<resources>
+
+    <string name="app_name">Pristina International Airport</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_btnFlight">Letovi</string>
+    <string name="text_btnExplore">Aerodrom</string>
+    <string name="text_btnDestinations">Destinacija i Raspored</string>
+    <string name="text_btnServices">Usluge</string>
+    <string name="text_btnNews">Vesti</string>
+    <string name="text_btnInfo">Informacije</string>
+
+    <string name="empty"> </string>
+
+    <string name="lang_default">ENG</string>
+    <string-array name="lang">
+        <item>ENG</item>
+        <item>SHQ</item>
+        <item>SRB</item>
+    </string-array>
+
+    <string name="tab_arrival">Dolasci</string>
+    <string name="tab_departure">Odlazak</string>
+
+    <string name="wait_msg"> Sačekajte .... </string>
+
+    <string name="conn_msg">Niste prijavljeni na Internetu!</string>
+
+    <string name="readMore_msg"> <u>Kliknite da pročitate celu priču</u> </string>
+
+    <string name="btnApplication">Molimo Vas da posetite sajt da popunite formular za prijavu leta</string>
+
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_FlightInfo">Flight Information</string>
+
+    <string name="departure_section">Dolasci</string>
+    <string name="arrival_section">Odlazak</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_departure">DepartureActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_terminal">TerminalActivity</string>
+
+    <string name="lblFrom">Od:</string>
+    <string name="lblSchedule">Planiran:</string>
+    <string name="lblStatus">Status:</string>
+    <string name="lblETA">ETA:</string>
+    <string name="lblETD">ETD:</string>
+    <string name="lblTo">Na:</string>
+    <string name="lblExpected">Expected:</string>
+
+    <string name="lblTitle">Ready for the World!</string>
+    <string name="lblFooter">© 2015 Prishtina International Airport Adem Jashari</string>
+    <string name="title_activity_flight_info">FlightInfo</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="map_title">Nadji od / do PIA</string>
+    <string name="from">Od:</string>
+    <string name="to">Na:</string>
+    <string name="load_directions">Load Directions</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+
+    <string name="title_activity_destinations">DestinationsActivity</string>
+    <string name="title_activity_services">ServicesActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_explore_airport">ExploreAirport</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="rent_schedule">Work Schedule</string>
+
+    <string-array name="ExploreMenu">
+        <item>Profil Kompanije</item>
+        <item>Istorija</item>
+        <item>Glavne informacije o Limak Holding</item>
+        <item>Glavne informacije o ADLMS</item>
+        <item>Organizacija</item>
+        <item>Misija i vizija</item>
+        <item>Poruka Generalnog Direktora</item>
+        <item>Politika kvalitete</item>
+        <item>Korporativna društvena odgovornost</item>
+        <item>Karijera</item>
+        <item>Terminal Mapa</item>
+        <item>Iznajmljivanje Automobila</item>
+        <item>Banka</item>
+        <item>Restorani i Prodavnice</item>
+        <item>Free Shop</item>
+        <item>Avio-Kompanije</item>
+        <item>Reklamacija</item>
+        <item>Taxi Usluge</item>
+    </string-array>
+
+    <string-array name="DestinationsMenu">
+        <item>Destinacija</item>
+        <item>Raspored</item>
+        <item>Kordinacija i olakšanje rasporeda aerodroma</item>
+        <item>Raspored</item>
+        <item>Publikacije</item>
+    </string-array>
+
+    <string-array name="ServicesMenu">
+        <item>Usluge</item>
+        <item>Putnički usluga Rukovanje</item>
+        <item>Informacije i Neprispeli Prtljag</item>
+        <item>CIP i 17/02 Usluga</item>
+        <item>Komercijalna jedinica</item>
+        <item>Usluge Platforme</item>
+        <item>Kargo</item>
+        <item>Jedinica Bezbednosti i Skeniranja</item>
+        <item>Medicinska Nega</item>
+        <item>TIK</item>
+    </string-array>
+
+    <string-array name="NewsMenu">
+        <item>Vesti</item>
+        <item>Mediji Upit</item>
+    </string-array>
+
+    <string-array name="InfoMenu">
+        <item>Kontakt</item>
+        <item>Putničke informacije</item>
+        <item>Koordinacija redova letenja</item>
+    </string-array>
+
+    <string name="title_companyprofile">Profil kompanije</string>
+    <string name="text_companyprofile">
+        Prištinskim Međunarodnim Aerodromom ‘Adem Jašari’upravlja i rukovodi konzorcijum Limak i Aéroports de Lyon. Konzorcijum Limak i Aéroports de Lyon je preuzeo upravljanje i rukovođenje aerodroma nakon Sporazuma o javno privatnom partnerstvu potpisanog 12. Avgusta 2010.
+        \n\n
+        Od tada, konzorcijum je izgradio novi terminal od 42.000 metara kvadratnih sa pratećim objektima koristeći najnoviju tehnologiju na tržištu. 
+        \n\n
+        Limak holding koji je u konzorcijumu sa Aéroports de Lyon je jedna od vodećih kompanija poznata širom sveta u različitim sektorima pored avijacije, kao što su investicije, građevinarstvo, turizam, energija, cement i hrana. Trenutno upravlja Međunarodnim Aerodromom Sabiha Gokcen u Turskoj, dok je Aéroports de Lyon poznat po aerodromskim operativnim službama. Trenutno upravlja i rukovodi Aeroport de Lyon u Francuskoj. 
+        \n\n
+        Konzorcijum Limak i Aéroports de Lyon će upravljati i Prištinskim Međunarodnim Aerodromom ‘Adem Jašari’20 godina od dana sporazuma, dok će svu svoju imovinu preneti na Vladu Kosova posle završetka ovog perioda.
+    </string>
+
+    <string name="title_history">Istorija</string>
+    <string name="text_history">
+        Istorija Prištinskog Međunarodnog Aerodroma ‘Adem Jašari’ počinje 1965. godine samo za domaće letove, a danas je postao jedan od najkonkurentnijih regionalnih aerodroma.
+        \n\n
+        <i>Faze razvoja:</i>
+        \n\n
+        <b>1985</b> - Godina kada je opremljen savremenom tehnologijom tog vremena u skladu sa ICAO standardima.
+        \n\n
+        <b>1999</b> - Premostio je domaće granice i pretvoren u Međunarodni Aerodrom reaktivacijom i promocijom na 15. oktobra 1999. godine, pružajući vazdušni prevoz u nekoliko evropskih gradova.
+        \n\n
+        <b>2000</b> - U početku ovaj aerodrom je poslovao samo humanitarne letove do početka godine. Tokom ovog perioda, snage ruskog KFOR zajedno sa ostalim snagama NATO i saveznicima su bile zadužene za bezbednost aerodroma. Aerodrom je započeo sa radom i imao samo 45 zaposlenih ukupno.
+        \n\n
+        <b>2002</b> - Započelo je renoviranje i proširenje putničkog terminal i završeno u narednih nekoliko meseci (do kraja leta). Korišćenje i snabdevanje energijom je unapređeno i zgrada koja se koristi za teretni saobraćaj je izgrađena.
+        \n\n
+        <b>2002/2005</b> - Oko 800.000 do 1.000.000 komercijalnih i vojnih putnika je godišnje obrađeno. Aerodrom je ponovo izgradio svoj objekat i nova oprema je instalirana sa ciljem da pomogne u ponudi širokog spektra kvalitetnih usluga svojim putnicima i posetiocima. Aerodromske potrebe su orijentisani ka renoviranju u posleratnom periodu. U poslednje 3 godine kompanija je renovirala i izvršila potpunu reorganizaciju aerodroma.
+        \n\n
+        <b>2006</b> - To je godina kada je brz razvoj Prištinskog Međunarodnog Aerodroma ‘Adem Jashari’ nagrađen u kategoriji ‘Najbolji aerodrome ispod 1 milion putnika’.
+        \n\n
+        <b>2007</b> - U prvom kvartalu ove godine broj putnike je povećan do 11%.
+        \n\n
+        <b>2008</b> - Prištinski Međunarodni Aerodrom ‘Adem Jašari’ je sertifikovan od strane Islandske Uprava za civilnu avijaciju nakon što su ispunjeni standardi bezbednosti i sigurnosti, kao rezultat investicija različitih projekata, kao što je obnavljanje piste, rasveta piste, obodni put i ograda i nekoliko drugih investicija.
+        \n\n
+        <b>2009</b> - aerodrom započinje sa radom 24 časa
+        \n\n
+        <b>2010</b> - Aerodrom je pod koncesijom zbog sporazuma o javno privatnom partnerstvu između Vlade Kosova i tursko-francuskog konzorcijuma ‘Limak &amp; Airports de Lyon’
+        \n\n
+        <b>2011</b> - Tursko - francuski konzorcijum, Limak i Aeroports de Lyon, zvanično je preuzeo odgovornost za Prištinski Međunarodni Aerodroma. Javno privatno partnerstvo će upravljati Prištinskim Međunarodnim Aerodromom ‘Adem Jashari’ za narednih 20 godina, modernizovati i proširi terminal na 27 hiljada kvadratnih metara sa 100 miliona evra investicija koje će obaviti Limak- Airport de Lyon.
+        \n\n
+        <b>2013</b> - Limak Kosovo je pod ugovorom o konzorcijumu izgradio potpuno novi terminal na Prištinskom Međunarodnom Aerodromu ‘Adem Jašari’ dvaput širi od dogovorenih 27.000 metara kvadratnih na 42.000 kvadratnih metara, koristeći najnoviju tehnologiju na tržištu. 
+23. Oktobar 2013 - Inauguracija novog terminala
+        \n\n
+        <b>October 23, 2013</b> - Inauguracija novog terminala
+        \n\n
+        <b>2014</b> - Prištinski Međunarodni Aerodrom ‘Adem Jašari’ osvojio je nagradu ‘Najbolji dizajn kvalitete čelika’ smešten na novom terminalu.
+        \n\n
+        <b>2014</b> - Prištinski Međunarodni Aerodrom ‘Adem Jašari’ je prijavljen kao ‘Najbolji ugovor o koncesiji u regionu’ u poređenju sa regionalnim aerodromima u izveštaju NVO “STRAS”.
+    </string>
+
+    <string name="title_limak">Glavne informacije o Limak Holding</string>
+    <string name="text_limak">
+        Osnovan 1976. sa Limak Construction, Grupa kompanija Limak je dodala turizam, cement, energiju, infrastrukturu, rukovođenje i poslovanje aerodroma, rukovođenje luka, sector prehrane i vazduhoplovne sektore svom poslovanju koji pokazuje održiv rast tokom vremena.
+        \n\n
+        <b>Limak Construction</b> koji je uspešno završio mnoge projekte u ukupnoj vrednosti od preko 6 milijardi $, uključujući aerodrome, luke, brane, sisteme za navodnjavanje, autoputeve, hidroelektrane, industrijska postrojenja, naftovode i gazovode, hotele i odmarališta, je među najvećim svetskim međunarodnim građevinskim kompanijama prema časopisu Engineering News Record Magazine.
+        \n\n
+        <b>Limak Tourism Group</b> koja poseduje jedan od najvećih hotelskih lanaca u Turskoj pokazuje održiv rast i povećanje svog doprinosa turskoj ekonomiji i globalnoj zastupljenosti Turske. Trenutno, Limak Tourism Group poseduje i upravlja hotelima Limra, Arcadia, Lara i Atlantis u Antaliji, Ambassadore Hotel u Ankari, Hotel Eurasia i ISG Airport Hotel u Istanbulu i Hotel Thermal u Yalovi. Limak Tourism Group nastavlja sa svojim ulaganjima u mnogim regionima Turske i Kipra.
+        \n\n
+        <b>Limak Cement Group</b> hje postala treća najveća cementa grupa u Turskoj od 2011., sa svojih 10 cementara koje posluju u Siirtu, Diyarbakıru, Gaziantepu, Şanlıurfau, Bitlisu, Mardin Deriku, Ankari, Balıkesiru, Kırklareliu i İstanbul Ambarlıu.
+        \n\n
+        <b>Limak Energy Group</b> je aktivan u celom lancu energetske vrednosti, uključujući proizvodnju električne energije, distribuciju, prodaju i trgovinu električne energije. Pod njenim strateškim ciljevima, Limak Energy nastavlja sa razvojem novih projekata u cilju dostizanja proizvodnog kapaciteta od 5000 MW. Trenutno, Limak Energy proizvodi električnu energiju u 5 hidrocentrala. Od 2014. , grupa ima za cilj puštanje u rad još tri hidroelektrane. Kada završe svi projekti proizvodnje obnovljivih izvora energije, ukupan kapacitet Grupe će biti iznad 1000 MW.
+        \n\n
+        <b>Limak</b> je ušao u poslovanje distribucije električne 2010. godine osvajanjem tendera za privatizaciju Uludag i Camlibel elektrodistribucije u Turskoj. Godine 2012. Grupa je postala lider na tržištu u distribuciji električne energije dobijanjem tendera za privatizaciju Bogazici i Akdeniz elektrodistribucije u Turskoj i za distribuciju električne energije na Kosovu. Limak Energy je takođe jedna od prvih i inovativnih kompanija u prodaji i trgovini energijom na tržištu.
+Limak je preneo svoja dostignuće stečena kroz izgradnju i upravljanje Međunarodnim Aerodromom u Istanbulu Sabiha Gokcen na Prištinski Međunarodni Aerodrom ‘Adem Jashari’ Limak nastavlja svoj uspeh u sektoru saobraćaja u luci Iskenderun. Cilj Limaka je da luka Iskenderun postane najvažnija luka kontejnera Mediterana.
+        \n\n
+        <b>Limak Grupa</b> kompanija čiji je kvalitet usluga sertifikovan raznim međunarodnim nagradama i priznanjima u zemlji i inostranstvu, radi u svim sektorima gde postoji sa iskusnom i obučenom random snagom u skladu sa principima maksimalne produktivnosti i efikasnosti i zauzimajući istaknuto mesto među vodećim kompanijama.
+        \n\n
+        <i>www.limak.com.tr</i>
+    </string>
+
+    <string name="title_adlms">Glavne informacije o ADLMS</string>
+    <string name="text_adlms">
+        Aéroports de lyon- MANAGEMENT &amp; SERVICES (upravljanje i usluge) je deo Aéroports de lyon.
+        \n\n
+        <b>Osnovano 2009</b>, Aéroports de Lyon-MANAGEMENT &amp; SERVICES, pojednostavljeno akcionarsko društvo, pod rukovodstvom Aéroports de Lyon firme koju predstavlja Philippe Bernand, generalni direktor. Ova podružnica je u skladu sa ciljem diversifikacije aerodroma u oblasti grada Lion i izvoza njihove stručnosti.
+        \n\n
+        <b>Aéroports de Lyon</b> posluje i razvija aerodrome Lyon-saint Exupéry dhe Lyon-Bron skoro 40 godina.
+Aéroports de Lyon razvija i upravlja aerodromskim instalacijama i uslugama već trideset godina. Jedna od naših posebnih prednosti je sposobnost da predvidimo potrebe tržišta, otkrijemo novo ponašanje potrošača i integrišemo razvoj tehnologije. Naš inovativni duh i stalna dinamičnost obezbeđuje kontinuirani rast svih naših aktivnosti, uključujući nove puteve i međunarodni razvoj sveukupnog tržišta.
+        \n\n
+        <b>Aéroports de Lyon</b> je uvek delio svoju tehničku stučnost, pre svega sa malim aerodromima u Francuskoj. Od promene svog statusa u martu 2007. godine, kompanija je uvidela pozitivan dokaz o svom rastućem kredibilitetu na međunarodnom tržištu, posebno kroz prvi ugovor sa aerodromom u Kongu.
+        \n\n
+        <b>2008 i 2010</b>, Aéroports de Lyon je imenovan najboljim evropskim aerodrom u svojoj kategoriji od strane ACI EUROPE .
+        \n\n
+        <b>2013</b>, godine Aéroports de Lyon je dobio priznanje sa pet zvezdica, koji se daje za izvrsnost od EFQM (Evropska fondacija za upravljanje kvalitetom), čime je aerodrom rangiran među top 20 kompanija u Francuskoj, postignuvši iznad 500 poena na skali izvrsnosti. 
+Usluge koje se prilagođavaju prema zahtevu: istraživanje, revizije, ugovori o pomoći prema zahtevu, obuka na licu mesta.
+        \n\n
+        Vidi veb stranicu Aéroports de Lyon: <i>www.lyonaeroports.com</i>
+    </string>
+
+    <string name="title_organization">Organizacija</string>
+
+    <string name="title_missionvision">Misija i vizija</string>
+    <string name="text_missionvision">
+                Naša misija je da obezbedimo bezbedan, efikasan aerodrome, gde je kupac u fokusu, na način da služimo društvenim, privrednim, vladinim i vojnim potrebama zemlje, uz stalne napore za vrhunskim dostignućima u vazdušnim objektima i uslugama.
+                \n\n
+                Naša vizija je razvijanje infrastrukture i objekata aerodroma svetske klase, i postizanje najviših standarda bezbednosti i sigurnosti međunarodnog aerodroma orijentisanog klijentu.
+            </string>
+
+    <string name="title_ceo">Poruka Generalnog Direktora</string>
+    <string name="text_ceo">
+                    Međunarodni Aerodrom Limak Kosovo A.D., prati razvoj avio industrije u skladu sadašnje ekspanzije novog savremenog putničkog terminala, da bi bio u mogucnosti da ugosti najmanje četiri ipo (4.5) miliona putnika na godišnjem nivou. Novi objekti, novi partneri, i nova strategija za izgradnju boljeg aerodroma učinila je da period 2011-2013 bude veoma uposlen i nezaboravan za Međunarodni Aerodrom Limak Kosovo A.D.
+                    \n\n
+                    Stvorili smo sa ponosom nacionalni reper, koji reflektuje napredne i moderne mogućnosti Republike Kosovo, takođe i dostignuće za kulturno nasleđe. Projekat putnickog Terminala optimizuje prolazak putnika u cilju povecanja praktičnosti za putnike i posetioce.
+                    \n\n
+                    Imajući to u vidu, ponosni smo na značaj svoje uloge i ogromne odgovornosti poverene LIMAK-u i našem partneru “Aeroports De Lyon” za upravljanje aerodromske operative i izgradnje Kosovske kapije ka svetu. Radeći zajedno sa nasim parterom, uz zajednicku posvećenost i savetnike od poverenja, vodilo nas je da ostanemo ka zacrtanom putu - u pravcu preuzimanja akcija potrebnih za uspešno upravljanje Međunarodnim Aerodrom Limak Kosovo A.D.
+                    \n\n
+                    Mi vidimo izvan ograničenja, izvan barijera a pri tom smo fokusirani na uspeh i napredak, sagradnjen od strane nešeg mladog, obrazovanog i posvećenog osoblja koje je najveće bogatstvo našega preduzeca, tako da svakodnevna suočavanja sa izazovima, postanu deo našeg iskustva.
+                    \n\n
+                    Krajem 2013-te godine, LIMAK – vodeća grupa konglomerata iz Turske, pobedila je na najvećem tenderu u istoriji kompanije, kojoj je povereno da upravlja jednim od najvećih svetskih aerodroma u Istanbulu, praveći time vazan znak za zemlju za njenu odlučnost i ambicije da postane globalo tranzitno čvoriste za međunarodni avio saobraćaj
+                    \n\n
+                    Nastavljajući nasleđe LKIMAK grupe, novi terminal nastavlja da izgrađuje aerodromsku doslednu evidenciju uspeha. Kroz naše postojeće razvojne programe i izgradnjom čvrstih globalnih veza, ciljamo ka tome da pozicija Republike Kosovo postane dobar izbor za odmor i poslovna putovanja a takođe kao pogodnost za transferno čvoriste za region Balkana.
+                    \n\n
+                    <i><b>Haldun Firat Kokturk</b></i>\n
+                    Član Borda Direktora i Generalni Direktor \n
+                    Međunarodni Aerodrom Limak Kosovo A.D
+                </string>
+
+    <string name="title_management">Politika kvalitete</string>
+    <string name="text_management">
+    Implementacija &amp; Informacije  o QMS/IMS
+    \n\n
+    Implementacija sistema upravljanja kvalitetom u skladu sa zahtevima navedenim u standardu ISO 9001 na međunarodnim aerodromima je uobičajena praksa i to je ključni deo Strategije upravljanja za razvoj i stalno poboljšanje kvalitete usluga na aerodromima širom sveta. 
+    \n\n
+    Međunarodni Aerodrom Limak Kosovo (LKIA) je dobio sertifikat ISO 9001:2008 nakon revizije obavljene novembra 2012. od strane Međunarodne organizacije “URS”u oblastima: Zemaljske usluge, Poslovanje terminala, Informativna tehnologija, Nabavka, Administracija, Komercijala, Sigurnost avijacije, Ljudski resursi, VIP usluge, CIP usluge, Hrana i piće, Kontrola objekata, Održavanje zgrada, Planiranje i razvoj, Mašinsko održavanje, Upravljanje faunom, Održavanje AGL/PWR (osvetljenje iznad nivoa zemlje), Održavanje vazdušnog prostora, Usluge gašenja požara i spašavanje, Koordinacija rasporeda i Medicinske usluge. Pored toga, u novembru 2012. godine, Međunarodni aerodrom LIMAK Kosova je takođe dobio sertifikat ISO 14001:2008 standard za Zaštitu životne sredine (EMS) i ISO 10002:2004 standard za Sistem ophođenja saklijentima (CHS) - vidi priložene potvrde. Tri sistema sertifikata ISO, uključeni su u jedan – Sistem integrisanog upravljanja (IMS). 
+    \n\n
+    Viši Menadžment LKIA je definisao i dokumentovao “Politika kvalitete, životne sredine i rešavanja žalbi”. Ova politika uključuje posvećenost kompanije u ispunjavanju zahteva klijenata i unapređenje zadovoljstva kupaca kroz kontinuirano poboljšanje svojih usluga i IMS. - Pogledajte priloženu politiku IMS.
+</string>
+
+    <string name="title_responsibility">Korporativna društvena odgovornost</string>
+    <string name="text_responsibility">
+        Od samog početka osnivanja Limak Kosova Međunarodnog aerodroma JSC, zajedno sa našim poslovnim aktivnostima , cilj nam je da budemo deo zajednice u kojoj poslujemo su društveno odgovorni Naš fokus je bio da predstavi i implementiraju projekat društvene odgovornosti za obuku i regrutovanje dobro obrazovane i dvojezične mladog stanovništva Kosova Projektom Limak ASI , osnovana u saradnji sa Univerzitetskom Bogazici doživotnog učenja centra i Univerziteta u Prištini , obezbedili smo treninge u upravljanju aerodroma u skladu sa propisima EU za starije studente . Uspešni studenti će moći da rade ne samo na Kosovu , već i više od stotine aerodroma u 70 aerodromima zemalja i njene prateće industrije.
+        \n\n
+        <i>http://www.limakasi.com/</i>
+
+        \n\n\n
+        <b>Mladi prosvete i sporta projekti koje podržava Limak Kosovo tokom 2014:</b>
+        \n\n
+        Doku Fest -Hosting Sponsor\n\n
+Turkish Jazz Week-Main Sponsor\n\n
+Fountain Implementation of Primary School ‘Hasan Prishtina’ –Main Sponsor\n\n
+Kamerfest-sponsoring the presence of a well-known pianist Ms. Yesim Gokalp\n\n
+Action for Healthy Mothers and Children-Silver Sponsor\n\n
+Football Match Kosova-Haiti-Gold Sponsor\n\n
+Football Match Kosova-Turkey-General Sponsor\n\n
+Football Match Kosova-Senegal-General Sponsor\n\n
+Limak Street ball Kosova 2014-Main Sponsor\n\n
+REDO Conference, Bookshop\n\n
+    </string>
+
+    <string name="title_career">Karijera</string>
+    <string name="text_career">
+        Prištinsku Međunarodni Aerodrom ‘Adem Jašari’ je poslodavac ravnopravnih mogućnosti za zapošljavanje i dočekuje aplikacije iz svih zajednica. Naša politika je da pruži jednake mogućnosti u odnosu na zapošljavanje, razvoj karijere i promociju svima, na osnovu sposobnosti, kvalifikacija i podobnosti za određene pozicije. 
+Biti deo Prištinskog Međunarodnog Aerodroma ‘Adem Jašari’, selekcija se vrši na osnovu fer i otvorene konkurencije i bez obzira na pol, bračno stanje, starost, rasu, etničko poreklo, seksualnu orijentaciju, invaliditet ili religiju/uverenje podnocioca zahteva. 
+PMA ‘ Adem Jašari’Međunarodni aerodrom Limak Kosovo DD pokrenuo je obrazovni projekat omogućavajući i pružajući priliku mladim studentima sa visokim obrazovanjem Univerziteta u Prištini da postanu deo progama i prakse koju kompanija obezbeđuje.
+        \n\n
+        <b>Razvoj ljudskih resursa</b>
+        \n\n
+        Od aprila 2011. održano je više od 106 treninga u zemlji i inostranstvu.
+        \n 76\%% treninga je održavano kao ytreninzi ‘u kući’. Treninzi su održali sertifikovani instruktori aerodroma i naši partneri.
+        \n 25\%% treninga uključujući studijske posete i konferencije su održani u inostranstvu u različitim zemljama kao što su: Francuska, Turska, Hrvatska, Kanada, SAD, Nemačka, Republika Češka, Bugarska i Makedonija. 
+        \n 29 radnika LKIA je obučeno i seritikovano od strane naših partnera da mogu održavati treninge u različitim profesionalnim oblastima.
+        \n\n
+    </string>
+
+    <string name="title_rent">Iznajmljivanje Automobila</string>
+    <string name="text_rent">
+
+    </string>
+
+    <string name="title_bank">Banka</string>
+    <string name="text_bank">
+        BKT Bank
+        \n\n
+        Raiffeisen Bank
+        \n\n\n
+        Procredit ATM
+        \n\n
+        TEB ATM
+    </string>
+
+    <string name="title_restaurants">Restorani i Prodavnice</string>
+    <string name="text_restaurants">
+        <b>Restaurants and Coffee Bars:</b>
+        \n\n
+        Secco Coffee
+        \n\n
+        Black and Red
+        \n\n
+        Prizreni
+        \n\n
+        Miss Coffee
+        \n\n
+        Pasha Patisserie
+        \n\n
+        Prince
+        \n\n
+        Princ Coffee
+        \n\n
+        <b>Shops:</b>
+        \n\n
+        Check–Inn
+        \n\n
+        Dea
+    </string>
+
+    <string name="title_shop">Free Shop</string>
+    <string name="text_shop">
+        Prishtina International Airport \'Adem Jashari\' Limak Kosovo International Airport J.S.C. carries
+        within its area one of well known Duty Free Shops named Unifree Duty Free.
+        \n\n
+        UNIFREE Dutyfree İşletmeciliği A.Ş. presents a selection of over 30.000 reference products of
+        over hundred international brands, in its modern and exquisite stores, aligned with competitive pricing
+        policies based on international criteria
+        \n\n
+        Unifree Duty Free
+        Among the top 15 airport worldwide. During last 5 years \n
+        Operating in 13 different international airports, 1 border store, 81 stores in total
+        \n\n
+        <u><i>www.unifree.com.tr</i></u>
+    </string>
+
+    <string name="title_ad">Reklamacija</string>
+    <string name="text_ad">
+        Paper Communication:
+        \n\n
+        00386(0)49 388800\n
+        <i>dren@paper.al</i>\n
+        <i>doruntina@paper.al</i>
+    </string>
+
+    <string name="title_taxi">Taxi Usluge</string>
+    <string name="text_taxi">
+        There is 24/7  taxi services offered at Prishtina International Airport \'Adem Jashari\'
+        from any of the cities of Kosovo.
+    </string>
+
+    <string name="title_schedule">Raspored</string>
+    <string name="text_schedule">
+        <b>Jedinica za koordinaciju/olakšanje rasporeda (slotova) LIMAK Kosovo Međunarodnog Aerodroma - LKIA obezbeđuje efikasnije korišćenje aerodromske infrastrukture Prištinskog Međunarodnog aerodroma “Adem Jašari” (PRN) u cilju povećanja koristi za najveći broj korisnika aerodroma.</b>
+        \n\n
+        Prištinski Međunarodni Aerodrom funkcioniše 7/24. U slučaju obavljanja ad hoc letova, aerodromske usluge se plaćaju u gotovini (evro) ili putem kreditne kartice (VISA, MASTER, MAESTRO). 
+    </string>
+
+    <string name="title_schedule_coordination">Kordinacija i olakšanje rasporeda aerodroma</string>
+    <string name="text_schedule_coordination">
+        Proces koordinacije/olakšanja rasporeda letova na Prištinskom Međunarodnom Aerodromu - PRN se vrši u potpunosti u skladu sa Zakonom civilnog vazduhoplovstva Kosova, sa zakonodavstvom Evropske Unije za koordinaciju aerodroma i kroz primenu niza pravila sadržanih u IATA svetskim Slot smernicama ( WSG ).
+        \n\n
+        Avio kompanije koje posluju ili planiraju letove na Prištinskom Međunarodnom aerodromu “Adem Jašari” moraju obezbediti i ažurirati njihov raspored delovanja kod koordinatora rasporeda.
+        \n\n
+        U slučaju ograničenja kapaciteta , avio kompanije moraju biti spremne za dobrovoljno prilagođavanja rasporeda letenja kako bi se izbeglo prekoračenje parametara koordinacije.
+        \n\n
+        Kontakti jedinice koordinacije /olakšanja rasporeda:
+        \n\n
+        Phone:  +381 38 501 502 1170 \n
+        Mobile. +377(0)45 811 310 \n
+        Email:  scheduleprn@limakkosovo.aero \n
+        Web:    www.limakkosovo.aero \n
+    </string>
+
+    <string name="title_application_flights">Information on application for flights</string>
+    <string name="text_application_flights">
+        AKOORDINACIJA RASPOREDA AERODROMA 
+        \n\n
+        Koordinacija Aerodrom je proces upravljanja kapaciteta aerodroma kroz primenu niza pravila sadržanih u IATA Svetskim Slot Smjernica ( WSG na www.iata.org/sked ) .
+        \n\n
+        Koordinacija Rasporeda podrazumeva dodelu ograničenih kapaciteta aerodroma avio kompanijama i drugim vazduhoplovnim operatorima, da bi se obezbedio održivo poslovanje aerodroma i upravljanje vazdušnim saobraćajem. Koordinacija je takođe proces maksimalnog efikasnog korišćenja aerodromske infrastrukture.
+        \n\n
+        OLAKŠANJE RASPOREDA AERODROMA 
+        \n\n
+        Proces olakšavanja se zasniva na dobrovoljnoj saradnji avio kompanija i koordinatora/olakšatelja rasporeda Limak Kosovo Međunarodnog Aerodroma. Avio kompanije i i koordinator/olakšatelj rasporeda LKIA trebaju koristiti SSIM formate za razmenu poruka razvijene za komunikaciju na nivou 2 aerodroma ( Nivo 2 Aerodrom , pogledajte WSG na www.iata.org/sked ) .
+        \n\n
+        Kalendar aktivnosti koordinacije precizira datume kada avio kompanije dostavljaju svoje planirane operacije koordinatoru/olakšatelju rasporeda Limak Kosovo Međunarodnog Aerodroma i datume kada i koordinator/olakšatelj rasporeda mora da odgovori avio kompanijama za svaku sezonu letenja.
+        \n\n
+        Koordinator/olakšatelj rasporeda LKIA mora odgovoriti na svaki inicijalni podnesak avio kompanije u SAL formatu, navodeći planirane aktivnosti te avio kompanije u bazi podataka koordinatora i sva preporučena prilagođavanja rasporeda. Avio kompanije trebaju aranžirati susret sa koordinatorom na Konferenciji za raspored da bi rešili sva otvorena pitanja.
+Avio kompanije i drugi avionski operateri trebaju ažurirati koordinatora/olakšatelja rasporeda LKIA sa svim promenama njihovih planiranih operacija, čim se dogode.
+Koordinator/ olakšatelj raspored će poslednično obavesiti aerodrom i sve relevantne stranke o svim promenama planiranih operacija.
+    </string>
+
+    <string name="title_publications">Publikacije</string>
+
+    <string name="title_services">Usluge</string>
+    <string name="text_services">
+        Menadžment Međunarodnog Aerodroma u Prištini je obavezala da ponudi najdobri uslugi svojim klijentima prema međunarodnim standardima sigurnosti i bebjednosti
+    </string>
+
+    <string name="title_phs">Putnički usluga Rukovanje</string>
+    <string name="text_phs">
+        U okviru Medžunarondog civilnog vazduhoplovstva pravila, naš ćilj jepovećanje zadovoljstva klienta u putnička usluga, gde CIP i VIP usluge su izrečena uzimajući kvalitet i sigurnu servisa kao osnova.
+        \n\n
+        Usluge koje su nude od Limak Kosovo Medžunarodni JSC putnik usluge Unit, oni su: \n
+        \n• Putnik i Prtljag Check-in
+        \n• VIP Check – in
+        \n• CIP Check - in
+        \n• Group Check-in
+        \n• Putne Isprave- Dokumenti i Pasoš
+        \n• Ukrcavanje
+        \n• Skraceno Ukrcavanje
+        \n\n
+        Kontakt informacija: \n
+        email: team.leaders@limakkosovo.aero
+        \n
+        tel:    00381 (0)38 501 502  \n
+        Mobile: 00377(0)45811281
+        \n\n\n
+        <b>VIP Check-In</b> \n\n
+        Vip (Veoma važni ljudi) su putnici, koji zbog svojih službeni rang ili socijalni položaj koji su tretirak kao VIP kod PRN aerodrome ne mogu biti kategorizovani u avio-kompanija na kojima putuju, međutim, kao osnova pružimo sledeče usluge:
+        \n\n
+        \n- Pre –zabeleženo sedište
+        \n- Aranžiranje i izvest kod check-in Lounge
+        \n- Aranžiranje i izvest kod check-in Lounge
+        \n\n
+        Kontakt: vip@limakkosovo.aero
+        \n\n\n
+        <b>Cip i 17/02 Check-in Usluge</b> \n\n
+        Putnici koji su članovi od CIP i 17/02 imaju specijalni check-in brojač primanjem odvojeno uslugu od drugi check-in brojača, bez obzira aviona sa kojim oni putovaju.
+        \n\n\n
+        <b>Grupni Check-in</b> \n\n
+        Putnici koji putovaju grupnim, oni će imaju regularni check-in procedure
+        \n\n\n
+        <b>Sam Check-in</b> \n\n
+        Momentalno, postoje 5 Sam Usluge check-in’a brojači kod Prištinski Medžunarodni Aerodrom ‘ Adem Jašari’ omogućavajući putnike da pravaju check-in sami
+        \n\n\n
+        <b>Putne Isprave</b> \n\n
+        Za informacija od svakog dokumenta, molimo vas da pogledate u:
+        \n\n
+        <i>http://www.assembly-kosova.org/common/docs/ligjet/2008_03-L037_sr.pdf</i>
+        \n\n\n
+        <b>Ukrcavanje</b> \n\n
+        Postoji pomoć za putnici sa invaliditetom od check-in brojač do ukrcavanje.
+        \n\n
+        Za dalje informacije, molimo kontaktirate službi informacija o redu letenja.
+        \n\n\n
+        <b>Uskraćeno ukrcavanje</b> \n\n
+        Putnici mogu biti razlog uskraćivanja ukrcavana na osnovu procedura graničnih vlasti ili avionskim ako su uhvačeni u kršenju bilo koje od procedura i popisa koji putuju.
+    </string>
+
+    <string name="title_lost">Informacije &amp; Neprispeli Prtljag</string>
+    <string name="text_lost">
+        Šalter za informacije i Služba traganja za prtljagom (Lost &amp; Found) na Limak Kosovo DD pruža usluge o neophodnim informacijama i usluge neprispele prtljage.
+Putnici koji ne mogu da prime svoj prtljag se trebaju direktno obratiti našem Lost &amp; Found
+ sa avio kartom, povrdom za prtljag, ličnom kartom i pasošem istog dana njihovog dolaska pre napuštanja terminala. Mi ćemo istražiti i raznjasiti stvari što je brže moguće.
+        \n\n
+        Kontakt:\n\n
+        <i>Šalter za informacije</i>
+        \nTelefon:  00381 (0)38 501 502 1214
+        \nEmail:  information@limakkosovo.aero
+        \n\n<i>Lost &amp; Found</i>
+        \nPhone:  00381 (0)38 501 502 1270
+        \nEmail:  lost.found@limakkosovo.aero
+        \n\n\n
+        Služba traganja za prtljagom
+Adresa traganja za prtljagom PRN67
+Molimo Vas da pronađete listu avio kompanija koje koriste Svetski Sistem Upravljanja Traganjem (World Tracer Management system).
+\n\n\n
+        <b>Baggage Tracing</b> \n\n
+        <u><i>Baggage Tracing code PRN67</i></u>
+        \n\n
+        Please find the list of airlines using World Tracer Management system:
+        \n
+        \n- Adria Airways
+        \n- Austrian Airlines
+        \n- EasyJet Airline
+        \n- Etihad Airways
+        \n- Pegasus Air
+        \n- SAS
+        \n- Star Alliance
+        \n- Turkish Airlines
+    </string>
+
+    <string name="title_cip">CIP i 17/02 Usluga</string>
+    <string name="text_cip">
+        Ova sala stvara alternativno i prikladno rešenje za česte i zahvalne putnike Kosova. Putnici koji žele da imaju nezavisno iskustvo letenja sa uslugom koju pruža iskusan profesionalac za pomoć, brzu proceduru prijave i odjave, i privilegije parkiranja mogu koristiti Uslugu 17/02.
+        \n\n
+        Članovi ovog salona su zbrinuti i dobijaju maksimalan komfor od vozila do aviona ili obrnuto. Osoba odgovorna za člana ih dočekuje na području polaska, i pomaže im putem. Iskazuje se briga i za njhov prtljag, procedura prijema je ubrzana, i gde je to moguće kontrola pasoša se vrši na brzim šalterima.
+        \n\n
+        Svrha salona 17/02 je udobnost člana. Prostorije su smeštene daleko od regularnih zona, u tihoj atmosferi bez glasnih najava i daleko od rutinskog aerodromskog poslovanja. Sala takođe nudi besplatni internet, uobičajena kancelarijiska sredstva, dnevne i nedeljne novine. Takođe ima i osvežavajućih pića i razne hrane na raspolaganju sve vreme, besplatno za sve korisnike salona.
+        \n\n
+        Mi smo srećni da možemo da Vam pružimo ovaj luksuz. Za sve dalje informacije, možete kontaktirati bilo kojeg člana osoblja Limak Prištinskog Međunarodnog Aerodroma ‘Adem Jašari’ ili pišite nam e-mail na:\ncip @limakkosovo.aero
+        \n\n\n
+        <b>Usluga 17/02</b>\n\n
+        <u>Odlazak članova Usluge 17/02</u>
+        \n\n
+        Naša Usluga počinje od tačke gde CIP osoblje/zaposleni susreću putnika na Odlasku.
+Procedura prijave se vrši zajedno sa CIP osobljem/zaposlenima, i ako je moguće, obezbeđen je ubrzan prolaz kroz šaltere kontrole pasoša.
+Dodatno, naše CIP osoblje je na raspolaganju našim gostima u slučaju da žele da kupuju u Duty Free prodavnici.
+        \n\n
+        <u> Dolazak članova Usluge 17/02</u>
+        \n\n
+        Mi brinemo o našim CIP klijentima čim naprave prvi kopak iz aviona. Pasoška kontrola i procedure, ako je moguće, se obavljaju na brzim šalterima.
+Našim klijentima će biti pružena asistencija našeg CIP osoblja u slučaju da žele da kupuju u Duty Free prodavnici.
+Mi smo i dalje na usluzi našim klijentima do susreta sa osobom koja ih dočekuje ili do vozila ako ne postoji osoba koja ih dočekuje.
+        \n\n\n
+        <b>CIP Procedure</b>
+        \n\n
+        <u>17/02 Zlatna Kartica</u>
+        \n\n
+        Mesto za parkiranje besplatno na 5 dana 
+Upotreba jedinstvenog CIP salona 
+1 gost besplatno (Član Porodice) i deca do 13 godina
+Cena usluge
+1 Godičnja Kartica: 350 evra
+        \n\n
+        <u>17/02 Platinum Kartica </u>
+        \n\n
+        10 dana besplatan parking
+Upotreba CIP 17/02 sale
+1 besplatan gost osim člana porodice i dece do 13 godina
+Cena usluge
+1 Godišnja Kartica: 550 evra
+        \n\n\n
+        Ako je potrebno više informacija, mi smo Vam na raspolaganju da Vam ponudimo sve potrebne detalje.
+Molimo Vas da nas kontaktirate na:
+Email: lounge@limakkosovo.aero
+Office: 00381(0)385015022202
+    </string>
+
+    <string name="title_commercial">Komercijalna jedinica</string>
+    <string name="text_commercial">
+        Komercijalna Jedinica upravlja i sprovodi komercijalne ogovore u cilju obezbeđenja kontinuiranog razvoja poslovanja, uključujući i vazduhoplovne i nevazduhoplovne aktivnosti Limak Kosovo Prištinskog Međunarodnog Aerodroma DD.
+        \n\n
+        Komercijalna jedinica pregovara o uslovima komercijalnih ugovora, takođe vrši i dokumentovanje i dogovor o svakoj promeni ili dopuni koja se može dogoditi tokom implementacije.
+Partneri: avio kompanije, putničke agencije i/ili turoperatori, prodavnice oslobođene davanja i ona u kojima su svi porezi uključeni, banke, kompanije za iznajmljivanje auta, operateri telekomunikacija, kompanije za kargo transport, restorani, operateri prevoza helikopterima, operateri podrške vazduhoplovnih i kopnenih operacija,i bilo koje druge stranke uključene u vazduhoplovsto i poslovanje aerodrome.
+        \n\n
+        Aktivnosti: Standard sporazumi zemaljskih usluga, Komercijalni ugovori o najmu prostora na Terminalu, sadržaji zemljišnog i vazdušnog prostora za sve korisnike aerodroma (kao što su avio kompanije, turoperatori, putničke agencije, kompanije za iznajmljivanje auta...), Ugovori o pod-koncesiji, i bilo koje druge komercijalne aktivnosti koje mogu da doprinesu povećanju prihoda kompanije Limak Kosova Međunarodnog Aerodroma DD.
+        \n\n\n
+        <i>Kontakt informacije Komercijalne Jednice:</i>\n\n
+        Menadžer prihoda \n
+        Ured:  +381 38 501 502/ 1100\n
+        Fax:     +381 38 501 502/ 1115\n
+        hsayimci@limakkosovo.aero
+        \n\n
+        Komercijalni Administrativni Asistent \n
+        Ured:  +381 38 501 502/ 1104\n
+        jqorri@limakkosovo.aero
+    </string>
+
+    <string name="title_ramp">Usluge Platforme</string>
+    <string name="text_ramp">
+        Primarni cilj ove usluge je preduzimanje svih neophodnih mera predostrožnosti protiv svih rizika. Počinje ulaskom aviona u frekvencije i završava guranjem odozada aviona opremom za guranje ‘puch-back’.
+        \n\n\n
+        Usluge koje se nude kao deo Usluga platforme:
+        \n
+        \n- Izrada priprema vezanih za susret, pre dolaska aviona i inspekcija ovih priprema.
+        \n- Slanje potrebne opreme za parking poziciju za istovar tovara i torbi i pružanje dodatnih usluga, kao što je snabdevanje vodom za piće, struja, vazdušni starter, itd.
+        \n- Rukovanje sistemom tretiranja prtljage i sistema slaganja prtljage
+        \n- Izračunavanje težine i balansa uz distribuciju prtljaga i karga.
+        \n- Utovar i istovar aviona (Konsolidacija i prevoz prtljage i karga od aviona do terminala)
+        \n- Čišćenje aviona
+        \n- Prevoz putnika
+        \n- Push-Back i šlep
+        \n- Marshalling – postavljanje prepreka kod točkova aviona – usluga sigurnog parkinga 
+        \n- Čišćenje- usluga otpadne vode
+        \n- Anti - zaleđivanje
+        \n\n\n
+        <b>Usluge rukovanja</b>\n\n
+        Koordiniranjem avionskih usluga, cilj nam je da obavimo posao na vreme rada u skladu sa bezbednosim i sigurnosim propisima, kao na primer:
+Upravljanje raspodele i izvora mesta za parkiranje aviona.
+Koordinacija usluga od trećih snabdevača.
+Provera poruka
+Praćenje dokumenata i procedura avio kompanija/kompanija koje pružaju usluge.
+Slanje potrebnih poruka suportnoj stanici posle odlaska (MVT, LDM, CPM, PSM itd.)
+    </string>
+
+    <string name="title_cargo">Kargo</string>
+    <string name="text_cargo">
+        Limak Kosovo Prištinski Međunarodni Aerodrom DD ‘Adem Jašari’ nudi različite usluge prevoza robe na brz, efektivan i profesionalan način. Sigurnost je jedna od ključnih prednosti, tako što mi pregleđujemo sve pošiljke robe sa najmodernijim Heimman aparatima sa x-zracima.  Sa najnovijom i najmodernijom tehnološkom opremom i video nadzorom, garantujemo brz i efikasan kargo. Do sada, imamo skoro sve kompanije širom sveta kao: Adria Airways, Austrian Airlines, Turkish Airlines, Swiss FedEx, UPS, DHL, kao i međunarodne prevoznike pošiljki kao AES Cargo, AGS, Intereuropa, Air Logistic itd. koje deluju na Kosovu i svi prevoze svoju robu preko našeg Aerodroma, koristeći naše kargo usluge.
+        \n\n\n
+        Kargo Postrojenja:
+        \n
+        \n- Skladište robe za uvoz, radno vreme: Pon-Ned 08: 00 - 02 :00
+        \n- Skladište robe za izvoz, radno vreme: Pon- Sub 08:00 – 16:00
+        \n- Nakon 48 sati primalac će osim dnevnih naknada platiti dodatnu nakhnadu u skladu sa LKIA-Prištinskim Međunarodnim Aerodromom ‘Adem Jašari’. 
+        \n- Viljuškari su dostupni
+        \n- Frižider za pošiljke koje moraju biti na hladnom je dostupan.
+        \n- Prostor za držanje kvarljive robe: Nije dostupan, (treba biti aranžirano brzo preuzimanje robe)
+        \n- Sef za vrednosne pošiljke (VAL): Nije dostupan (biti aranžirano brzo preuzimanje robe)
+Poseban prostor za žive životinje AVI: Nije dostupan (biti aranžirano brzo preuzimanje robe)
+        \n- Poseban prostor za opasne materije Nije dostupan (biti aranžirano brzo preuzimanje robe)
+Za sve pošiljke opasnih materija, planiranih za uvoz i izvoz u i sa PRN, potrebna je specijalna dozvola Autoriteta za Civilnu Avijaciju Republike Kosova (ACAK)
+Tranzit Kargo: Nije dostupan.
+        \n\n\n
+        <b>Kontakti kargo jedinice:</b>\n\n
+        <i>Menadžer platforme i Kargo Menadžer </i>\n
+        Telephone: +381 (0) 38 5015023292
+        \n\n<i>Šef kargo poslovanja  </i>\n
+        E-mail: jseferi@limakkosovo.aero,
+        \n\n<i>Vođa tima Kargo Uvoz</i>\n
+        E-mail: cargoprn@limakkosovo.aero \n
+        \n\n<i>Finansijski ured na dužnosti</i>\n
+        Telephone: +381 (0) 38 5015023294,
+        \n\n\n
+        <i>Vođa tima Kargo izvoz</i>
+        \n\n\n
+        Radno vreme carine: Pon-Ned 08:00 – 18:00.
+        \n\n\n
+        <b>Carinjenje se vrši, zbog važećih zakona zemlje, kako sledi:</b>\n\n
+            <i>Ako se pošiljka ne preuzme nakon 24 sata, pošiljka če biti konfiskovana prema važećem lokalnom zakonu, KDA:03/L 109 poglavlje 3, član 4, poglavlje 4, član 53 tačka 1, deo 2.
+U slučaju konfiskovanja pošiljke, sve skladištne takse će se naplatiti avio kompaniji ili njenom licenciranom predstavniku (pošiljaocu ili špediteru).</i>
+    </string>
+
+    <string name="title_security">Jedinica Bezbednosti i Skeniranja</string>
+    <string name="text_security">
+        Usluge Bezbednosti i Skeniranja obezbeđuje aerodromski operator uz pomoć policije.
+Cilj bezbednosti avijacije je zaštita i sigurnost putnika, zaštita osoblja, posade, letelica, javnosti i zaštita aerodromske imovine protiv akata nezakonitog ometanja.
+Cilj bezbednosti avijacije se postiže primenom najsavremenije tehnologije (Standard 3 odobren od EU) opreme za bezbednost kao što su: rendgen aparati, skeneri tečnosti, ispitivač cipela, detektori eksplozivnih tragova, detektori metala kroz koje se mora proći, ručni detektori metala i CCTV sistem kamera.
+        \n\n\n
+        <b>Lista zabranjenih Predmeta</b>\n\n
+        Smernice za klasifikaciju zabranjenih predmeta.
+Smernice date niže za moguće oblike oružja i ograničenih artikala. Svakako, treba prevladati praktično mišljenje u proceni da li neki predmet može biti iskorišten kao oružje.
+        \n\n
+        a) Vatreno Oružje: Bilo koje oružje iz kojeg može biti ispaljen hitac po sili eksplozije ili komprimovanog vazduha ili gasa , uključujući starter i bljesak pištolje;
+        \n\n
+        b) Noževi i sredstva za rezanje: uključujuči sablje, mačeve, kartonske noževe, lovne noževe, noževe suvenire, sredstva za borilačke veštine, profesionalne alate i druge noževe sa vlati od 6 cm dužine ili duže i noževi koji su smatraju nelegalnim.
+        \n\n
+        c) Batine: pendrek, bejzbol palica ili slični instrumenti.
+        \n\n
+        d) Eksplozivi/Municija/Zapaljiva sredstva/Korozivi: Bilo koja eksplozivna ili zapaljiva komponenta, koja sama ili u kobinaciji sa drugim stavkama može dovesti do eksplozije ili požara.
+Ovde spadaju eksplozivne materije, razovorne kape, vatromet, benzin, druge zapaljive tečnosti, municija ili neka kombinacija ovih stavki. Svaka korozivna ili toksična supstanca, uključujući i gazove, bez obzira da li supod pritiskom;
+        \n\n
+        e) Sredstva za onemogućavanje ili onesposobljavanje: Svi gazovi suzavci, žezlo i slični hemikalije i gazovi kako u pištolju, kanisteru, ili drugim posudama, i drugi elektronski uređaji za onemogućavanje ili šokiranje.
+        \n\n
+        f) Ostala sredstva: predmeti kao nož za led, alpinistički štap, brijaći aparati i izdužene makaze, koje iako se obično ne smatraju smrtonosnim ili opasnim oružujem, mogu da se koriste kao oružje, uključujući igračke ili lažne granate.
+        \n\n
+        g) Proizvodi ili artikli bilo koje vrste koji pokreću osnovanu sumnju da se mogu koristiti kao simulacija smrtonosnog oružja; takvi proizvodi obuhvaćaju, ali se ne ograničavaju na: objekte koji podsećaju na eksplozivne naprave ili druge predmete koji mogu izgledati kao oružje ili opasno sredstvo.
+        \n\n
+        h) Sredtva i supstance za hemijski/biološki napad: mogućnosti za hemijski/ biološki napad uključuju upotrebu hemijskih ili bioloških agenasa za izvršavanje nezakonitih radnji. Takve ograničene hemijske/biološke supstance obuhvataju, ali se ne ograničava na sledeće: sumporni senf, vx., hlor, sarin, cijanovodonik, antraks, botulizam, velike boginje, tularemiju, i virusnu hemoragičnu groznicu (VHF) .
+Predmeti koji ukazuju na prirodu hemijskih/bioloških supstanci ili sumnju takve prirode moraju se odmah prijaviti aerodromskim vlastima, policiji, vojnim ili drugim nadležnim organima i izolovati sa javnih površina terminala. Ove liste se koncentrišu na generalizovane opise, ograničene su na određene tačke bezbednosti i ne uključuju opasne materije.
+        \n\n\n
+        <b>Rukovanje zabranjenim predmetima</b>\n\n
+        Ručni prtljag, putnici, osoblje i nošeni artikli 
+Sledeći artikli su primeri sredstava koja nikada ne smete unositi u kabinu aviona ili u bezbednosno ograničenom području Limak Kosovo Prištinskog Međunarodnog Aerodroma DD, osim od strane ovlašćenih lica koja ih moraju nositi da preduzmu zadatke koji su bitni za funkcionisanje aerodromskih objekata ili aviona, ugostiteljskih objekata ili restorana, ili od strane letačke posade kojima je potrebno za obavljanje normalnih dužnosti u letu. Mogu postojati i drugi predmeti za koje je bezbednosno osoblje zabrinuto i koje se mogu oduzeti, ako budu pronađeni.
+        \n\n\n
+        <b>Opšte definicije</b>\n
+        \n- Pištolji, vatreno oružje i oružje - bilo koji predmet koji je u stanju, ili izgleda kao u stanju da isprazni projektil. Posebna pažnja se mora posvetiti skrivenim ili maskirnim stvarima ove prirode;
+        \n- Hladno oružje i oštri predmeti – svaki predmet sa oštricom kojim se može naneti povreda;
+        \n- Tupi instrumenti - svaki tupi predmet kojim se može naneti povreda;
+        \n- Eksplozi i visoko zapaljive materije koje se mogu iskoristiti da bi se olakšao akt nezakonitog ometanja;
+        \n- Hemijske ili toksične supstance koje se mogu iskoristiti da bi se olakšao akt nezakonitog ometanja;
+        \n\n\n
+        <u>Primeri:</u>
+        \n\n
+        1. Vatreno oružje, revolveri i oružje za ispuštanje projektila - uređaji kojim se može ili se čini da se može prouzrokovati ozbiljna šteta od pražnjenja projektila, uključujući:
+        \n- Vatreno oružje svih vrsta, kao što su pištolji, revolveri, puške sačmarice, puške za lov ,
+        \n- Puške igračke, replike i imitacije vatrenog oružja koje se mogu smatrati pravim oružjem,
+        \n- Sastavni delovi vatrenog oružja, osim teleskopskih sredstava za posmatranje,
+        \n- Vazdušno oružje ili sa CO2, kao što su pištolji, puške, puške sačmarice i vazdušno oružje sa sfernim punjenjem,
+        \n- Signalni pištolji i starter pištolji,
+        \n- Llukovi i strele,
+        \n- Harpuni i puške sa kopljem,
+        \n- Praćke i katapulti;
+        \n\n
+        2. Sredstva za omamljivanje i onesposobljavanje, uključujući:
+        \n- Sredstva za šokiranje, kao što su šok oružje, elektrošok uređaji i šok palice,
+        \n- Sredstva za omamljivanje i ubijanje životinja,
+        \n- Kemikalije za omamljivanje i onesposobljavanje, gasovi i sprejevi, sprej sa biberom, sprej sa kapsaicinom, suzavac, kiselinski sprejevi i sprejevi za omamljivanje životinja;
+        \n\n
+        3. Oštri objekti sa oštricom – svaki oštri objekat ili objekat sa oštricom sposoban da izazove ozbiljne povrede, uključujući:
+        \n- Predmete namenjene za seču, kao što su sekire i satare,
+\n- Noževe za led ,
+\n- Žilete,
+\n- Noževe za papir,
+\n- Noževe sa oštricom dužom od 6 cm, prema EN L 55/16, Službeni list Evropske unije,
+\n- Makaze sa oštricom dužom od 6 cm mereno od oslonca,
+\n- Opremu za borilačke veštine sa oštricom, mačeve i sablje.
+        \n\n
+        4. Radnički alati - alati sposobni da izazovu ozbiljne povrede ili da ugroze bezbednost vazduhoplova, uključujući:
+        \n- Poluge,
+\n- Bušilice i burgije, uključujući bežične bušilice,
+\n- Alate sa sečivom ili vratilom dužim od 6 cm koje se mogu upotrebiti kao oružje, kao što su šrafcigeri i dleta,
+\n- Testere, uključujući bežične testere,
+\n- Aparate za zavarivanje,
+\n- Puške i pištolje za vijke i eksere
+        \n\n
+        5. Tupi instrumenti - objekti koji se mogu koristiti da izazovu ozbiljne povrede kada se koriste za udaranje, uključujući:
+        \n- Bejzbol i softbol palice,
+\n- Štapove za golf i policijske palice, bilijarski štapovi,
+\n- Opremu za borilačke veštine
+        \n\n
+        6. Eksplozivi i lakozapaljive supstance - eksplozivi i lakozapaljive supstance sposobni, ili izgladaju sposobnima, da prouzrokuju ozbiljnu štetu ili da predstavljaju pretnju sigurnosti aviona, uključujući:
+        \n- Zapaljiva sredstva,
+\n- Detonatore i osigurače,
+\n- Replike ili imitacije eksplozivnih naprava,
+\n- Mine, granate i druge eksplozivne vojne rezerve,
+\n- Vatromet i ostala pirotehnička sredstva,
+\n- Kanistere i patrone koje stvaraju dim,
+\n- Dinamit, barut i plastični eksplozivi.
+        \n\n\n
+        <b>Bezbednosne procedure</b>\n
+        \n Bezbednost aerodroma,
+\nAirside/landside,
+\nPodručje ograničene sigurnosti (POS) ,
+\nKritični delovi POS,
+\nBezbednost putnika i ručne prtljage,
+\nBezbednost prtljage,
+\nBezbednost aviona,
+\nBezbednost keteringa, prodavnica i pošte vazdušnog prevoznika,
+\nBezbednost čišćenja aviona,
+\nBezbednost karga, kurira, ekspresnih pošiljaka i pošte,
+\nLista zabranjenih predmeta,
+\nSistem za TV osmatranje (CCTV)
+    </string>
+
+    <string name="title_medical">Medicinska Nega</string>
+    <string name="text_medical">
+        Medicinsku negu na našem aerodromu nudi Centar Medicinske Službe, koji se nalazi u blizini oblasti dolazaka u prizemlju (nivo 0) .
+Medicinska nega se nudi tokom 24 sata/dan (7 dana/nedelja) od strane potpuno kvalifikovanog kadra (doktor i medicinska sestra).
+Usluge se nude ili u prostorijama Medicinskog centra, ili kad god je potrebno izvan, bilo gde u prostoru Aerodroma. Zdravstvene usluge se na ovaj način obezbeđuju putnicima, osoblju aerodroma i bilo kojoj drugoj osobi kojoj je to potrebno.
+Osim toga, sastoje se raznog tretmana: davanje terapije; mali hirurški tretmani za hitne slučajeve.
+Naša služba ima na raspolaganju i sasvim nova medicinska kola, potpuno opremljena najsavremenijom opremom, za slučajeve daljeg medicinskog prevoza.
+        \n\n
+        <i>Kontakt :</i>
+        \n Mobile phone: +377(0)45811192
+        \n Office phone: +381(0)38 501502 ext. 1330
+        \n e-mail:       medical.service@limkakosovo.aero
+    </string>
+
+    <string name="title_ict">TIK</string>
+    <string name="text_ict">
+        Odsek Tehnologije Informacije i komunikacije (TIK) ima ključnu ulogu u obradi, prenosu i skladištenju ogromnih količina informacija od velike važnosti koje se koriste u radu aerodroma.
+        \n\n
+        Novi terminal je opremljen najnovijom najsavremenijom informaciono-komunikacijskom tehnologijom sa potpuno automatizovanim sistemima, pune redundanse, visoke dostupnosti, rešenja poslovnog kontinuiteta, i u realnom vremenu praćenje svih TIK sistema. Projekat je realizovan u skladu sa preporukama IATA.
+        \n\n
+        Naš Aerodrom je opremljen najsavremenijom tehnologijom za aerodromske sisteme - sistem upravljanja informacijama aerodroma; displej sistem informacija o redu letenja - FIDS; sistem kontrole odlaska - DCS; zajedničko korištenje opreme na terminalu - CUTE; sistem ređanja prtljage - BRS; sistem upravljanja resursima - RMS; sistem aerodroma i avio kompanija; sistem delovanja u vazdušnom prostoru - VDGS, sistem Master sinhronizacije vremena na svim satovima; sistem javnih adresa; Master TV; sistem posmatranja kamerama - CCTV; sistem kontrole pristupa i sistem zaštite i bezbednosti.
+Infrastruktura TIK je implementirala najnoviju tehnologiju za podatke i komunikaciju sa visokim nivoom zaštite podataka i ova zaštitauključuje Private Cloud sa infrastrukturom BLADE i SAN, komunikacijske mreže active - active podataka, veze javnih usluga; sistem glasovne komunikacije; javna mobilna mreža i privatni mobilni radio sistemi.
+        \n\n
+        Takođe, novi terminal je opremljen automatizovanim sistemima koji omogućuju centralizovano upravljanje i praćenje sitema prtljage, avio mostova, zaštite od požara, sistema osvetljenja, klimatizacije, vodosnabdevanja, rezervnih generatora, opskrbe strujom, i pokretnih stepenica i liftova.
+        \n\n
+        Naš uspešno realizovan projekat TIK je nagrađen prošle godine od strane Albanian ICT Awards za visoke domete u oblasti TIK na regionalnom nivou.
+    </string>
+
+    <string name="title_info">Kontakt</string>
+    <string name="text_info">
+        <i>Telefon za opšte informacije</i>\n
+        information@limakkosovo.aero
+        Ured: 00381(0)385015021214
+        \n\n
+        <i>Neprispeli Prtljag</i>\n
+        lost.found@limakkosovo.aero
+        Ured:00381(0)385015021270
+        Ured:00381(0)385015021271
+        \n\n
+        <i>Odnosi sa javnošću</i>\n
+        vgara@limakkosovo.aero
+        Ured:00381(0)385015021041
+        \n\n
+        <i>Medicinska Nega</i>\n
+        medicalservice@limakkosovo.aero
+        Ured: 00381(0)385015021331
+        Mob: 00377(0)45811192
+        \n\n
+        <i>Bezbednost</i>\n
+        security.teamleaders@limakkosovo.aero
+        Ured:00381(0)385015021362
+        Mob: 00377(0)45811316
+        \n\n
+        <i>Žalbe</i>\n
+        complaints@limakkosovo.aero
+        Ured:00381(0)385015021041
+        Mob: 00377(0)45811411
+        \n\n
+        <i>Kargo</i>\n
+        jseferi@limakkosovo.aero
+        Ured: 00381(0)385015023292
+        \n\n
+        <i>Koordinacija redova letenja</i>\n
+        scheduleprn@limakkosovo.aero
+        00381(0)385015021170
+        \n\n
+        <i>CIP and 17/02 Service</i>\n
+        lounge@limakkosovo.aero
+        00381(0)385015022202
+    </string>
+
+    <string name="title_passinfo">Putničke informacije</string>
+    <string name="text_passinfo">
+        Postoji informativni pult na sredini terminala gde putnici mogu dobiti informacij 24/7 putem telefonskog poziva, e-mail-a ili lično.
+
+        \n\n<i>Kontakt:</i>\n
+        information@limakkosovo.aero\n
+        00381(0)3850150211214
+    </string>
+
+    <string name="title_coordination">Koordinacija redova letenja</string>
+    <string name="text_coordination">
+        Proces olakšavanja se zasniva na dobrovoljnoj saradnji avio kompanija i koordinatora/olakšatelja rasporeda Limak Kosovo Međunarodnog Aerodroma. Avio kompanije i i koordinator/olakšatelj rasporeda LKIA trebaju koristiti SSIM formate za razmenu poruka razvijene za komunikaciju na nivou 2 aerodroma ( Nivo 2 Aerodrom , pogledajte WSG na www.iata.org/sked ) .
+        \n
+        Kalendar aktivnosti koordinacije precizira datume kada avio kompanije dostavljaju svoje planirane operacije koordinatoru/olakšatelju rasporeda Limak Kosovo Međunarodnog Aerodroma i datume kada i koordinator/olakšatelj rasporeda mora da odgovori avio kompanijama za svaku sezonu letenja.
+        \n
+        Koordinator/olakšatelj rasporeda LKIA mora odgovoriti na svaki inicijalni podnesak avio kompanije u SAL formatu, navodeći planirane aktivnosti te avio kompanije u bazi podataka koordinatora i sva preporučena prilagođavanja rasporeda. Avio kompanije trebaju aranžirati susret sa koordinatorom na Konferenciji za raspored da bi rešili sva otvorena pitanja.
+Avio kompanije i drugi avionski operateri trebaju ažurirati koordinatora/olakšatelja rasporeda LKIA sa svim promenama njihovih planiranih operacija, čim se dogode.
+        \n
+        Koordinator/ olakšatelj raspored će poslednično obavesiti aerodrom i sve relevantne stranke o svim promenama planiranih operacija.
+        \n
+    </string>
+
+    <string name="title_media">Mediji Upit</string>
+    <string name="text_media">
+        Prištinski Međunarodni Aerodrom “Adem Jašari” nastavlja da odgovara na sve upite medija koji se odnose na javno informisanje. Učinili smo beskrajne napore da budemo na raspolaganju medija
+        \n\n\n
+        <b>Kontakt:</b>\n
+        \n Valentina Gara
+        \n Public Relations Manager
+        \n\n E-mail: vgara@limakkosovo.aero
+        \n Tel: 00381(0) 38 501 502 1041
+        \n\n Prishtina International Airport \'Adem Jashari\'
+        \n Limak Kosovo International Airport
+        \n Vrellë, Lipjan 10070
+        \n Republic of Kosovo
+    </string>
+
+    <string name="btnManagement"><u>Integrated Management System Policy [PDF]</u></string>
+
+    <string name="title_activity_news_full">NewsFullActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

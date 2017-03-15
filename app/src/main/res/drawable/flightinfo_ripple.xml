@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime"
+    android:color="@color/arrivalColor">
+
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/arrivalColor" />
+        </shape>
+    </item>
+
+</selector>

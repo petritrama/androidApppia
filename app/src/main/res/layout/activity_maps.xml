@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/backgroundColor"
+        android:id="@+id/linearLayout"
+        android:elevation="5dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/llFrom"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@color/backgroundColor"
+            android:layout_weight="0.17"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/lblFrom_map"
+                android:text="@string/from"
+                android:textColor="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:paddingTop="20dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/lblTo_map"
+                android:text="@string/to"
+                android:textColor="@color/white"
+                android:layout_height="50dp"
+                android:layout_width="fill_parent"
+                android:gravity="right"
+                android:layout_gravity="center_vertical|right"
+                android:paddingTop="20dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/llTo"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@color/backgroundColor"
+            android:layout_weight="0.68"
+            android:layout_marginTop="10dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/acFrom"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:completionThreshold="3"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                android:textSize="14sp"
+                android:layout_gravity="left|bottom"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/acTo"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:completionThreshold="3"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:layout_gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/btnDirections"
+                android:src="@drawable/btn_map"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textColor="@color/backgroundColor"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/flightinfo_ripple"
+                android:elevation="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context="aero.project.petritrama.prishtinainternationalairportademjashari.MapsActivity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/linearLayout" />
+
+</RelativeLayout>

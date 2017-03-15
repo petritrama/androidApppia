@@ -1,0 +1,1083 @@
+<resources>
+
+    <string name="app_name">Pristina International Airport</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_btnFlight">Flight Info</string>
+    <string name="text_btnExplore">Explore Airport</string>
+    <string name="text_btnDestinations">Destinations and Schedule</string>
+    <string name="text_btnServices">Services</string>
+    <string name="text_btnNews">News</string>
+    <string name="text_btnInfo">Information</string>
+
+    <string name="empty"> </string>
+
+    <string name="lang_default">ENG</string>
+    <string-array name="lang">
+        <item>ENG</item>
+        <item>SHQ</item>
+        <item>SRB</item>
+    </string-array>
+
+    <string name="tab_arrival">Arrivals</string>
+    <string name="tab_departure">Departures</string>
+
+    <string name="wait_msg"> Please Wait .... </string>
+
+    <string name="conn_msg">You are not connected to the Internet!</string>
+
+    <string name="readMore_msg"> <u>Click to Read the full story</u> </string>
+
+    <string name="btnApplication">Please visit the website to fill the form for flight application</string>
+
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_FlightInfo">Flight Information</string>
+
+    <string name="departure_section">Arrivals</string>
+    <string name="arrival_section">Departures</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_departure">DepartureActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_terminal">TerminalActivity</string>
+
+    <string name="lblFrom">From:</string>
+    <string name="lblSchedule">Schedule:</string>
+    <string name="lblStatus">Status:</string>
+    <string name="lblETA">ETA:</string>
+    <string name="lblETD">ETD:</string>
+    <string name="lblTo">To:</string>
+    <string name="lblExpected">Expected</string>
+
+    <string name="lblTitle">Ready for the World!</string>
+    <string name="lblFooter">© 2015 Prishtina International Airport Adem Jashari</string>
+    <string name="title_activity_flight_info">FlightInfo</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="map_title">Directions from/to PIA</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="load_directions">Load Directions</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+
+    <string name="title_activity_destinations">DestinationsActivity</string>
+    <string name="title_activity_services">ServicesActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_explore_airport">ExploreAirport</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="rent_schedule">Work Schedule</string>
+
+    <string-array name="ExploreMenu">
+        <item>Company Profile</item>
+        <item>History</item>
+        <item>Main Info - Limak Holding</item>
+        <item>Main Info - ADLMS</item>
+        <item>Organization</item>
+        <item>Mission &amp; Vision</item>
+        <item>Message from CEO</item>
+        <item>Integrated Management System Policy</item>
+        <item>Corporate Social Responsibility</item>
+        <item>Career</item>
+        <item>Terminal Map</item>
+        <item>Rent a Car</item>
+        <item>Banks</item>
+        <item>Restaurants and Shops</item>
+        <item>Free Shop</item>
+        <item>Airlines</item>
+        <item>Advertisement</item>
+        <item>Taxi Services</item>
+    </string-array>
+
+    <string-array name="DestinationsMenu">
+        <item>Destinations</item>
+        <item>Schedule</item>
+        <item>Airport Schedule Coordination and Facilitation</item>
+        <item>Information on application for flights</item>
+        <item>Publications</item>
+    </string-array>
+
+    <string-array name="ServicesMenu">
+        <item>Services</item>
+        <item>Passenger Handling Service</item>
+        <item>Information &amp; Lost and Found</item>
+        <item>CIP and 17/02 Service</item>
+        <item>Commercial</item>
+        <item>Ramp Services</item>
+        <item>Cargo</item>
+        <item>Security and Screening Unit</item>
+        <item>Medical Care</item>
+        <item>Information Communication Technologies</item>
+    </string-array>
+
+    <string-array name="NewsMenu">
+        <item>News</item>
+        <item>Media Enquiry</item>
+    </string-array>
+
+    <string-array name="InfoMenu">
+        <item>Contact</item>
+        <item>Passenger Info</item>
+        <item>Schedule Facilitation</item>
+    </string-array>
+
+    <string name="title_companyprofile">Company Profile</string>
+    <string name="text_companyprofile">
+        Prishtina International Airport \"Adem Jashari\" is being managed and operated by a consortium
+        Limak and Aeroports de Lyon. The consortium Limak and Aeroports de Lyon took the management
+        and operation of the airport after a Public Private Partnership Agreement signed in August 12, 2010.
+        \n\n
+        Since then it has built and construct the new terminal of 42,000 meters square with its connected
+        buildings by using the latest technology in the market.
+        \n\n
+        Limak Holding which is in consortium with Aeroports de Lyon is one of the leading companies known worldwide
+        in different sectors beside the aviation such as investments, construction, tourism, energy, cement and food.
+        It currently operates Sabiha Gokcen International Airport in Turkey whereas Aeroports de Lyon is known for
+        operational services of the airport. It currently operates and managed Aeroport de Lyon in France.
+        \n\n
+        The consortium Limak and Aeroports de Lyon will manage and operate Prishtina International Airport \"Adem Jashari\"
+        20 years from the date of agreement by totally transferring all its assets to the Government of Kosovo after
+        this period of time is over.
+    </string>
+
+    <string name="title_history">History</string>
+    <string name="text_history">
+        The history of Prishtina International Airport \"Adem Jashari\" began in 1965 for domestic
+        flights only to become one of the most competitive regional airports nowadays.
+        \n\n
+        <i>The stages of development background:</i>
+        \n\n
+        <b>1985</b> - The year of being equipped with modern technology of that time in compliance to ICAO standards.
+        \n\n
+        <b>1999</b> - It overpassed the domestic borders to be transferred into an International Airport with
+        reactivation and promotion on October 15th, 1999, providing air transport to several European cities.
+        \n\n
+        <b>2000</b> - Initially this airport has operated only humanitarian flights until the beginning of the
+        year. During that period of time, KFOR Russian forces along with other NATO forces and allies
+        were in charge of Airport security. Airport begun its operation and had only 45 employees in total.
+        \n\n
+        <b>2002</b> - The apron, the passenger terminal was being renovated and expanded to be completed in the
+        next few months (by the end of the summer). Utilizers and energy supplies were upgraded and the
+        buildings used for cargo traffic were newly built.
+        \n\n
+        <b>2002/2005</b> - Approximately 800.000 up to 1.000.000 commercial and military passengers were processed
+        annually. The airport has re-build its facilities and new equipment’s were installed helping to
+        offer a wide range of quality services to its passengers and visitors.The airport needs were
+        oriented towards the renovation considered the post war period. In the last 3 years the company
+        renovated and reorganized the airport completely.
+        \n\n
+        <b>2006</b> - It is the year when the rapid development of Prishtina International Airport “Adem Jashari”
+        was awarded ‘The Best airport under 1 million passengers category’ from ACI Awards.
+        \n\n
+        <b>2007</b> - At the first quarter of this year the passengers’ number increased up to 11%.
+        \n\n
+        <b>2008</b> - Prishtina International Airport “Adem Jashari” was certified from Icelandic Civil Aviation
+        Authority after the safety and security standards were met, as a result of different projects investments
+        as runway resurfacing, runway lightening, perimeter road and perimeter fence and several other investments.
+        \n\n
+        <b>2009</b> - The airport begun to operate 24 hours.
+        \n\n
+        <b>2010</b> - The airport went under concession due to an agreement between the Kosovo Government-Public
+        Private Partnership and the Turkish-French Consortium \"Limak and Airports de Lyon\".
+        \n\n
+        <b>2011</b> - The Turkish-French Consortium, Limak and Aeroports de Lyon, officially took the responsibilities
+        of Prishtina International Airport. Public private partnership is will manage and operate Prishtina
+        International Airport \"Adem Jashari\" for the next 20 years, to modernize and expand the terminal
+        to 27 thousand meter square out of the 100 million Euros investments which will be done by Limak - Airport de Lyon.
+        \n\n
+        <b>2013</b> - Limak Kosovo under the consortium agreement constructed the total new terminal of Prishtina
+        International Airport \"Adem Jashari\" by double expanding it from 27,000 meters square as agreed to
+        42,000 meters square, using the latest technology in market.
+        \n\n
+        <b>October 23, 2013</b> - Inauguration of New Terminal.
+        \n\n
+        <b>2014</b> - Prishtina International Airport \"Adem Jashari\" won the award \"The best design of quality of steel\"
+        placed at new terminal. The award was given by \"Best National Steel Awards\" by the Turkish Steel Construction
+        Asssociation at Altunizade.
+        \n\n
+        <b>2014</b> - Prishtina International Airport \"Adem Jashari\" was reported \"The best concession agreement in the
+        region\" being compared to regional airports in a report by NGO \"STRAS\".
+    </string>
+
+    <string name="title_limak">Main Info - Limak Holding</string>
+    <string name="text_limak">
+        Established in 1976 with Limak Construction, Limak Group of Companies has added tourism, cement,
+        energy, infrastructure, airport management and operations, port management, food and aviation
+        sectors to its operations by growing sustainably over time.
+        \n\n
+        <b>Limak Construction</b> which has successfully completed many projects with the total value of
+        more than $ 6 billion including airports, ports, dams, irrigation systems, highways, hydroelectric
+        power plants, industrial plants, oil and gas pipelines, building complexes, hotels and resorts, is
+        among the world’s largest international construction companies list of Engineering News Record Magazine.
+        \n\n
+        <b>Limak Tourism Group</b> which owns one of the biggest hotel chains in Turkey is growing
+        sustainably and increasing its contribution to the Turkish economy and Turkey’s global representation.
+        Currently Limak Tourism Group owns and operates Limra, Arcadia, Lara and Atlantis Hotels in Antalya,
+        Ambassadore Hotel in Ankara, Eurasia Hotel and ISG Airport Hotel in İstanbul and Thermal Hotel in
+        Yalova. Limak Tourism Group continues its investments in many regions of Turkey and Cyprus.
+        \n\n
+        <b>Limak Cement Group</b> has become the third biggest cement group in Turkey since 2011, with its
+        10 cement factories operating in Siirt, Diyarbakır, Gaziantep, Şanlıurfa, Bitlis, Mardin Derik, Ankara,
+        Balıkesir, Kırklareli and İstanbul Ambarlı.
+        \n\n
+        <b>Limak Energy Group</b> is active in the whole energy value chain including electricity generation,
+        distribution, sales and trading. Under its strategic targets, Limak Energy continues to develop new
+        projects in order to reach 5000 MW generation capacity. Currently Limak Energy generates electricity
+        in 5 hydroelectric power plants. By 2014, the Group is targeting to put into operation three more
+        hydro power plants. When all renewable energy generation projects are complete, the Group’s total
+        capacity will be over 1000 MW. Limak entered the electricity distribution business in 2010 by winning
+        the tenders for the privatization of Uludag and Camlibel electricity distribution companies in Turkey.
+        In 2012 the Group has become a market leader in electricity distribution by winning the tenders for the
+        privatization of Bogazici and Akdeniz electricity distribution companies in Turkey and Kosovo Electricity
+        Distribution in Kosovo. Limak Energy is also one of the front-runner and innovative energy sales and
+        trading companies in the market.
+        \n\n
+        <b>Limak</b> has transferred its achievement gained through the construction and management of Istanbul
+        Sabiha Gokcen International Airport to Pristina International Adem Yasari Airport. Limak continues its
+        success in the transportation sector with Iskenderun Port. The goal of Limak is to make the Iskenderun
+        Port as the most important container port of Mediterranean.
+        \n\n
+        <b>Limak Group of Companies</b> whose quality of services has been certified by various international
+        awards and certificates both at home and abroad is working in all the sectors it exists with its
+        experienced and trained manpower within the principle of maximum productivity and effectiveness and
+        occupying a prominent place among the leading companies.
+        \n\n
+        <i>www.limak.com.tr</i>
+    </string>
+
+    <string name="title_adlms">Main Info - ADLMS</string>
+    <string name="text_adlms">
+        Aéroports de Lyon - management and services is a subsidiary of Aéroports de Lyon.
+        \n\n
+        <b>Created in 2009</b>, Aéroports de Lyon-MANAGEMENT and SERVICES, a simplified joint stock company,
+        is under the chairmanship of the Aeroports de Lyon company represented by Philippe Bernand,
+        Managing Director. This subsidiary is in keeping with the goal of diversifying the Lyon area
+        airport activities and exporting its expertise.Aéroports de lyon has been operating and
+        developing the airports of lyon-saint exupéry and Lyon-bron for nearly 40 years.
+        \n\n
+        <b>Aéroports de Lyon</b> has been developing and managing airport installations and services for
+        thirty years. One of our particular strengths is the ability to anticipate market needs,
+        detect new consumer behaviours and integrate developments in technology. Our innovative spirit
+        and ongoing dynamism ensure the continued growth of all our activities, including new routes and
+        the international development of all market.
+        \n\n
+        <b>Aéroports de Lyon</b> has always shared its technical expertise, primarily with small-scale airports
+        in France. Since its status change in March 2007, the company has seen positive proof of its growing
+        credibility on the international market, particularly through a first contract with the airports of Congo.
+        \n\n
+        <b>In 2008 and 2010</b>, Aéroports de Lyon was named best European airport in its category by ACI EUROPE.
+        \n\n
+        <b>In 2013</b>, Aéroports de Lyon received a five-star recognised for excellence award from EFQM
+        (European Foundation for Quality Management), thus ranking the airport among France\'s top 20
+        companies to score above 500 points on the excellence scale. Customised services: research,
+        audits, consulting, on-demand assistance contracts, on-site training.
+        \n\n
+        See the website Aéroports de Lyon: <i>www.lyonaeroports.com</i>
+    </string>
+
+    <string name="title_organization">Organization</string>
+
+    <string name="title_missionvision">Mission &amp; Vision</string>
+    <string name="text_missionvision">
+                Our mission is to provide a safe, efficient and customer focused airport to serve the social,
+                business, government and military needs of the country, and to make sustained and forward
+                looking efforts for the ultimate in facilities and air service.
+                \n\n
+                Our vision is to develop world-class airport infrastructure and facilities, and achieving the
+                highest standards of safety and security, customer-orientated international airport.
+            </string>
+
+    <string name="title_ceo">Message from CEO</string>
+    <string name="text_ceo">
+                    Limak Kosovo International Airport JSC is moving ahead in the aviation industry amid the current
+                    expansion of its new terminal to accommodate at least four and a half (4.5) million passengers.
+                    New facilities, new partners, and a new strategy for building a better airport made 2011-2013 a
+                    busy and memorable period for Limak Kosovo International Airport JSC.
+                    \n\n
+                    We created a proud national landmark that reflects the advanced and modern capabilities of the
+                    Republic of Kosovo as well as its rich cultural heritage. The terminal\'s layout optimizes passenger
+                    flow to ensure the convenience of travelers and visitors alike.
+                    \n\n
+                    Having this in mind, we take pride in the importance of our role and the great responsibility entrusted
+                    to Limak and our partner Aeroports De Lyon for the management, operation, and development of Kosovo\'s
+                    gateway to the world. Working alongside with our partner with mutual commitment and trusted advisories
+                    has guided us on plotting and staying on our long course of actions towards successfully managing Limak
+                    Kosovo International Airport JSC.
+                    \n\n
+                    We look beyond the limitations and barriers by focusing on success and progress built by our young,
+                    educated and dedicated employees - the valuable assets of our company who make the challenges become
+                    part of our past experience.
+                    \n\n
+                    In late 2013, Limak-led conglomerate group won Turkey\'s biggest tender in its history to operate one
+                    of the world\'s largest airports in Istanbul, marking a significant sign of the country\'s determination
+                    and ambition to become a global transit hub.
+                    \n\n
+                    Carrying on the Limak Group\'s legacy, the new terminal is continuing to build on the airport\'s consistent
+                    track record of success. Through our ongoing development programs and by building strong global connections,
+                    we aim to position the Republic of Kosovo as a good choice for leisure and business travels as well as a
+                    convenient transfer hub in the Balkans region.
+                    \n\n
+                    <i><b>Haldun Firat Kokturk</b></i>\n
+                    Board Member and CEO\n
+                    Limak Kosovo International Airport JSC
+                </string>
+
+    <string name="title_management">Integrated Management System Policy</string>
+    <string name="text_management">
+    QMS/IMS implementation and background info
+    \n\n
+    Implementation of Quality Management System in accordance with the requirements stipulated in ISO
+    9001 standard at the International Airports is the common practice and it is the key part of the
+    Management Strategy for development and continues improvement of the quality of services at the Airports worldwide.
+    \n\n
+    ISO 9001:2008 certificate was awarded to Limak Kosovo International Airport (LKIA) after audit performed
+    on November 2012 by International body “URS” in the areas of: Ground Handling, Terminal Operations,
+    Information Technology, Procurement, Administration, Commercial, Aviation Safety, Human Resources, VIP
+    services, CIP services, Food and Beverage, Facility Control, Building Maintenance, Planning and Development,
+    Mechanical Maintenance, Wildlife Management, AGL/PWR maintenance, Airfield Maintenance; Rescue and Fire
+    Fighting Services, Schedule Facilitator and Medical services.
+    \n\n
+    In addition, in November 2012, LIMAK Kosovo International Airport was also certified with ISO 14001:2008
+    standard for Environmental Management System (EMS) and ISO 10002:2004 standard for Customers Handling System
+    (CHS) - see attached certificates. Three ISO certified systems, were incorporated in one -
+    Integrated Management System (IMS).
+    \n\n
+    The LKIA Senior Management has defined and documented the “Quality, Environment and Complaints Handling
+    Policy”. This policy includes the company’s commitment for meeting customer requirements and enhancing
+    customer satisfaction through continual improvement of its services and the IMS. – see attached IMS Policy.
+</string>
+
+    <string name="title_responsibility">Corporate Social Responsibility</string>
+    <string name="text_responsibility">
+        From the very beginning of the establishment of Limak Kosovo International Airport JSC, alongside
+        with our business activities, we aim to be part of the community we operate by being socially responsible.
+        \n\n
+        Our focus was to present and implement a social responsibility project for the training and recruitment
+        of the well-educated and bilingual young population of Kosovo.
+        \n\n
+        With the Limak ASI project, established in cooperation with Bogazici University Lifelong Learning
+        Center and Pristina University, we provide trainings in airport management in accordance with EU
+        regulations for the senior university students. Successful students will be able to work not only in
+        Kosovo but also more than hundreds airports in 70 countries’ airports and its related industry.
+        \n\n
+        <i>http://www.limakasi.com/</i>
+
+        \n\n\n
+        <b>Youth Education and Sports projects supported by Limak Kosovo during 2014:</b>
+        \n\n
+        Doku Fest - Hosting Sponsor\n\n
+        Turkish Jazz Week - Main Sponsor\n\n
+        Fountain Implementation of Primary School \"Hasan Prishtina\" – Main Sponsor\n\n
+        Kamerfest - sponsoring the presence of a well-known pianist Ms. Yesim Gokalp\n\n
+        Action for Healthy Mothers and Children - Silver Sponsor\n\n
+        Football Match Kosova vs Haiti - Gold Sponsor\n\n
+        Football Match Kosova vs Turkey - General Sponsor\n\n
+        Football Match Kosova vs Senegal - General Sponsor\n\n
+        Limak StreetBall Kosova 2014 - Main Sponsor\n\n
+        REDO Conference, Bookshop
+    </string>
+
+    <string name="title_career">Career</string>
+    <string name="text_career">
+        Prishtina International Airport \"Adem Jashari\" is an equal opportunity employer and welcomes
+        applications from all communities. Our policy is to provide equal opportunity in relation to
+        employment, career development, and promotion to all, where eligible, on the basis of ability,
+        qualifications, and suitability for the specific position. Being part of Prishtina International
+        Airport \"Adem Jashari\", selection is conducted on the grounds of fair and open competition and
+        irrespective of applicants sex, marital status, age, race, ethnic origin, sexual orientation,
+        disability or religion/belief.
+        \n\n
+        PIA \"Adem Jashari\" Limak Kosovo International Airport J.S.C. has launched an educational project
+        enabling and giving opportunity to young and highest educated students of University of Prishtina
+        to be a part of the programm and internship provided by the company.
+        \n\n
+        <b>Human Resources Development</b>
+        \n\n
+        Since April 2011 more than 106 training session took place in house and abroad.
+        \n 76\%% of Trainings are held as "In House" trainings. Trainings are held by Airport certified instructors and
+        by our partners,
+        \n 25\%% of Trainings including study visits and conferences are held abroad in different countries such as: France,
+        Turkey, Croatia, Canada, USA, Germany, Czech Republic, Bulgaria and Macedonia.
+        \n 29 LKIA personnel are trained and certified by our partners to deliver trainings in various professional areas.
+        \n\n
+        <b>Note:</b>
+        \n
+        Any of the future vacancies will be public and valid only through Human Resources Department of Limak
+        Kosovo International Airport J.S.C.
+    </string>
+
+    <string name="title_rent">Rent a Car</string>
+    <string name="text_rent">
+
+    </string>
+
+    <string name="title_bank">Banks</string>
+    <string name="text_bank">
+        BKT Bank
+        \n\n
+        Raiffeisen Bank
+        \n\n\n
+        Procredit ATM
+        \n\n
+        TEB ATM
+    </string>
+
+    <string name="title_restaurants">Restaurants and shops</string>
+    <string name="text_restaurants">
+        <b>Restaurants and Coffee Bars:</b>
+        \n\n
+        Secco Coffee
+        \n\n
+        Black and Red
+        \n\n
+        Prizreni
+        \n\n
+        Miss Coffee
+        \n\n
+        Pasha Patisserie
+        \n\n
+        Prince
+        \n\n
+        Princ Coffee
+        \n\n
+        <b>Shops:</b>
+        \n\n
+        Check–Inn
+        \n\n
+        Dea
+    </string>
+
+    <string name="title_shop">Free Shop</string>
+    <string name="text_shop">
+        Prishtina International Airport \'Adem Jashari\' Limak Kosovo International Airport J.S.C. carries
+        within its area one of well known Duty Free Shops named Unifree Duty Free.
+        \n\n
+        UNIFREE Dutyfree İşletmeciliği A.Ş. presents a selection of over 30.000 reference products of
+        over hundred international brands, in its modern and exquisite stores, aligned with competitive pricing
+        policies based on international criteria
+        \n\n
+        Unifree Duty Free
+        Among the top 15 airport worldwide. During last 5 years \n
+        Operating in 13 different international airports, 1 border store, 81 stores in total
+        \n\n
+        <u><i>www.unifree.com.tr</i></u>
+    </string>
+
+    <string name="title_ad">Advertisement</string>
+    <string name="text_ad">
+        Paper Communication:
+        \n\n
+        00386(0)49 388800\n
+        <i>dren@paper.al</i>\n
+        <i>doruntina@paper.al</i>
+    </string>
+
+    <string name="title_taxi">Taxi Services</string>
+    <string name="text_taxi">
+        There is 24/7  taxi services offered at Prishtina International Airport \'Adem Jashari\'
+        from any of the cities of Kosovo.
+    </string>
+
+    <string name="title_schedule">Schedule</string>
+    <string name="text_schedule">
+        <b>The schedule coordination/facilitation of LIMAK Kosovo Int’l Airport-LKIA unit is ensuring the
+        most efficient use of airport infrastructure of Prishtina International Airport \“Adem Jashari\”
+        (PRN) in order to maximize benefits to the greatest number of airport users.</b>
+        \n\n
+        Prishtina International Airport operate 7/24. In case of performing ad-hoc flights, airport
+        services must be paid on cash (Euro) or via credit card (VISA, MASTER, MAESTRO).
+    </string>
+
+    <string name="title_schedule_coordination">Airport Schedule Coordination and Facilitation</string>
+    <string name="text_schedule_coordination">
+        The process of schedule coordination/facilitation at Prishtina International Airport - PRN is done in
+        full compliance with Civil Aviation Law of Kosovo, with legislation of European Union for airport
+        coordination and through the application of a set of rules contained in the IATA Worldwide Slot Guidelines (WSG).
+        \n\n
+        Airlines operating or planning to operate flights at Prishtina International Airport \“Adem Jashari\” are
+        required to provide and update details of their planned schedule/operations to the schedule facilitator.
+        \n\n
+        In case of capacity constraints, airlines must be willing to make voluntary schedule adjustments in order
+        to avoid exceeding of the coordination parameters.
+        \n\n
+        Contacts of Schedule coordination/facilitation unit:
+        \n\n
+        Phone:  +381 38 501 502 1170 \n
+        Mobile. +377(0)45 811 310 \n
+        Email:  scheduleprn@limakkosovo.aero \n
+        Web:    www.limakkosovo.aero \n
+    </string>
+
+    <string name="title_application_flights">Information on application for flights</string>
+    <string name="text_application_flights">
+        AIRPORT SCHEDULE COORDINATION
+        \n\n
+        Airport coordination is a process of managing airport capacity through the application of a set of
+        rules contained in the IATA Worldwide Slot Guidelines (WSG at www.iata.org/sked).
+        \n\n
+        Schedule Coordination involves the allocation of constrained or limited airport capacity to airlines
+        and other aircraft operators to ensure a viable airport and air transport operation. Coordination is also a
+        process to maximize the efficient use of airport infrastructure.
+        \n\n
+        AIRPORT SCHEDULE FACILITATION
+        \n\n
+        The process of facilitation centers on voluntary cooperation between airlines and the schedule
+        facilitator/coordinator of Limak Kosovo Int’l Airport. Airlines and schedule facilitator/coordinator
+        of LKIA should use the SSIM message exchange formats developed for communication at Level 2 airports
+        (Level 2 airport, see WSG at <u>www.iata.org/sked</u>).
+        \n\n
+        The Calendar of Coordination Activities specifies the dates when airlines submit their planned
+        operations to the schedule facilitator/coordinator of Limak Kosovo Int’l Airport and the dates when
+        the facilitator/coordinator must reply to the airlines for each flight season.
+        \n\n
+        Schedule Facilitator/Coordinator of LKIA must reply to each airline’s Initial Submission in SAL
+        format, listing the planned operations of that airline held in the facilitator’s database and any
+        recommended schedule adjustments. Airlines should arrange to meet with the facilitator at the
+        Scheduling Conferences to resolve any outstanding issues. Airlines and other aircraft operators
+        should update Schedule Facilitator/Coordinator of LKIA with all changes to their planned operations
+        as soon as they are known. Schedule Facilitator/Coordinator consequently will inform the airport and
+        all relevant parties for the changes are planned to operations.
+    </string>
+
+    <string name="title_publications">Publications</string>
+
+    <string name="title_services">Services</string>
+    <string name="text_services">
+        The Management of Prishtina International Airport is committed to offer the best services to
+        its customers according to International Standards of Safety and Security.
+    </string>
+
+    <string name="title_phs">Passenger Handling Service</string>
+    <string name="text_phs">
+        Within the framework of international Civil Aviation rules, we aim at increasing the customer
+        satisfaction in Passenger Services, where CIP and VIP services are rendered, by taking the
+        quality and safe service policy as the basis.
+        \n\n
+        Services offered by Limak Kosovo International J.S.C. Passenger Services Unit are as follows: \n
+        \n• Passenger and Baggage Check-in
+        \n• VIP Check – in
+        \n• CIP Check - in
+        \n• Group Check-in
+        \n• Travel Documents, Passport Check
+        \n• Boarding
+        \n• Denied Boarding
+        \n\n
+        Contact Info: \n
+        email: team.leaders@limakkosovo.aero
+        \n
+        tel:    00381 (0)38 501 502 1362 \n
+        Mobile: 00377(0)45811281
+        \n\n\n
+        <b>VIP Check-In</b> \n\n
+        VIPs (Very Important Passengers) are passengers, who due to their official rank or social position
+        are handled with special care and enjoy special privileges.
+        \n\n
+        Passenger Handling Service Unit usually is not responsible for the VIPs directly. Some of passengers
+        that are treated as VIP at PRN airport may not be categorized as such by the airlines on which they are
+        traveling, however, as a ground handler we do provide following services:
+        \n- Pre-assign seat
+        \n- Arrange and perform check-in at the VIP lounge
+        \n- Escort passengers from VIP lounge to aircraft or from aircraft to the VIP lounge, if requested
+        \n\n
+        Contact: vip@limakkosovo.aero
+        \n\n\n
+        <b>CIP and 17/02 Service Check-In</b> \n\n
+        Passengers who are members of CIP and 17/02 has special check-in counter by receiving the service
+        apart from other check-in counters, regardless the airline they\'re flying with.
+        \n\n\n
+        <b>Group Check-In</b> \n\n
+        Passengers travelling in group are subject to regular check-in procedures.
+        \n\n\n
+        <b>Self Check-In</b> \n\n
+        Currently there are five existing self check-in counters at Prishtina International Airport
+        \'Adem Jashari\', by enabling passengers to check-in on their own.
+        \n\n\n
+        <b>Travel Documents</b> \n\n
+        For information on each type of travel document please refer to:
+        \n\n
+        <i>http://www.assembly-kosova.org/common/docs/ligjet/2008_03-L037_en.pdf</i>
+        \n\n\n
+        <b>Boarding</b> \n\n
+        There is assistance given to passengers with disabilities from check-in counter to the Boarding Gate.
+        \n\n
+        For further information please do contact the information desk.
+        \n\n\n
+        <b>Denied Boarding</b> \n\n
+        Passengers may be subject to denial of boarding based on procedures of border authorities or
+        airlines if they are found in breach of any of the travelling procedures and regulations.
+    </string>
+
+    <string name="title_lost">Information &amp; Lost and Found</string>
+    <string name="text_lost">
+        Info Desk and Lost&amp;Found services in Limak Kosovo JSC provide all necessary information and
+        founded baggage service to passengers. Passengers whose luggage is delayed, should proceed directly
+        to Lost &amp; Found with their flight ticket, baggage claim tag, identity card and passport at the
+        same day of their arrival before leaving the terminal. We will explore and clarify the matter as quickly
+        as possible.
+        \n\n
+        Contact Info:\n\n
+        <i>InfoDesk</i>
+        \nPhone:  00381 (0)38 501 502 1214
+        \nEmail:  information@limakkosovo.aero
+        \n\n<i>Lost &amp; Found</i>
+        \nPhone:  00381 (0)38 501 502 1270
+        \nEmail:  lost.found@limakkosovo.aero
+        \n\n\n
+        <b>Baggage Tracing</b> \n\n
+        <u><i>Baggage Tracing code PRN67</i></u>
+        \n\n
+        Please find the list of airlines using World Tracer Management system:
+        \n
+        \n- Adria Airways
+        \n- Austrian Airlines
+        \n- EasyJet Airline
+        \n- Etihad Airways
+        \n- Pegasus Air
+        \n- SAS
+        \n- Star Alliance
+        \n- Turkish Airlines
+    </string>
+
+    <string name="title_cip">CIP and 17/02 Service</string>
+    <string name="text_cip">
+        This lounge creates an alternative and more convenient solution for the frequent and appreciative flayers
+        of Kosovo. Passengers that would like to have an independent flying experience with a service delivered by
+        experienced professionals on hand for assistance, a quicker check-in and check-out procedure, and parking
+        privileges can be comforted by the availability of the 17 | 02 Service.
+        \n\n
+        Members of this lounge are taken care of and are provided with the maximum comfort from vehicle to plane
+        or vice versa. A dedicated person responsible for the member meets them at departure area, and assists
+        them along the way. Their baggage is taken care of, the check-in procedure is expedited, and where
+        available the passport control is done in fast counters.
+        \n\n
+        The foremost purpose of the 17 | 02 Lounge is member comfort. The accommodating premises are away from
+        the regular area, in a quiet atmosphere free from loud announcements and common airport business. The
+        lounge also provides free internet, common office tools, daily and weekly press periodicals. There are
+        also refreshments and various snacks available all the time, free of charge to all lounge users.
+        \n\n
+        The services and benefits of the 17 | 02 Lounge can be enjoyed by either one time usage payment, or yearly
+        membership. Both methods of payment offer a value that is much greater than the price, however the yearly
+        memberships also benefit from free parking, and can also use the services with an accompanying guest.
+        \n\n
+        We are happy to provide you with this luxury. For any further information, please contact any staff member
+        of Limak Prishtina International Airport \"Adem Jashari\" or e-mail us at cip@limakkosovo.aero.
+        \n\n\n
+        <b>17/02 Service</b>\n\n
+        <u>Departure of 17/02 Service Members</u>
+        \n\n
+        Our Service is being offered beginning at the point where CIP Personnel/staff meets the passenger at Departure.
+        The Check-in procedure is done accompanied with the assistance of our CIP Personnel/staff, if possible,
+        expedited passage through passport counters is provided.
+        Additionally our CIP staff will be in disposal to our guests for accompanying them in case they\'d like to
+        shop in Duty Free.
+        \n\n
+        <u>Arrival of 17/02 Service Members</u>
+        \n\n
+        We take care of our CIP customers once they make the first step out of the aircraft. The procedures of
+        passport control ,if possible ,are done in fast-counters.
+        Our customers will be assisted by our CIP staff in case they want to shop in Duty Free.
+        We continue to accompany our customers up to the point when they meet their greeters and to their vehicles
+        if there is no greeter arranged by them.
+        \n\n\n
+        <b>CIP Procedures</b>
+        \n\n
+        <u>17/02 Gold Card</u>
+        \n\n
+        Parking Lot free of charge for 5 days
+        CIP Unique Lounge usage
+        1 guest free of charge (a member of family ) and children up to 13 years old Service fee
+        1 year Card: 350 euro
+        \n\n
+        <u>17/02 Platinum Card</u>
+        \n\n
+        10 days free parking
+        CIP 17/02 Lounge usage
+        1 guest free of charge except the family member and chilren up to 13 years old Service Fee
+        1 Year Card: 550 euro
+        \n\n\n
+        If further information is needed we are in your disposal to supply you with all neccessary details.
+        Please do contact us at:
+        Email: lounge@limakkosovo.aero 
+		Office: 00381(0)385015022202
+    </string>
+
+    <string name="title_commercial">Commercial</string>
+    <string name="text_commercial">
+        Commercial Unit is managing and implementing Commercial Contracts to ensure a continuous business
+        development, including aeronautical and non-aeronautical activities of Limak Kosovo International
+        Airport J.S.C. Commercial Unit negotiates the terms and conditions of commercial contracts, as well
+        as documenting and agreeing on any changes or amendments that may arise during its implementation.
+        \n\n
+        Partners: Airlines, travel agencies and/or tour operators, duty free and duty paid shops, banks,
+        rent a car companies, telecom operators, cargo transport companies, restaurants, helicopter operators,
+        flight and ground support operators and any other party who engages in aviation and airport business.
+        \n\n
+        Activities: Standard Ground Handling Agreements, Commercial agreements for renting of terminal, land
+        and air side facilities to all airport users (such as airline, tour operator, travel agency, rent a car…),
+        Sub-concession agreements, and any other commercial activity which contribute on the growth of Revenue of
+        Limak Kosovo International Airport J.S.C.
+        \n\n\n
+        <i>Commercial Unit Contact Information Details:</i>\n\n
+        Revenue Manager\n
+        Office:  +381 38 501 502/ 1100\n
+        Fax:     +381 38 501 502/ 1115\n
+        hsayimci@limakkosovo.aero
+        \n\n
+        Commercial Administrative Assistant \n
+        Office:  +381 38 501 502/ 1104\n
+        jqorri@limakkosovo.aero
+    </string>
+
+    <string name="title_ramp">Ramp Services</string>
+    <string name="text_ramp">
+        The primary target of this service is to take necessary precautions against all risks. It starts
+        by aircraft entering into frequency and ends with push-back (pushing the aircraft).
+        \n\n\n
+        Services offered as part of Ramp:
+        \n
+        \n- Making preparations related to meeting, prior to the arrival of the aircraft and inspection of these preparations
+        \n- Sending the necessary equipment to the parking position to unload the payload and bags and provide additional service such as Potable Water, Ground Power, Air Starter and etc.
+        \n- Operation of Baggage Handling System and Baggage Reconcilation System
+        \n- Making the weight and balance calculations along with the distribution of the baggage and cargo
+        \n- Loading – Unloading of the Aircraft (Consolidating and Transferring the Bags and Cargo to the Aircraft or Terminal)
+        \n- Cleaning the Aircraft
+        \n- Passenger Transfer
+        \n- Push-Back &amp; Towing
+        \n- Marshalling – Chocking - Barging (Safe Parking Services)
+        \n- Clean – Waste Water Services
+        \n- De/Anti – Icing
+        \n\n\n
+        <b>Operation Services</b>\n\n
+        By coordinating aircraft services, we aim to deliver on time operation in accordance with
+        security and safety regulations such as:
+        \n
+        \n - Aircraft Parking Stand Allocation and Resource Management
+        \n - Coordination of 3rd party service providers
+        \n - Checking the messages
+        \n - Following the documents and procedures of airline/company providing service
+        \n - Sending the required messages to the opposite station after departure. (MVT, LDM, CPM, PSM etc.)
+    </string>
+
+    <string name="title_cargo">Cargo</string>
+    <string name="text_cargo">
+        Limak Kosovo International Airport J.S.C.-Prishtina International Airport ”ADEM JASHARI” offers different
+        Cargo services in a fast, effective and professional way. Security is a key advantage, thus we examine
+        all the cargo shipment by the most modern Heimman x-ray machines. With up to date security system,
+        modern technological equipment and video surveillance, we guarantee a fast and efficient flow of cargo.
+        So far, we have almost all the worldwide Companies like Adria Airways, Austrian Airlines, Turkish Airlines,
+        Swiss Fedex, Ups, Tnt, Dhl and International Freight Forwarders like Aes Cargo, AGS, Intereuropa, Air Logistic
+        etc. operating in Kosovo and all of them are transporting their goods via our Airport using our Cargo services.
+        \n\n\n
+        Cargo Facilities:
+        \n
+        \n- Cargo import warehouse working hours: \n Mon-Sun 08:00-02:00,
+        \n- Cargo export warehouse working hours: Mon-Sat 08:00-16:00,
+        \n- After 48 hours the consignee except daily fees will pay additional fee according to LKIA- Prishtina International Airport “Adem Jashari” Cargo price list in use.
+        \n- Forklifts available
+        \n- Refrigerator for cool shipments available
+        \n- Perishable special room: Not available (immediate pick-up must be arranged)
+        \n- Valuable safe for VAL shipments: Not available (immediate pick-up must be arranged)
+        \n- Special room for live animal AVI: Not available (immediate pick-up must be arranged)
+        \n- Dangerous goods special room: Not available (immediate pick-up must be arranged)
+        \n- For each Dangerous goods shipment planned to be Imported &amp; Exported to PRN special permit
+        needed from Civil Aviation Authorities of Republic of Kosova (CAAK)
+        \n- Transit Cargo Handling: Not available
+        \n\n\n
+        <b>Cargo Unit Contacts:</b>\n\n
+        <i>Ramp operation manager &amp; Cargo air manager </i>\n
+        Telephone: +381 (0) 38 5015023292
+        \n\n<i>Head of Cargo Operations </i>\n
+        E-mail: jseferi@limakkosovo.aero,
+        \n\n<i>Team leaders in Cargo Import</i>\n
+        E-mail: cargoprn@limakkosovo.aero \n
+        \n\n<i>Cargo Finance office in duty</i>\n
+        Telephone: +381 (0) 38 5015023294,
+        \n\n\n
+        <i>Team leaders in Cargo Export</i>
+        \n\n\n
+        Customs working hours: \nMon-Sat 08:00-18:00.
+        \n\n\n
+        <b>Customs clearance due to our local government applicable laws:</b>\n\n
+            <i>After 24 days if shipments are not taken ,the shipments will be confiscated according to our
+        local government law KDA:03/L 109 chapter 3,article4,chapter 4,article 53,drops1,section 2. In case
+        of confiscated shipment all warehouse charges will be charged to airline or his licensed representative
+        (shipper or freight forwarder).</i>
+    </string>
+
+    <string name="title_security">Security and Screening Unit</string>
+    <string name="text_security">
+        Security and Screening Unit is provided by airport operator with police assistance.
+        The aviation security objective is protection and safety of passengers, protection of staff,
+        crew, aircraft\'s, public and protection of airport properties against acts of unlawful interference.
+        The aviation security objective is achieved by using the latest technology (EU approved standard 3)
+        of security equipment such as: X-ray machines, liquid scanners, shoe examiners, explosive trace
+        detectors, walk through metal detection, hand held metal detectors and CCTV camera system.
+        \n\n\n
+        <b>List of Prohibited articles</b>\n\n
+        Guidelines for classification of prohibited articles
+        Guidelines are given below for the possible shapes of weapons and restricted items. Common sense
+        shall however prevail in assessing whether an object gives cause to believe that it may be used as a weapon.
+        \n\n
+        a) Firearms: Any weapon from which a shot may be fired by the force of an explosion or compressed
+        air or gas, including starter and flare pistols;
+        \n\n
+        b) Knives and cutting tools: Including sabres, swords, cardboard cutters, hunting knives, souvenir
+        knives, martial arts devices, professional tools and such other knives with blades of 6 cm long or
+        longer and/or knives considered illegal by local law;
+        \n\n
+        c) Bludgeons: Blackjacks, billy clubs, baseball clubs or similar instruments;
+        \n\n
+        d) Explosives/Ammunition/Flammable Liquids/Corrosive: Any explosive or incendiary components,
+        which by themselves or in conjunction with other items can result in an explosion or fire. These
+        include explosive materials, blasting caps, fireworks, gasoline, other flammable liquids, ammunition,
+        etc., or any combination of these items. Any corrosive or toxic substances, including gases, whether
+        or not under pressure;
+        \n\n
+        e) Disabling or Incapacitating Items: All tear gas, mace, and similar chemicals and gases whether in
+        pistol, canister, or other container, and other disabling devices such as electronic stunning/shocking devices;
+        \n\n
+        f) Other Articles: Such items as ice picks, alpenstocks, straight razors, and elongated scissors, which,
+        even though not commonly thought of as a deadly or dangerous weapon, could be used as a weapon, including
+        toy or "dummy" weapons or grenades;
+        \n\n
+        g) Articles of any kind giving rise to reasonable suspicion that an items may be used to simulate a deadly
+        weapon; such articles shall include but not be limited to: objects resembling explosive devices or other
+        items that may give appearance of a weapon or dangerous item;
+        \n\n
+        h) Chemical/biological attack items and substances: The possibilities for chemical/biological attacks
+        include the use of chemical or biological agents to commit unlawful acts. Such restricted chemical/biological
+        substances shall include but not be limited to the following: sulphur mustard, vx., chlorine, sarin,
+        hydrogen cyanide, anthrax, botulism, smallpox, tularemia, and viral hemorrhagic fever (v.h.f.).
+        Items indicating the nature of the chemical/biological substance or suspicion of such nature shall be
+        immediately notified to airport authority, police, military or other relevant authority and isolated from
+        public terminal areas. These lists concentrate on generic descriptions, are limited to security-relevant
+        items and do not include dangerous goods.
+        \n\n\n
+        <b>Handling of Prohibited Articles</b>\n\n
+        Cabin Baggage, Passengers, Staff and Items Carried
+        The following articles are examples of articles which must never be carried in the cabin of an aircraft or into the security restricted area of Limak Kosovo International Airport J.S.C, except by authorised persons who require them to undertake tasks that are essential to the operation of airport facilities or aircraft, catering facilities or restaurants, or by flight crew who require them for the performance of normal in-flight duties. There may be other items about which security staff have concern and which may be confiscated if found.
+        \n\n\n
+        <b>Generic Definitions</b>\n
+        \n- Guns, firearms and weapons - any object capable, or appearing capable, of discharging a projectile. Special attention must be paid to concealed or camouflaged items of this nature;
+        \n- Pointed weapons and sharp objects - pointed and bladed items capable of causing injury;
+        \n- Blunt instruments - any blunt object capable of causing injury;
+        \n- Explosive and highly inflammable substances which could be used to facilitate an act of unlawful interference;
+        \n- Chemicals or chemical substances, which could be used to facilitate an act of unlawful interference.
+        \n\n\n
+        <u>Examples:</u>
+        \n\n
+        1. guns, firearms and other devices that discharge projectiles — devices capable, or appearing capable, of being used to cause serious injury by discharging a projectile, including:
+        \n- firearms of all types, such as pistols, revolvers, rifles, shotguns,
+        \n- toy guns, replicas and imitation firearms capable of being mistaken for real weapons,
+        \n- component parts of firearms, excluding telescopic sights,
+        \n- compressed air and CO 2 guns, such as pistols, pellet guns, rifles and ball bearing guns,
+        \n- signal flare pistols and starter pistols,
+        \n- bows, cross bows and arrows,
+        \n- harpoon guns and spear guns,
+        \n- slingshots and catapults;
+        \n\n
+        2. stunning devices — devices designed specifically to stun or immobilise, including:
+        \n- devices for shocking, such as stun guns, tasers and stun batons,
+        \n- animal stunners and animal killers,
+        \n- disabling and incapacitating chemicals, gases and sprays, such as mace, pepper sprays, capsicum sprays, tear gas, acid sprays and animal repellent sprays;
+        \n\n
+        3. objects with a sharp point or sharp edge — objects with a sharp point or sharp edge capable of being used to cause serious injury, including:
+        \n- items designed for chopping, such as axes, hatchets and cleavers,
+        \n- ice axes and ice picks,
+        \n- razor blades,
+        \n- box cutters,
+        \n- knives with blades of more than 6 cm, EN L 55/16 Official Journal of the European Union
+        \n- scissors with blades of more than 6 cm as measured from the fulcrum,
+        \n- martial arts equipment with a sharp point or sharp edge, swords and sabres;
+        \n\n
+        4. workmen’s tools — tools capable of being used either to cause serious injury or to threaten the safety of aircraft, including:
+        \n- crowbars,
+        \n- drills and drill bits, including cordless portable power drills,
+        \n- tools with a blade or a shaft of more than 6 cm capable of use as a weapon, such as screwdrivers and chisels,
+        \n- saws, including cordless portable power saws,
+        \n- blowtorches,
+        \n- bolt guns and nail guns;
+        \n\n
+        5. blunt instruments — objects capable of being used to cause serious injury when used to hit, including:
+        \n- baseball and softball bats,
+        \n- clubs and batons, such as billy clubs, blackjacks and night sticks,
+        \n- martial arts equipment;
+        \n\n
+        6. explosives and incendiary substances and devices — explosives and incendiary substances and devices capable, or appearing capable, of being used to cause serious injury or to pose a threat to the safety of aircraft, including:
+        \n- ammunition,
+        \n- blasting caps,
+        \n- detonators and fuses,
+        \n- replica or imitation explosive devices,
+        \n- mines, grenades and other explosive military stores,
+        \n- fireworks and other pyrotechnics,
+        \n- smoke-generating canisters and smoke-generating cartridges,
+        \n- dynamite, gunpowder and plastic explosives.
+        \n\n\n
+        <b>Security Procedures</b>\n
+        \n  Airport Security,
+        \n  Airside / Landside,
+        \n  Security Restricted Areas (SRA),
+        \n  Critical Parts of SRA,
+        \n  Security of Passengers &amp; Cabin Baggage,
+        \n  Security of Hold Baggage,
+        \n  Security of Aircraft,
+        \n  Security of Air Carrier Catering, Stores Supplies and Mail,
+        \n  Security of Aircraft Cleaning Operations,
+        \n  Security of Cargo, Courier, Express Parcels and Mail,
+        \n  List of Prohibited Items,
+        \n  Close Circuit TV System (CCTV)
+    </string>
+
+    <string name="title_medical">Medical Care</string>
+    <string name="text_medical">
+        Medical Care at our Airport is offered by Medical Service Centre, located near the Arrivals
+        Area on the ground floor (level 0).
+        Medical care is offered in terms of 24 hours/day (7 days/week) by a fully qualified staff (Doctor and a Nurse).
+        The services are offered whether indoor the offices of the Medical Center, or whenever needed even outdoor,
+        anywhere within the Airport premises. The health services in this way are provided to Passengers, Airport
+        personnel and to any other person in need.
+        Furthermore, they consist on dealing and solving different complaints; therapy administration;
+        minor surgical treatment to Emergency cases.
+        Our service has in disposition as well, a brand new Autoambulance, fully prepared with latest equipments,
+        in case of further medical transportation.
+        \n\n
+        <i>Contact:</i>
+        \n Mobile phone: +377(0)45811192
+        \n Office phone: +381(0)38 501502 ext. 1330
+        \n e-mail:       medical.service@limkakosovo.aero
+    </string>
+
+    <string name="title_ict">Information Communication Technologies</string>
+    <string name="text_ict">
+        Information and Communication Technologies Department (ICT) has a crucial role in processing,
+        transmission and storage of vast amounts of vital information used at Airport Operations.
+        \n\n
+        New Terminal is equipped with latest state of the art of Information and Communication Technologies
+        with Full Automated Systems, Full Redundancy, High Availability, Business Continuity Solutions, and
+        Real-time Monitoring of all ICT systems. Project has been implemented in accordance with IATA Recommendations.
+        \n\n
+        Our Airport is equipped with latest technology for Airport Systems - Airport Information Management
+        Systems; Flight Information Display System - FIDS; Departure Control System- DCS; Common Use Terminal
+        Equipment - CUTE; Baggage Reconciliation System - BRS; Resource Management Systems - RMS; Airport and
+        Airline Business Systems; Airside Operation Systems - VDGS, Master Time Clock Systems; Public Address Systems;
+        Master TV; Close Circuit Television Systems - CCTV; Access Control System and Security Management System.
+        \n\n
+        ICT Infrastructure has implemented the latest data and communication technologies with high level of data
+        safeguard and protection including Private Cloud with Blade and SAN infrastructure, Active-Active Data
+        Communication Networks, Public Utilities Connections; Voice communication Systems; Public Cellular Network,
+        and Private Mobile Radio Systems.
+        \n\n
+        Also, New Terminal is equipped with Automation Systems, which ensure centralized management and monitoring
+        for Baggage Handling System, Passenger Boarding Bridge, Fire Protection, Light Systems, HVAC, Water Supplying,
+        Generators with redundancy, Power Supply, and Escalators and Elevators.
+        \n\n
+        Our successfully implemented ICT Project has been awarded last year by Albanian ICT Awards for high
+        achievements in ICT regionally.
+    </string>
+
+    <string name="title_info">Contacts</string>
+    <string name="text_info">
+        <i>Information Desk</i>\n
+        information@limakkosovo.aero
+        Office: 00381(0)385015021214
+        \n\n
+        <i>Lost and Found</i>\n
+        lost.found@limakkosovo.aero
+        Office:00381(0)385015021270
+        Office:00381(0)385015021271
+        \n\n
+        <i>Public Relations</i>\n
+        vgara@limakkosovo.aero
+        Office:00381(0)385015021041
+        \n\n
+        <i>Medical Care</i>\n
+        medicalservice@limakkosovo.aero
+        Office: 00381(0)385015021331
+        Cell: 00377(0)45811192
+        \n\n
+        <i>Security</i>\n
+        security.teamleaders@limakkosovo.aero
+        Office:00381(0)385015021362
+        cell: 00377(0)45811316
+        \n\n
+        <i>Complaints Handling</i>\n
+        complaints@limakkosovo.aero
+        Office:00381(0)385015021041
+        \n\n
+        <i>CARGO</i>\n
+        jseferi@limakkosovo.aero
+        Office: 00381(0)385015023292
+        \n\n
+        <i>CIP and 17/02 Service</i>\n
+        lounge@limakkosovo.aero
+        00381(0)385015022202
+        \n\n
+        <i>SLOT Coordination</i>\n
+        scheduleprn@limakkosovo.aero
+        00381(0)385015021170
+    </string>
+
+    <string name="title_passinfo">Passenger Info</string>
+    <string name="text_passinfo">
+        There is an information desk placed in the middle of terminal where passengers can get the information
+        24/7 either through phone calls, e-mails or in person.
+
+        \n\n<i>Contact:</i>\n
+        information@limakkosovo.aero\n
+        00381(0)3850150211214
+    </string>
+
+    <string name="title_coordination">Schedule facilitation</string>
+    <string name="text_coordination">
+        The process of facilitation centers on voluntary cooperation between airlines and the schedule
+        facilitator/coordinator of Limak Kosovo Int\'l Airport. Airlines and schedule facilitator/coordinator of
+        LKIA should use the SSIM message exchange formats developed for communication at Level 2 airports (Level 2
+        airport, see WSG at www.iata.org/sked).
+        \n
+        The Calendar of Coordination Activities specifies the dates when airlines submit their planned
+        operations to the schedule facilitator/coordinator of Limak Kosovo Int’l Airport and the dates
+        when the facilitator/coordinator must reply to the airlines for each flight season.
+        \n
+        Schedule Facilitator/Coordinator of LKIA must reply to each airline\'s Initial Submission in SAL format,
+        listing the planned operations of that airline held in the facilitator\’s database and any recommended
+        schedule adjustments. Airlines should arrange to meet with the facilitator at the Scheduling Conferences
+        to resolve any outstanding issues.
+        \n
+        Airlines and other aircraft operators should update Schedule Facilitator/Coordinator of LKIA with
+        all changes to their planned operations as soon as they are known.
+        \n
+        Schedule Facilitator/Coordinator consequently will inform the airport and all relevant parties for
+        the changes are planned to operations.
+    </string>
+
+    <string name="title_media">Media Enquiry</string>
+    <string name="text_media">
+        Prishtina International Airport \'Adem Jashari\' continues to respond to all media enquiries
+        related to the public information. We have made endless efforts to be at media disposal.
+        \n\n\n
+        <b>Contact:</b>\n
+        \n Valentina Gara
+        \n Public Relations Manager
+        \n\n E-mail: vgara@limakkosovo.aero
+        \n Tel: 00381(0) 38 501 502 1041
+        \n\n Prishtina International Airport \'Adem Jashari\'
+        \n Limak Kosovo International Airport
+        \n Vrellë, Lipjan 10070
+        \n Republic of Kosovo
+    </string>
+
+    <string name="btnManagement"><u>Integrated Management System Policy [PDF]</u></string>
+
+    <string name="title_activity_news_full">NewsFullActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

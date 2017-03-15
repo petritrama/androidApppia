@@ -1,0 +1,1099 @@
+<resources>
+
+    <string name="app_name">Pristina International Airport</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_btnFlight">Fluturimet</string>
+    <string name="text_btnExplore">Aeroporti</string>
+    <string name="text_btnDestinations">Destinacionet dhe Oraret</string>
+    <string name="text_btnServices">Shërbimet</string>
+    <string name="text_btnNews">Lajme</string>
+    <string name="text_btnInfo">Informata</string>
+
+    <string name="empty"> </string>
+
+    <string name="lang_default">ENG</string>
+    <string-array name="lang">
+        <item>ENG</item>
+        <item>SHQ</item>
+        <item>SRB</item>
+    </string-array>
+
+    <string name="tab_arrival">Arritjet</string>
+    <string name="tab_departure">Nisjet</string>
+
+    <string name="wait_msg"> Ju lutem pritni .... </string>
+
+    <string name="conn_msg">Nuk jeni i kyqur ne Internet!</string>
+
+    <string name="readMore_msg"> <u>Klikoni që të lexoni lajmin e plotë</u> </string>
+
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="title_activity_FlightInfo">Flight Information</string>
+
+    <string name="departure_section">Arritjet</string>
+    <string name="arrival_section">Nisjet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_departure">DepartureActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_terminal">TerminalActivity</string>
+
+    <string name="lblFrom">Nga:</string>
+    <string name="lblSchedule">Orari:</string>
+    <string name="lblStatus">Statusi:</string>
+    <string name="lblETA">ETA:</string>
+    <string name="lblETD">ETD:</string>
+    <string name="lblTo">Në:</string>
+    <string name="lblExpected">Planifikuar</string>
+
+    <string name="lblTitle">Ready for the World!</string>
+    <string name="lblFooter">© 2015 Prishtina International Airport Adem Jashari</string>
+    <string name="title_activity_flight_info">FlightInfo</string>
+    <string name="title_activity_maps">Harta</string>
+
+    <string name="map_title">Rrugë nga/në ANP</string>
+    <string name="from">Nga:</string>
+    <string name="to">Në:</string>
+    <string name="load_directions">Load Directions</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+
+    <string name="title_activity_destinations">DestinationsActivity</string>
+    <string name="title_activity_services">ServicesActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_explore_airport">ExploreAirport</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="btnApplication">Ju lutem visitoni ueb faqen për të plotësuar formën e aplikim për fluturime</string>
+
+    <string name="rent_schedule">Orari i Punës</string>
+
+    <string-array name="ExploreMenu">
+        <item>Prifili i Kompanisë</item>
+        <item>Historia</item>
+        <item>Informata kyçe për Limak Holding</item>
+        <item>Informata kyçe për ADLMS</item>
+        <item>Skema Organizative</item>
+        <item>Misioni dhe Vizioni ynë</item>
+        <item>Mesazhi nga Drejtori Gjeneral</item>
+        <item>Politika e Sistemit të Menaxhimit të Integruar</item>
+        <item>Përgjegjësia e Korporatës ndaj Shoqërisë</item>
+        <item>Karriera</item>
+        <item>Harta e Terminalit</item>
+        <item>Rent a Car</item>
+        <item>Bankat</item>
+        <item>Restoranet dhe Dyqanet</item>
+        <item>Free Shop</item>
+        <item>Kompanitë Ajrore</item>
+        <item>Reklamimi</item>
+        <item>Shërbimet Taksi</item>
+    </string-array>
+
+    <string-array name="DestinationsMenu">
+        <item>Destinacionet</item>
+        <item>Orari i fluturimeve</item>
+        <item>Koordinimi dhe lehtësimi i orarit i Aeroportit</item>
+        <item>Informacione lidhur me aplikimin për fluturime</item>
+        <item>Publikimet</item>
+    </string-array>
+
+    <string-array name="ServicesMenu">
+        <item>Shërbime</item>
+        <item>Shërbimi për procesimin e udhëtarëve</item>
+        <item>Informatat dhe valixhet e humbura dhe të gjetura</item>
+        <item>Shërbimi CIP dhe 17/02</item>
+        <item>Njësia Komerciale</item>
+        <item>Shërbimet Ramp</item>
+        <item>Mallërat</item>
+        <item>Njësia e Sigurimit dhe Skenimit</item>
+        <item>Kujdesi Mjekësor</item>
+        <item>TIK</item>
+    </string-array>
+
+    <string-array name="NewsMenu">
+        <item>Lajme</item>
+        <item>Kërkesa nga Media</item>
+    </string-array>
+
+    <string-array name="InfoMenu">
+        <item>Kontaktet</item>
+        <item>Informata për udhëtarë</item>
+        <item>Koordinimi i fluturimeve</item>
+    </string-array>
+
+    <string name="title_companyprofile">Profili i Kompanisë</string>
+    <string name="text_companyprofile">
+        Aeroporti Ndërkombëtar i Prishtinës \'Adem Jashari\' menaxhohet dhe operohet nga konsorciumi Limak dhe Aeroports de Lyon. 
+        Konsorciumi Limak dhe Aeroports de Lyon mori menaxhimin dhe operimin e aeroportit pas Marrëveshjes mbi Partneritetin 
+        Publiko Privat të nënshkruar më 12 Gusht 2010.
+        \n\n
+        Që atëherë, konsorciumi ka ndërtuar Terminalin e ri me 42.000 metra katrorë me ndërtesat përcjellëse duke përdorur 
+        teknologjinë më të fundit në treg.
+        \n\n
+        Limak Holding, që është në konsorcium me Aeroports de Lyon, është një nga kompanitë kryesore e njohur në gjithë 
+        botën në sektorë të ndryshëm përveç aviacionit të tilla si investimet, ndërtimet, turizmi, energjia, çimento dhe 
+        ushqimet. Aktualisht operon me Aeroportin Ndërkombëtar Sabiha Gokcen në Turqi ndërsa Aeroports de Lyon është i 
+        njohur për shërbimet e operimeve të aeroportit. Aktualisht operon dhe menaxhon me Aeroport de Lyon në Francë.
+        \n\n
+        Konsorciumi Limak dhe Aeroports de Lyon do të menaxhojë dhe operojë me Aeroportin Ndërkombëtar të Prishtinës \'Adem Jashari\' 
+        20 vite nga data e marrëveshjes duke transferuar të gjitha asetet e veta te Qeveria e Kosovës pas përfundimit të kësaj 
+        periudhe kohore.
+    </string>
+
+    <string name="title_history">History</string>
+    <string name="text_history">
+        Historia e Aeroportit Ndërkombëtar të Prishtinës “Adem Jashari” filloi në vitin 1965 vetëm për 
+        fluturime të brendshme për t’u bërë një nga aeroportet më konkuruese rajonale në ditët e sotme.
+        \n\n
+        <i>Fazat e zhvillimit:</i>
+        \n\n
+        <b>1985</b> - Viti i paisjes me teknologji bashkëkohore të asaj kohe sipas standardeve të ICAO-s.
+        \n\n
+        <b>1999</b> - Aeroporti tejkaloi kufijtë vendor duke u transferuar në një Aeroport Ndërkombëtar me 
+        riaktivizimin dhe avancimin e tij më datë 15 Tetor 1999 me ofrimin e transportit ajror në disa qytete Evropiane.
+        \n\n
+        <b>2000</b> - Fillimisht, ky aeroport ka operuar vetëm me fluturime humanitare deri në fillim të vitit. 
+        Gjatë kësaj periudhe, forcat e KFOR-it Rus së bashku me forcat tjera të NATO-s dhe aleatët e saj ishin 
+        përgjegjëse për sigurinë e Aeroportit. Aeroporti ka nisur operimet e tij me gjithsej 45 të punësuar.
+        \n\n
+        <b>2002</b> - Platforma dhe Terminali i udhëtarëve kanë filluar të rinovohen dhe kanë zgjeruar punën për t\’u 
+        kompletuar në muajt e ardhshëm (në fund të verës). Shërbimet dhe furnizimi me energji elektrike u përmirësuan dhe 
+        ishin ndërtuar ndërtesat e reja për qarkullimin e mallrave.
+        \n\n
+        <b>2002/2005</b> - U pranuan dhe përcjellën diku rreth 800.000 deri në 1.000.000 udhëtarë komercial dhe 
+        ushtarak në vit. Aeroporti ka rindërtuar objektet dhe ka instaluar paisjet e reja të cilat ndihmuan në 
+        ofrimin e një diapazani të gjerë të shërbimeve cilësore për udhëtarët dhe vizitorë. Kërkesat e Aeroportit pas 
+        periudhës së pasluftës ishin të orientuara drejt rinovimit. Gjatë 3 viteve të fundit, kompania ka rinovuar dhe 
+        riorganizuar aeroportin në tërësi.
+        \n\n
+        <b>2006</b> - Ishte viti kur zhvillimi i hovshëm i Aeroportit Ndërkombëtar të Prishtinës \“Adem Jashari\” 
+        ishte shpërblyer me çmimin ‘Aeroporti më i mirë në kategorinë nën 1 milion udhëtarë’.
+        \n\n
+        <b>2007</b> - Në pjesën e parë të këtij viti, numri i udhëtarëve është rritur për 11%.
+        \n\n
+        <b>2008</b> - Aeroporti Ndërkombëtar i Prishtinës "Adem Jashari" ishte çertifikuar nga Autoriteti Islandez i 
+        Aviacionit Civil pas përmbushjes së standardeve të sigurisë dhe sigurimit si rezultat i investimeve në projekte 
+        të ndryshme si rishtresimi i pistës, ndriçimi i pistës, rruga dhe rrethoja perimetrike, dhe disa investime tjera.
+        \n\n
+        <b>2009</b> - Aeroporti filloi të punojë 24 orë.
+        \n\n
+        <b>2010</b> - Aeroporti kaloi nën koncesion si rezultat i Marrëveshjes mes Qeverisë së Kosovës dhe Partneritetit 
+        Privat Publik, konsorciumit turko-francez \"Limak dhe Airports de Lyon\".
+        \n\n
+        <b>2011</b> - Konsorciumi turko-francez Limak dhe Aeroports de Lyon, zyrtarisht mori përgjegjësitë e 
+        Aeroportit Ndërkombëtar të Prishtinës. Partneriteti publiko privat është parashikuar që të menaxhojë dhe 
+        operojë Aeroportin Ndërkombëtar të Prishtinës \'Adem Jashari\' për 20 vitet e ardhshme, që të modernizoj dhe
+        zgjerojë terminalin në 27 mijë metër katrorë në vlerë mbi 100 milionë euro investime nga Limak dhe Aerports de Lyon.
+        \n\n
+        <b>2013</b> - Limak Kosova sipas Marrëveshjes së konsorciumit ndërtoi Terminalin tërësisht të ri të Aeroportit 
+        Ndërkombëtar të Prishtinës \'Adem Jashari\', duke e dyfishuar atë nga 27.000 metra katrorë siç ishte rënë dakord
+        në 42.000 metra katrorë, duke përdorur teknologjinë më të fundit në treg.
+        \n\n
+        <b>October 23, 2013</b> - Inagurimi i terminalit të ri.
+        \n\n
+        <b>2014</b> - Aeroporti Ndërkombëtar i Prishtinës \'Adem Jashari\' fitoi çmimin \'Dizajni më i mirë i cilësisë së
+        çelikut\' të vendosur në terminalin e ri.
+        \n\n
+        <b>2014</b> - Aeroporti Ndërkombëtar i Prishtinës \'Adem Jashari\' është raportuar si \'Marrëveshja më e mirë e
+        koncesionit në rajon\' krahasuar me aeroportet regjionale në një raport nga OJQ \"STRAS\".
+    </string>
+
+    <string name="title_limak">Informata kyçe për Limak Holding</string>
+    <string name="text_limak">
+        Themeluar në vitin 1976 me Limak Construction, Grupi i kompanive Limak ka shtuar turizmin, çimenton, 
+        energjinë, infrastrukturën, menaxhimin dhe operimet e aeroporteve, menaxhimin e porteve, sektorët e 
+        ushqimit dhe të aviacionit në operimet e saj me rritje të qëndrueshme me kalimin e kohës.
+        \n\n
+        <b>Limak Construction</b>, që ka përfunduar me sukses shumë projekte me vlerë të përgjithshme prej 
+        më shumë se 6 miliardë $ duke përfshirë aeroportet, portet, digat, sistemet e ujitjes, autostradat, 
+        hidrocentralet, impiantet industriale, tubacionet e naftës dhe gazit, komplekset e ndërtesave, hotelet 
+        dhe vendpushimet, është në mesin e kompanive më të mëdha ndërkombëtare të ndërtimit në botë sipas revistës 
+        Engineering News Record Magazine.
+        \n\n
+        <b>Limak Tourism Group</b> që zotëron një nga rrjetet më të mëdha hoteliere në Turqi është në rritje të 
+        qëndrueshme duke shtuar kontributin e saj në ekonominë turke dhe përfaqësimin global të Turqisë. 
+        Aktualisht, Limak Tourism Group ka në pronësi dhe operon me hotelet Limra, Arcadia, Lara dhe Atlantis 
+        në Antalya, Ambassadore Hotel në Ankara, Hotel Euroasia dhe ISG Airport Hotel në Stamboll dhe Hotel 
+        Thermal në Yalova. Limak Tourism Group vazhdon investimet e saj në shumë rajone të Turqisë dhe Qipros.
+        \n\n
+        <b>Limak Cement Group</b> është bërë grupi i tretë më i madh i çimentos në Turqi që nga viti 2011, 
+        me 10 fabrikat e çimentos që operojnë në Siirt, Dijarbakër, Gaziantep, Shanlëurfa, Bitlis, Mardin 
+        Derik, Ankara, Balikesir, Kırklareli dhe Stamboll Ambarli.
+        \n\n
+        <b>Limak Energy Group</b> është aktiv në tërë zinxhirin e vlerës energjetike duke përfshirë prodhimin, 
+        shpërndarjen, shitjen dhe tregtimin e energjisë elektrike. Sipas objektivave të saj strategjike, Limak 
+        Energy vazhdon zhvillimin e projekteve të reja në mënyrë që të arrijë kapacitetin prodhues prej 5000 MW. 
+        Aktualisht, Limak Energy prodhon energji elektrike në 5 hidrocentrale. Nga 2014, Grupi synon vënien në 
+        punë edhe të tri hidrocentraleve tjera. Kur të përfundojnë të gjitha projektet e gjenerimit të energjisë 
+        së ripërtrishme, kapaciteti total i Grupit do të jetë mbi 1000 MW. Limak hyri në biznesin e shpërndarjes 
+        së energjisë elektrike në vitin 2010, duke fituar tenderët për privatizimin e kompanive të shpërndarjes 
+        së energjisë elektrike Uludag dhe Camlibel në Turqi. Në vitin 2012, Grupi u bë lider në tregun e shpërndarjes 
+        së energjisë elektrike, duke fituar tenderët për privatizimin e kompanive të shpërndarjes së energjisë 
+        elektrike Bogazici dhe Akdeniz në Turqi dhe Shpërndarjen e Energjisë Elektrike në Kosovë. Limak Energy 
+        është gjithashtu një nga kompanitë favorite dhe inovative në tregun e shitjes dhe tregtimin me energji.
+        \n\n
+        <b>Limak</b> ka transferuar arritjet e saj të fituara përmes ndërtimit dhe menaxhimit të Aeroportit 
+        Ndërkombëtar të Stambollit Sabiha Gokcen në Aeroportin Ndërkombëtar të Prishtinës Adem Jashari. Limak 
+        vazhdon suksesin e saj në sektorin e transportit me portin Iskanderun. Qëllimi i Limak është që porti 
+        Iskenderun të bëhet porti më i rëndësishëm i kontejnerëve i Mesdheut.
+        \n\n
+        <b>Grupi i kompanive Limak</b>, cilësia e shërbimeve të cilit është certifikuar me çmime dhe certifikata të 
+        ndryshme ndërkombëtare, në shtëpi dhe jashtë vendit, është duke punuar në të gjithë sektorët ku ekziston 
+        me fuqi punëtore me përvojë dhe të trajnuar në kuadër të parimit të produktivitetit dhe efektivitetit 
+        maksimal dhe duke zënë një vend të shquar në mesin e kompanive kryesore.
+        \n\n
+        <i>www.limak.com.tr</i>
+    </string>
+
+    <string name="title_adlms">Informata kyçe për ADLMS</string>
+    <string name="text_adlms">
+        Aeroports de Lyon - menaxhimi dhe shërbimet është një degë e Aeroports de Lyon.
+        \n\n
+        <b>Krijuar në vitin 2009</b>, Aeroports de Lyon-MENAXHIMI &amp; SHËRBIMET, një shoqëri e thjeshtësuar 
+        aksionare, është nën udhëheqjen e kompanisë Aeroports de Lyon. Kjo degë është në përputhje me qëllimin 
+        e diversifikimit të aktiviteteve të aeroportit në zonën e qytetit Lion dhe eksportimin e ekspertizës së saj.
+        \n\n
+        <b>Aéroports de Lyon</b> është duke operuar dhe zhvilluar aeroportet e Lyon-saint Exupéry dhe Lyon-Bron 
+        për gati 40 vjet. Ka zhvilluar dhe menaxhuar me instalimet dhe shërbimet e aeroportit për tridhjetë vjet. 
+        Një nga pikat e forta tona të veçanta është aftësia për të parashikuar nevojat e tregut, zbuluar sjelljet 
+        e reja të klientëve dhe integrimin e zhvillimeve në teknologji. Inovacioni dhe dinamizmi i vazhdueshëm 
+        sigurojnë rritjen e vazhdueshme të krejt aktiviteteve, duke përfshirë linjat e reja dhe zhvillimin ndërkombëtar 
+        të tërë tregut.
+        \n\n
+        <b>Aéroports de Lyon</b> ka ndarë gjithmonë ekspertizën e vet teknike, kryesisht me aeroportet e vogla në 
+        Francë. Që nga ndryshimi i statusit të saj në muajin Mars 2007, kompania ka përjetuar dëshmi pozitive të 
+        kredibilitetit të saj në rritje në tregun ndërkombëtar, veçanërisht me anë të kontratës së parë me aeroportet e Kongos.
+        \n\n
+        <b>Në vitin 2008 dhe 2010</b>, Aeroports de Lyon u emërua aeroporti më i mirë europian në kategorinë e tij nga ACI EUROPE.
+        \n\n
+        <b>Në vitin 2013</b>, Aeroports de Lyon ka marrë çmimin me pesë yje që jepet për përsosmëri nga EFQM (Fondacioni Evropian 
+        për Menaxhimin e Cilësisë), duke e renditur kështu aeroportin në mesin e 20 kompanive kryesore të Francës për të 
+        shënuar mbi 500 pikë në shkallën e përsosmërisë.
+        Shërbimet e përshtatura sipas porosisë: hulumtimi, auditimet, konsulenca, kontratat e asistencës sipas 
+        kërkesës, trajnimet në vend.
+        \n\n
+        Shikoni uebfaqen e Aéroports de Lyon: <i>www.lyonaeroports.com</i>
+    </string>
+
+    <string name="title_organization">Skema Organizative</string>
+
+    <string name="title_missionvision">Misioni dhe Vizioni ynë</string>
+    <string name="text_missionvision">
+                Misioni ynë është të ofrojmë një aeroport të sigurt, efikas, ku klienti është në qendër të vëmendjes 
+                në mënyrë që t’iu shërbejmë kërkesave shoqërore, të biznesit, qeveritare dhe ushtarake të vendit, 
+                duke bërë përpjekje të qëndrueshme drejt arritjeve më të fundit në lidhje me objektet dhe shërbimet ajrore.
+                \n\n
+                Vizioni ynë është të zhvillojmë infrastrukturë dhe objekte të një aeroporti të klasës botërore, dhe 
+                arritjes së standardeve më të larta të sigurisë dhe sigurimit, dhe të një aeroporti ndërkombëtar të 
+                orientuar drejt klientëve.
+            </string>
+
+    <string name="title_ceo">Mesazhi nga Drejtori Gjeneral</string>
+    <string name="text_ceo">
+                    Aeroporti Ndërkombëtar Limak Kosova SH. A është duke lëvizur përpara në industrinë e aviacionit 
+                    në mes të zgjerimit aktual të Terminalit të vet të ri për të akomoduar së paku katër milionë e 
+                    gjysmë (4.5) udhëtarë. Objektet e reja, partnerët e rinj, dhe strategjia e re për ndërtimin e 
+                    një aeroporti më të mirë i bëri vitet 2011-2013 një periudhë me angazhime dhe të paharrueshme 
+                    për Aeroportin Ndërkombëtar Limak Kosova SH.A.
+                    \n\n
+                    Ne krijuam një pikë referimi madhështore kombëtare që reflekton mundësitë e përparuara dhe 
+                    bashkëkohore të Republikës së Kosovës si dhe të trashëgimisë së saj të begatshme kulturore. 
+                    Plani i Terminalit e bën optimal qarkullimin e udhëtarëve për të siguruar komoditetin e udhëtarëve 
+                    dhe vizitorëve.
+                    \n\n
+                    Duke pasur këtë në mend, jemi krenar për rëndësinë e rolit tonë dhe përgjegjësisë së madhe që i 
+                    është besuar Limak-ut dhe partnerit tonë Aeroports De Lyon për menaxhimin, operimin, dhe zhvillimin 
+                    e portës së Kosovës për botën. Puna së bashku me partnerin tonë, me përkushtim dhe këshillim mirëbesimi 
+                    të ndërsjellë, na ka udhëhequr në shtrimin dhe qëndrimin në rrugëtimin tonë të gjatë të veprimeve drejt 
+                    menaxhimit të suksesshëm të Aeroportit Ndërkombëtar Limak Kosova SH. A.
+                    \n\n
+                    Ne shikojmë përtej kufizimeve dhe barrierave duke u përqëndruar në suksesin dhe përparimin e ndërtuar 
+                    nga personeli jonë i ri, i arsimuar, dhe i përkushtuar që është pasuria më e vlefshme e kompanisë, 
+                    duke i bërë sfidat me të cilat përballemi çdo ditë të jenë pjesë e përvojës sonë të kaluar.
+                    \n\n
+                    Në fund të vitit 2013, një grup konglomerati i udhëhequr nga Limak fitoi tenderin më të madh 
+                    në historinë e vet për të operuar me njërin prej aeroporteve më të mëdha në botë, në Stamboll, 
+                    duke shënuar kështu një shenjë të rëndësishme të vendosmërisë dhe ambicies së vendit për t’u bërë 
+                    një qendër globale e transitit të udhëtarëve.
+                    \n\n
+                    Si bartës i trashëgimisë së grupit Limak, Terminali i ri vazhdon së ndërtuari në udhën e qëndrueshme 
+                    të sukseseve të aeroportit. Përmes programeve tona aktuale të zhvillimit dhe ndërtimit të lidhjeve 
+                    të fuqishme globale, ne synojmë të pozicionojmë Republikën e Kosovës si zgjedhje të mirë për udhëtime 
+                    në shfrytëzim të kohës së lirë dhe atyre për qëllime biznesi si dhe një qendër të përshtatshme të 
+                    transitit të udhëtarëve në regjionin e Ballkanit.
+                    \n\n
+                    <i><b>Haldun Firat Kokturk</b></i>\n
+                    Anëtar i Bordit të Drejtorëve dhe Kryeshef Ekzekutiv\n
+                    Aeroportit Ndërkombëtar Limak Kosova SH.A.
+                </string>
+
+    <string name="title_management">Politika e Sistemit të Menaxhimit të Integruar</string>
+    <string name="text_management">
+    Implementimi dhe informacionet për QMS / IMS
+    \n\n
+    Zbatimi i Sistemit të Menaxhimit të Cilësisë në përputhje me kërkesat e përcaktuara në standardin ISO 9001 
+    në aeroportet ndërkombëtare është praktikë e zakonshme dhe kjo është pjesë kyçe e Strategjisë së Menaxhimit 
+    për zhvillimin dhe përmirësimin e vazhdueshëm të cilësisë së shërbimeve në aeroporte në mbarë botën.
+    Aeroportit Ndërkombëtar Limak Kosovë (LKIA) iu nda çertifikata ISO 9001:2008 pas auditimit të kryer në muajin 
+    Nëntor 2012 nga organizata ndërkombëtare "URS" në fushat si vijon: Shërbimet tokësore, Operimet e Terminalit, 
+    Teknologjia Informative, Prokurimi, Administrata, Komerciale, Siguria e Aviacionit, Burimet Njerëzore, Shërbimet 
+    VIP, Shërbimet CIP, Ushqim dhe Pije, Kontrollit të Objekteve, Mirëmbajtjes së Ndërtesave, Planifikimit dhe 
+    Zhvillimit, Mirëmbajtjes Mekanike, Menaxhimit të faunës, Mirëmbajtjes së AGL/PWR (ndriçimit mbi nivelin e tokës), 
+    Mirëmbajtjes së hapësirës ajrore; Shërbimit të Shpëtimit dhe fikjes së zjarrit, Koordinimit të slloteve, dhe 
+    Shërbimeve Mjekësore.
+    Përveç kësaj, në muajin Nëntor të vitit 2012, Aeroporti Ndërkombëtar Limak Kosovë ishte certifikuar edhe me ISO 
+    14001:2008 standardi për Sistemin e Menaxhimit të Mjedisit (EMS) dhe ISO 10002:2004 standardi për Sistemin e 
+    trajtimit të klientëve (CHS) - shih certifikatat e bashkangjitur. Tre sistemet e certifikuar ISO u përfshinë në një - 
+    Sistemin e Menaxhimit të Integruar (IMS).
+    Menaxhmenti i lartë i LKIA ka përcaktuar dhe dokumentuar " Politikën e Cilësisë, Mjedisit dhe Trajtimit të ankesave". 
+    Kjo politikë përfshin angazhimin e kompanisë për të përmbushur kërkesat e klientëve dhe rritjen e nivelit të 
+    kënaqshmërisë së klientit nëpërmjet përmirësimit të vazhdueshëm të shërbimeve të veta dhe IMS. - Shiko Politikën e 
+    bashkangjitur IMS.
+</string>
+
+    <string name="title_responsibility">Përgjegjësia e Korporatës ndaj Shoqërisë</string>
+    <string name="text_responsibility">
+        <b>Që nga fillimi i themelimit të Aeroportit Ndërkombëtar Limak Kosovë Sh. A., krahas me aktivitetet e biznesit 
+        tonë, ne synojmë të jemi pjesë e komunitetit ku operojmë duke qenë të përgjegjshëm në aspektin shoqëror.</b>
+        \n\n
+        Fokusi ynë ishte që të paraqesim dhe zbatojmë projektin e përgjegjësisë sociale për trajnimin dhe rekrutimin e popullatës së re të Kosovës, të arsimuar mirë dhe që zotëron dy gjuhë.
+        Me projektin Limak ASI, themeluar në bashkëpunim me Qendrën për mësim gjatë gjithë jetës pranë Universitetit 
+        Bogazici dhe Universitetin e Prishtinës, ne ofrojmë trajnime në menaxhimin e aeroportit në përputhje me rregulloret 
+        e BE-së për studentët e absolvuar të Universitetit. Studentët e suksesshëm që kemi përzgjedhur do të jenë në gjendje 
+        të punojnë jo vetëm në Kosovë por edhe në mbi qindra aeroporte në 70 vende të ndryshme dhe industrinë e ndërlidhur.
+        \n\n
+        <i>http://www.limakasi.com/</i>
+
+        \n\n\n
+        <b>Projektet e arsimimit të rinisë dhe sporteve të mbështetura nga Limak Kosovë gjatë vitit 2014:</b>
+        \n\n
+        Sponsor mikpritës i Doku Fest\n\n
+        Sponsor kryesor i javës së xhezit Turk \n\n
+        Sponsor kryesor i ndërtimit të shatërvanit në shkollën fillore \'Hasan Prishtina\'\n\n
+        Kamerfest - sponsorimi i pranisë së një pianisteje të mirënjohur, Znj. Yesim Gokalp\n\n
+        Aksioni për nëna dhe fëmijë të shëndetshëm – Sponsor i argjendtë\n\n
+        Sponsor i artë i ndeshjes së futbollit Kosova-Haiti\n\n
+        Sponsor i përgjithshëm i ndeshjes së futbollit Kosova-Turqia\n\n
+        Sponsor i përgjithshëm i ndeshjes së futbollit Kosova-Senegali\n\n
+        Sponsor kryesor i turneut basketbollistik Limak Street ball Kosova 2014\n\n
+        Konferenca REDO, Libraria
+    </string>
+
+    <string name="title_career">Karriera</string>
+    <string name="text_career">
+        Aeroporti Ndërkombëtar i Prishtinës \'Adem Jashari\' është një punëdhënës i mundësive të barabarta dhe mirëpret
+        aplikacionet nga të gjitha komunitetet. Politika jonë është ofrimi i mundësive të barabarta në lidhje me punësimin, 
+        zhvillimin e karrierës, dhe promovimit për të gjithë, me të drejtë, në bazë të aftësisë, kualifikimeve dhe 
+        përshtatshmërisë për pozitën specifike.
+        \n\n
+        Duke qenë pjesë e Aeroportit Ndërkombëtar të Prishtinës \'Adem Jashari\', përzgjedhja bëhet mbi bazën e
+        konkurrencës së drejtë dhe të hapur dhe pavarësisht nga gjinia, statusi martesor, mosha, raca, prejardhja 
+        etnike, orientimi seksual, paaftësia apo feja/besimi i aplikuesit.
+        \n\n
+        ANP \'Adem Jashari\' Aeroporti Ndërkombëtar Limak Kosovë Sh. A. ka nisur një projekt arsimor duke bërë të mundur
+        dhe duke iu dhënë mundësi studentëve të rinj, me arsimim të lartë të Universitetit të Prishtinës, që të jenë 
+        pjesë e progamit dhe praktikës të ofruar nga kompania.
+        \n\n
+        <b>Zhvillimi i Burimeve Njerëzore</b>
+        \n\n
+        Që nga muaji Prill 2011, janë mbajtur më shumë se 106 trajnime në kuadër të kompanisë dhe jashtë vendit.
+        \n 76\%% e trajnimeve janë mbajtur si trajnime \'në kompani\'. Trajnimet janë mbajtur nga instruktorët e certifikuar të Aeroportit dhe nga partnerët tanë.
+        \n 25\%% e trajnimeve, përfshirë vizitat studimore dhe konferencat, janë mbajtur jashtë vendit në shtete të ndryshme të tilla si: Franca, Turqia, Kroacia, Kanadaja, SHBA, Gjermania, Republika e Çekisë, Bullgaria, dhe Maqedonia.
+        \n 29 të punësuar të LKIA janë të trajnuar dhe certifikuar nga partnerët tanë për të ofruar trajnime në fusha të ndryshme profesionale.
+        \n\n
+        <b>Shënim:</b>
+        \n
+        Ndonjë pozitë e lirë për punë do të bëhet publike vetëm përmes Departamentit të Burimeve Njerëzore të Limak Kosovo 
+        International Airport. 
+    </string>
+
+    <string name="title_rent">Rent a Car</string>
+    <string name="text_rent">
+
+    </string>
+
+    <string name="title_bank">Bankat</string>
+    <string name="text_bank">
+        BKT Bank
+        \n\n
+        Raiffeisen Bank
+        \n\n\n
+        Procredit ATM
+        \n\n
+        TEB ATM
+    </string>
+
+    <string name="title_restaurants">Restoranet dhe Dyqanet</string>
+    <string name="text_restaurants">
+        <b>Restoranet dhe Kafenetë:</b>
+        \n\n
+        Secco Coffee
+        \n\n
+        Black and Red
+        \n\n
+        Prizreni
+        \n\n
+        Miss Coffee
+        \n\n
+        Pasha Patisserie
+        \n\n
+        Prince
+        \n\n
+        Princ Coffee
+        \n\n
+        <b>Dyqanet:</b>
+        \n\n
+        Check–Inn
+        \n\n
+        Dea
+    </string>
+
+    <string name="title_shop">Free Shop</string>
+    <string name="text_shop">
+        Prishtina International Airport \'Adem Jashari\' Limak Kosovo International Airport J.S.C. carries
+        within its area one of well known Duty Free Shops named Unifree Duty Free.
+        \n\n
+        UNIFREE Dutyfree İşletmeciliği A.Ş. presents a selection of over 30.000 reference products of
+        over hundred international brands, in its modern and exquisite stores, aligned with competitive pricing
+        policies based on international criteria
+        \n\n
+        Unifree Duty Free
+        Among the top 15 airport worldwide. During last 5 years \n
+        Operating in 13 different international airports, 1 border store, 81 stores in total
+        \n\n
+        <u><i>www.unifree.com.tr</i></u>
+    </string>
+
+    <string name="title_ad">Reklamimi</string>
+    <string name="text_ad">
+        Paper Communication:
+        \n\n
+        00386(0)49 388800\n
+        <i>dren@paper.al</i>\n
+        <i>doruntina@paper.al</i>
+    </string>
+
+    <string name="title_taxi">Taksi</string>
+    <string name="text_taxi">
+        Aeroporti Ndërkombëtar i Prishtinës \'Adem Jashari\' ofron shërbime Taksi 24 orë në ditë, 7 ditë në javë nga secili qytet i Kosovës.
+    </string>
+
+    <string name="title_schedule">Orari i fluturimeve</string>
+    <string name="text_schedule">
+        Njësia e koordinimit/lehtësimit të orarit (slloteve) e Aeroportit Ndërkombëtar Limak Kosovë - LKIA siguron 
+        shfrytëzimin më efikas të infrastrukturës së aeroportit të Aeroportit Ndërkombëtar të Prishtinës "Adem Jashari" 
+        (PRN) në mënyrë që të rriten në maksimum përfitimet për numrin më të madh të shfrytëzuesve të aeroportit.
+        \n\n
+        Aeroporti Ndërkombëtar i Prishtinës operon 7/24. Në rastet e operimit të fluturimeve ad-hoc, shërbimet e 
+        aeroportit duhet të paguhen me para të gatshme (Euro) apo përmes kartelës së kreditit (VISA, MASTER, MAESTRO).
+    </string>
+
+    <string name="title_schedule_coordination">Koordinimi dhe lehtësimi i orarit i Aeroportit</string>
+    <string name="text_schedule_coordination">
+        Procesi i koordinimit/lehtësimi të orarit të fluturimeve në Aeroportin Ndërkombëtar të Prishtinës - PRN bëhet në 
+        përputhje të plotë me Ligjin e Aviacionit Civil të Kosovës, me legjislacionin e Bashkimit Evropian për koordinimin 
+        e aeroportit dhe nëpërmjet zbatimit të një sërë rregullash të përfshira në Udhëzimet e IATA për sllotet në mbarë botën (WSG).
+        \n\n
+        Kompanive ajrore që operojnë ose planifikojnë të operojnë fluturime në Aeroportin Ndërkombëtar të Prishtinës "Adem Jashari" 
+        iu kërkohet që t’i ofrojnë dhe përditësojnë detajet e orarit të operimeve/orarit të tyre të planifikuar te koordinatori i slloteve.
+        \n\n
+        Në rast të kufizimeve të kapaciteteve, kompanitë ajrore duhet të jenë të gatshme për të bërë ndryshime vullnetare në orarin e fluturimeve në mënyrë që të shmanget tejkalimi i parametrave të koordinimit.
+        \n\n
+        Kontaktet e Njësisë së koordinimit/lehtësimit të orarit:
+        \n\n
+        Telefoni:  +381 38 501 502 1170 \n
+        Mobil: +377(0)45 811 310 \n
+        Email:  scheduleprn@limakkosovo.aero \n
+        Web:    www.limakkosovo.aero \n
+    </string>
+
+    <string name="title_application_flights">Informacione lidhur me aplikimin për fluturime</string>
+    <string name="text_application_flights">
+        KOORDINIMI I ORARIT I AEROPORTIT
+        \n\n
+        Koordinimi i Aeroportit është një proces i menaxhimit të kapacitetit të aeroportit përmes zbatimit të 
+        një sërë rregullash të përfshira në Udhëzimet e IATA për sllotet në mbarë botën (WSG në www.iata.org/sked).
+        \n\n
+        Koordinimi i orarit të fluturimit përfshin alokimin e kapaciteteve të kufizuar të aeroportit për kompanitë ajrore 
+        dhe operatorët e tjerë të aeroplanëve për të garantuar një aeroport dhe operime të qëndrueshme të transportit ajror. 
+        Koordinimi është gjithashtu një proces për të rritur në maksimum përdorimin efikas të infrastrukturës së aeroportit.
+        \n\n
+        LEHTËSIMI I ORARIT I AEROPORTIT
+        \n\n
+        Procesi i lehtësimit përqendrohet në bashkëpunimin vullnetar ndërmjet kompanive ajrore dhe lehtësuesit/koordinatorit 
+        të orarit të fluturimeve të Aeroportit Ndërkombëtar Limak Kosovë. Kompanitë ajrore dhe lehtësuesi/koordinatori i orarit 
+        i LKIA duhet të përdorin formatet e këmbimit të mesazhit SSIM të krijuara për komunikim në aeroporte të Nivelit 2 
+        (aeroporte të Nivelit, shih WSG në <u>www.iata.org/sked</u>).
+        \n\n
+        Kalendari i aktiviteteve të koordinimit specifikon datat kur kompanitë ajrore paraqesin operimet e tyre të
+         planifikuara te lehtësuesi/koordinatori i orarit i Aeroportit Ndërkombëtar Limak Kosovë dhe datat kur 
+         lehtësuesi/koordinatori duhet t’iu përgjigjet kompanive ajrore për çdo sezon të fluturimit.
+        \n\n
+        Lehtësuesi/koordinatori i orarit i LKIA duhet t’i përgjigjet secilës paraqitje fillestare të kompanive ajrore në 
+        formatin SAL, duke renditur operimet e planifikuara të asaj kompanie ajrore të mbajtur në bazën e të dhënave të lehtësuesit 
+        dhe rregullimet e mundshme të rekomanduara të orarit. Kompanitë ajrore duhet të organizohen për t\'u takuar me lehtësuesin në Konferencat e orareve të fluturimit për të zgjidhur ndonjë çështje të pazgjidhur.
+        Kompanitë ajrore dhe operatorët e tjerë të aeroplanëve duhet të përditësojnë lehtësuesin/koordinatorin e orarit të LKIA me të 
+        gjitha ndryshimet në operimet e tyre të planifikuara menjëherë pasi të bëhen të njohura.
+        Për këtë shkak, lehtësuesi/koordinatori i orarit do të informojë aeroportin dhe të gjitha palët relevante për ndryshimet e 
+        planifikuar të operimeve.
+        \n\n
+    </string>
+
+    <string name="title_publications">Publikimet</string>
+
+    <string name="title_services">Shërbimet</string>
+    <string name="text_services">
+        Menaxhmenti i Aeroportit Ndërkombetar të Prishtinës është i përkushtuar që të ofroj shërbimet më të mira
+        për klientët e saj sipas Standardeve Ndërkombetare të Sigurisë dhe Sigurimit.
+    </string>
+
+    <string name="title_phs">Shërbimi për procesimin e udhëtarëve</string>
+    <string name="text_phs">
+        Përbrenda kornizës së rregullave ndërkombëtare të Aviacionit Civil, ne kemi për qëllim rritjen e nivelit të kënaqshmërisë së konsumatorëve në Shërbimin e udhëtarëve, ku ofrohen edhe shërbimet CIP (Persona të rëndësishëm komercial) dhe VIP (persona shumë të rvndësishëm), duke marrë si bazë politikën e cilësisë dhe shërbimit të sigurt.
+        \n\n
+        Shërbimet e ofruara nga Njësia e Shërbimit të udhëtarëve të Aeroportit Ndëkombëtar Limak Kosovë Sh. A. janë si më poshtë: \n
+        \n• Check-in për pasagjerët dhe bagazhin
+        \n• VIP Check–in
+        \n• CIP Check-in
+        \n• Check-in për grupe udhëtarësh
+        \n• Dokumentet e udhëtimit, kontrolli i pasaportave
+        \n• Bordingu
+        \n• Mohimi i bordingut
+        \n\n
+        Informatat e kontaktit: \n
+        email: team.leaders@limakkosovo.aero
+        \n
+        tel:    00381 (0)38 501 502 1362 \n
+        Mobile: 00377(0)45811281
+        \n\n\n
+        <b>VIP Check-In</b> \n\n
+        VIP (Pasagjerë shumë të rëndësishëm) janë pasagjerë që, për shkak të rangut të tyre zyrtar apo pozitës shoqërore, trajtohen me kujdes të veçantë dhe gëzojnë privilegje të veçanta.
+        \n\n
+        Njësia e Shërbimit të udhëtarëve zakonisht nuk është përgjegjëse për VIP në mënyrë direkte. Disa nga udhëtarët që 
+        trajtohen si VIP në aeroportin PRN mund të mos kategorizohen si të tillë nga kompanitë ajrore me të cilat ata udhëtojnë,
+         megjithatë, si ofrues shërbimi tokësor ne ofrojmë shërbimet e mëposhtme:
+        \n- Caktimi paraprak i ulëses
+        \n- Organizimi dhe bërja e check-in në qendrën për VIP
+        \n- Përcjellja e pasagjerëve nga qendra për VIP në aeroplan ose nga aeroplani në qendrën për VIP, nëse kërkohet
+        \n\n
+        Contact: vip@limakkosovo.aero
+        \n\n\n
+        <b>Shërbimi për persona të rëndësishëm komercial dhe anëtarë të 17/02</b> \n\n
+        Udhëtarët që janë anëtarë të CIP dhe 17/02 kanë sportel të veçantë për check-in duke i pranuar shërbimet ndaras 
+        prej sporteleve tjera për check-in, pavarësisht kompanisë ajrore me të cilën ata fluturojnë.
+        \n\n\n
+        <b>Check-in në Grup</b> \n\n
+        Udhëtarët që udhëtojnë në grup iu nënshtrohen procedurave të njëjta të check-in.
+        \n\n\n
+        <b>Vetë regjistrim</b> \n\n
+        Aktualisht, janë pesë sportele ekzistuese ku udhëtarët mund të bëjnë vetë check-in në Aeroportin Ndërkombëtar 
+        të Prishtinës \'Adem Jashari\', duke bërë të mundur që udhëtarët të regjistrohen vetë.
+        \n\n\n
+        <b>Dokumentet e udhëtimit</b> \n\n
+        Për informacion mbi çdo lloj të dokumentit të udhëtimit, ju lutem referojuni:
+        \n\n
+        <i>http://www.assembly-kosova.org/common/docs/ligjet/2008_03-L037_en.pdf</i>
+        \n\n\n
+        <b>Embarkimi</b> \n\n
+        Për pasagjerët me aftësi të kufizuara ofrohet ndihmë nga sporteli për check-in deri te porta e bordingut.
+        \n\n
+        Për informacione të mëtejshme, ju lutem kontaktoni qendren e informacionit.
+        \n\n\n
+        <b>Mohimi i embarkimit</b> \n\n
+        Udhëtarët mund të jenë subjekt i mohimit të embarkimit në bazë të procedurave të autoriteteve kufitare ose kompanive 
+        ajrore nëse gjenden në shkelje të ndonjë prej procedurave dhe rregulloreve të udhëtimit.
+    </string>
+
+    <string name="title_lost">Informatat dhe valixhet e humbura dhe të gjetura</string>
+    <string name="text_lost">
+        Shërbimet e pultit të informacionit dhe Lost &amp; Found (bagazhi/gjërat e humbura dhe gjetura) në Limak 
+        Kosovë Sh. A. ofrojnë të gjithë informacionin e domosdoshëm dhe shërbimin e bagazheve të gjetura të udhëtarëve. Udhëtarët 
+        të cilët nuk mund të marrin valixhet e tyre, duhet të paraqiten në shërbimin e informacionit me biletën e fluturimit, 
+        etiketën e kërkesës për bagazh, kartën e identitetit dhe pasaportën në të njëjtën ditë të arritjes së tyre para largimit 
+        nga Terminali. Ne do të shqyrtojmë dhe sqarojmë çështjen sa më shpejt të jetë e mundur.
+        \n\n
+        Kontakti:\n\n
+        <i>InfoDesk</i>
+        \Telefoni:  00381 (0)38 501 502 1214
+        \nEmail:  information@limakkosovo.aero
+        \n\n<i>Lost &amp; Found</i>
+        \Telefoni:  00381 (0)38 501 502 1270
+        \nEmail:  lost.found@limakkosovo.aero
+        \n\n\n
+        <b>Gjurmimi i valigjeve të humbura</b> \n\n
+        <u><i>Adresa e gjurmimit të bagazhit PRN67</i></u>
+        \n\n
+        Ju lutemi, shihni listën e kompanive ajrore të cilat e përdorin sistemin e Menaxhimit të gjurmimit të valixheve të 
+        humbura në tërë botën.
+        \n
+        \n- Adria Airways
+        \n- Austrian Airlines
+        \n- EasyJet Airline
+        \n- Etihad Airways
+        \n- Pegasus Air
+        \n- SAS
+        \n- Star Alliance
+        \n- Turkish Airlines
+    </string>
+
+    <string name="title_cip">Shërbimi CIP dhe 17/02</string>
+    <string name="text_cip">
+        Kjo sallë pritjeje krijon një zgjidhje alternative dhe më të përshtatshme për udhëtarët e shpeshtë dhe falënderues 
+        të Kosovës. Pasagjerët që dëshirojnë të kenë një përvojë të pavarur fluturimi me një shërbim të ofruar nga profesionistë 
+        me përvojë të gatshëm për ndihmë, procedurë të shpejtë për check-in dhe check-out, dhe privilegjet e parkimit mund t’i 
+        gëzojnë komoditetet nga disponueshmëria e Shërbimit 17 | 02.
+        \n\n
+        Për anëtarët e këtij shërbimi tregohet kujdes duke iu ofruar komoditetin maksimal nga automjeti në aeroplan 
+        apo anasjelltas. Personi përgjegjës për anëtarin i mirëpret ata në hapësirën e nisjes, dhe i ndihmon ata përgjatë 
+        rrugës. Kujdes tregohet edhe për bagazhin e tyre, procedura e check-in është e përshpejtuar, dhe, sipas mundësisë, 
+        kontrolli i pasaportës bëhet në sportelet e shpejta.
+        \n\n
+        Qëllimi kryesor i sallës 17 | 02 është rehatia e anëtarit të saj. Ambjentet akomoduese janë larg nga hapësirat e 
+        rëndomta, në një atmosferë të qetë pa njoftimet me zë të lartë dhe puna e zakonshme e aeroportit. Hapësira gjithashtu 
+        ofron internet falas, mjete të zakonshme për një zyre, gazeta/revista të përditshme dhe javore. Ka edhe pije freskuese 
+        dhe ushqime të ndryshme në dispozicion gjatë gjithë kohës, pa pagesë për të gjithë shfrytëzuesit e sallës.
+        \n\n
+        Shërbimet dhe përfitimet e sallës 17 | 02 mund të shijohen me anë të pagesës për një shfrytëzim apo përmes 
+        anëtarësisë vjetore. Të dyja metodat e pagesës ofrojnë një vlerë që është shumë më e madhe se sa çmimi, por 
+        edhe anëtarësimet vjetore përfitojnë gjithashtu nga parkimi pa pagesë, dhe gjithashtu mund t’i shfrytëzojnë 
+        shërbimet me një mysafir shoqërues.
+        \n\n
+        Ne jemi të lumtur që mund t’iu ofrojmë këtë luks. Për çdo informacion të mëtejshëm, ju lutem kontaktoni 
+        secilin anëtar të stafit të Aeroportit Ndërkombëtar të Prishtinës "Adem Jashari" ose përmes e-mail në adresën cip@limakkosovo.aero.
+        \n\n\n
+        <b>Shërbimi 17/02</b>\n\n
+        <u>Shërbimi në nisje për anëtarët e 17/02</u>
+        \n\n
+        Shërbimi ynë ofrohet duke filluar në pikën ku personeli/stafi i CIP takon pasagjerët në nisje.
+        Procedura e check-in bëhet e shoqëruar me ndihmën e personelit/stafit tonë të CIP, nëse është e mundur, ofrohet 
+        edhe kalimi i përshpejtuar nëpër sportelet e pasaportave. Përveç kësaj, stafi ynë i CIP do të jetë në dispozicion 
+        të mysafirëve tanë për t’i shoqëruar ata në rast se dëshirojnë të blejnë gjëra në Duty Free.
+        \n\n
+        <u>Shërbimi në arritje për anëtarët e 17/02</u>
+        \n\n
+        Ne kujdesemi për klientët tanë CIP menjëherë pasi ata të bëjnë hapin e parë për të dalë nga aeroplani. 
+        Procedurat e kontrollit të pasaportave, nëse është e mundur, bëhen në sportelet e shpejta. Klientët tanë 
+        do të ndihmohen nga stafi ynë i CIP në rast se dëshirojnë të blejnë gjëra në Duty Free. Ne vazhdojmë t’i 
+        shoqërojmë klientët tanë deri në pikën ku ata takohen me pritësit e tyre dhe deri te automjetet e tyre nëse nuk kanë dikë që i pret.
+        \n\n\n
+        <b>Procedurat për CIP</b>
+        \n\n
+        <u>Kartela e Artë 17/02</u>
+        \n\n
+        Vend parkimi falas për 5 ditë
+        Shfrytëzimi i sallës së veçantë CIP
+        1 mysafir pa pagesë (një anëtar i familjes) dhe fëmijë deri në 13 vjeç
+        Tarifa e shërbimit
+        Kartela për 1 vit: 350 €
+        \n\n
+        <u>Kartela Platinium 17/02</u>
+        \n\n
+        10 days free parking
+        Vend parkimi falas për 10 ditë 
+        Shfrytëzimi i sallës CIP 17/02 
+        1 mysafir falas përveç anëtarit të familjes dhe fëmijë deri në 13 vjeç
+        Tarifa e shërbimit
+        Kartela për 1 vit: 550 €
+        \n\n\n
+        Nëse ju duhen informacione të mëtejshme, ne jemi në dispozicionin tuaj për t’ju ofruar të gjitha detajet e nevojshme.
+        Ju lutemi të na kontaktoni në:
+		Email: lounge@limakkosovo.aero
+		Office: 00381(0)385015022202
+    </string>
+
+    <string name="title_commercial">Njësia Komerciale</string>
+    <string name="text_commercial">
+        Njësia Komerciale menaxhon dhe implementon kontratat komerciale për të siguruar një zhvillim të
+        vazhdueshëm të biznesit, duke përfshirë aktivitetet aeronautike dhe jo-aeronautike të Aeroportit
+        Ndërkombëtar Limak Kosovë Sh. A. Njësia Komerciale negocion afatet dhe kushtet e kontratave komerciale,
+        si dhe dokumentimin dhe pajtimin mbi ndonjë ndryshim ose amendamentet që mund të dalin gjatë zbatimit të tyre.
+        \n\n
+        Partnerët: Kompanitë ajrore, agjencitë e udhëtimit dhe/apo operatorët turistikë, shitoret pa taksë
+        doganore dhe shitoret me pagesë, bankat, kompanitë që japin vetura me qira, operatorët e telekomit,
+        kompanitë e transportit të ngarkesave, restorantet, operatorët e helikopterëve, operatorët e fluturimeve
+        dhe mbështetjes së operimeve tokësore, dhe çdo palë tjetër që angazhohet në aviacion dhe biznesin e aeroportit.
+        \n\n
+        Aktivitetet: Marrëveshjet Standarde të Shërbimeve Tokësore, Marrëveshjet Komerciale për lëshuarjen e hapësirave në Terminal me qira, objektet në hapësirën tokësore dhe ajrore për të gjithë shfrytëzuesit e aeroportit (siç janë kompanitë ajrore, operatorët turistikë, agjencitë e udhëtimeve, veturat me qira ...), Marrëveshjet e nën-koncesionimit, dhe çdo veprimtari tjetër komerciale që mund të kontribuon në rritjen e të ardhurave të kompanisë Aeroporti Ndërkombëtar Limak Kosovë Sh. A.
+        \n\n\n
+        <i>Detajet e informacionit për të kontaktuar Njësinë Komerciale:</i>\n\n
+        Menaxherja e të Ardhurave\n
+        Zyrë:  +381 38 501 502/ 1100\n
+        Fax:     +381 38 501 502/ 1115\n
+        hsayimci@limakkosovo.aero
+        \n\n
+        Asistentja Administrative e Njësisë Komerciale \n
+        Zyrë:  +381 38 501 502/ 1104\n
+        jqorri@limakkosovo.aero
+    </string>
+
+    <string name="title_ramp">Shërbimet Ramp</string>
+    <string name="text_ramp">
+        Objektivi kryesor i këtij shërbimi është që të marrë masa paraprake të domosdoshme kundër të gjitha rreziqeve. 
+        Kjo fillon që nga hyrja e aeroplanit në frekuencë dhe përfundon me shtyerjen prapa të aeroplanit me paisjet për shtyerje ‘pushback’.
+        \n\n\n
+        Shërbimet e ofruara në kuadër të operimeve tokësore të aeroplanëve:
+        \n
+        \n- Përgatitjet që ndërlidhen me takimin, para ardhjes së aeroplanit dhe inspektimi i këtyre përgatitjeve
+        \n- Dërgimi i paisjeve të nevojshme në pozicionin e parkimit të aeroplanit për të shkarkuar ngarkesat dhe valixhet dhe ofrimi i shërbimeve shtesë, të tilla si furnizimi me ujë të pijshëm, rrymë, starter ajror, etj
+        \n- Operimi i sistemit të trajtimit të bagazheve dhe sistemit të bashkërendimit të bagazheve
+        \n- Përllogaritja e peshës dhe baraspeshës së bashku me shpërndarjen e bagazhit dhe ngarkesave
+        \n- Ngarkimi - shkarkimi i aeroplanëve (konsolidimi dhe transferimi i valixheve dhe ngarkesave me mallra në aeroplan apo Terminal)
+        \n- Pastrimi i aeroplanëve 
+        \n- Transferi i udhëtarëve
+        \n- Tërheqja dhe shtyrja e aeroplanëve me traktorët ‘pushback’ 
+        \n- Marshallimi – vendosja e pengesave te rrotat e aeroplanëve – shërbimet e parkimit të sigurt
+        \n- Shërbimet e pastrimit të ujërave të zeza
+        \n- De-icing/Kundër ngricave
+        \n\n\n
+        <b>Shërbimet e Operimeve</b>\n\n
+        Përmes bashkërendimit të shërbimeve të aeroplanëve, ne kemi për qëllim të ofrojmë operime me kohë në përputhje 
+        me rregulloret e sigurisë dhe sigurimit të tilla si:
+        \n
+        \n - Menaxhimi i shpërndarjes dhe burimeve të vendeve për parkimin e aeroplanëve 
+        \n - Koordinimi i shërbimeve të ofruesëve nga palët e treta
+        \n - Kontrollimi i mesazheve
+        \n - Ndjekja e dokumenteve dhe procedurave të kompanive ajrore/kompanive që ofrojnë shërbime
+        \n - Dërgimi i mesazheve të kërkuara në stacionin e kundërt pas nisjes (MVT, LDM, CPM, PSM, etj.)
+    </string>
+
+    <string name="title_cargo">Mallërat</string>
+    <string name="text_cargo">
+        Aeroporti Ndërkombëtar i Prishtinës "Adem Jashari" Limak Kosovo ofron shërbime të ndryshme të bartjes së mallërave në mënyrë të shpejtë, efektive dhe profesionale. Siguria është një përparësi kyçe, kështu që ne i ekzaminojmë të gjitha dërgesat e ngarkesave me mallëra me aparatet më bashkëkohore të skanimit me rreze X, Heimman. Me sistemin e sigurisë të fjalës së fundit, paisje moderne teknologjike dhe video vëzhgim, ne garantojmë një rrjedhë të shpejtë dhe efikase të bartjes së mallërave. Deri më tani, ne kemi të pranishme pothuajse të gjitha kompanitë nga mbarë bota si Adria Airways, Austrian Airlines, Turkish Airlines, Swiss FedEx, UPS, TNT , DHL dhe transportues ndërkombëtar të dërgesave si AES Cargo, AGS, Intereuropa, Air Logistic, etj. që veprojnë në Kosovë dhe të gjithë i transportojnë mallrat e tyre përmes Aeroportit tonë duke përdorur shërbimet tona të bartjes së mallërave
+        \n\n\n
+        Objektet e ngarkesave:
+        \n
+        \n- Depoja e ngarkesave të importit me orar të punës: Hënë-Diel 08:00 - 02:00,
+        \n- Depoja e ngarkesave të eksportit me orar të punës: Hënë-Shtunë 08:00 - 16:00,
+        \n- Pas 48 orësh, marrësi përveç tarifave të përditshme do të paguajë tarifën shtesë sipas çmimores në përdorim të LKIA- Aeroporti Ndërkombëtar i Prishtinës "Adem Jashari".
+        \n- Pirunerët në dispozicion
+        \n- Frigorifer në dispozicion për dërgesat që duhet të qëndrojnë në të ftohtë
+        \n- Hapësirë e veçantë për artikujt që prishen: Nuk ka në dispozicion (duhet të organizohet marrja e menjëherëshme e mallit)
+        \n- Kasafortë për dërgesat me vlerë (VAL): Nuk ka në dispozicion (duhet të organizohet marrja e menjëherëshme e mallit)
+        \n- Dhomë e veçantë për kafshët e gjalla AVI: Nuk ka në dispozicion (duhet të organizohet marrja e menjëherëshme e mallit)
+        \n- Për çdo dërgesë të mallërave të rrezikshme të planifikuara për t’u importuar dhe eksportuar në dhe nga PRN, 
+        nevoitet leje e posaçme nga Autoriteti i Aviacionit Civil të Republikës së Kosovës (AACK)
+        \n- Trajtimi i bartjes së mallërave me tranzit: Nuk ka në dispozicion
+        \n\n\n
+        <b>Kontaktet e Njësisë së Kargos:</b>\n\n
+        Menaxheri i operimeve të Platformës dhe Menaxheri i Kargos \n\n
+        <i>Kreu i Operimeve të Kargos</i> \n
+        Telefoni: +381 (0) 38 5015023292 \n
+        E-mail: jseferi@limakkosovo.aero,
+        \n\n<i>Udhëheqësit e ekipeve në Kargo import</i> \n
+        Telefoni: +381 (0) 38 5015023292 \n
+        E-mail: cargoprn@limakkosovo.aero,
+        \n\n<i>Zyra e Financave në detyrë</i> \n
+        Telefoni:+381 (0) 38 5015023294,
+        \n\n
+        <i>Udhëheqësit e ekipeve në Kargo eksport</i>\n
+        Telefoni: +381 (0) 38 5015023294,
+        \n\n\n
+        <i>Orari i punës i Doganës: \nHënë-Shtunë 08:00 - 18:00.</i>
+        \n\n\n
+        <b>Zhdoganimi për shkak të ligjeve vendore të zbatueshme është si vijon:</b>\n\n
+            <i>Nëse dërgesat nuk merren edhe pas 24 ditësh, dërgesat do të konfiskohen sipas ligjit vendor në fuqi KDA: 
+                03/L 109, kapitulli 3, neni 4, kapitulli 4, neni 53, pika 1, pjesa 2. Në rast të dërgesës së konfiskuar, 
+                të gjitha tarifat e depos do t’i ngarkohen kompanisë ajrore ose përfaqësuesit të saj të licencuar 
+                (dërguesit ose transportuesit të mallrave).</i>
+    </string>
+
+    <string name="title_security">Njësia e Sigurimit dhe Skenimit</string>
+    <string name="text_security">
+        Shërbimet e Sigurimit dhe Skanimit ofrohen nga operatori i aeroportit.
+Objektivi i sigurimit të aviacionit është mbrojtja dhe siguria e udhëtarëve, mbrojtja e personelit, ekuipazhit, aeroplanëve, publikut, dhe mbrojtja e pronave të aeroportit kundrejt veprimeve të ndërhyrjeve të paligjshme.
+Objektivi i sigurimit të aviacionit arrihet me anë të përdorimit të teknologjisë së fundit (standardi 3 miratuar nga BE) të pajisjeve të sigurimit të tilla si: aparatet me rreze X, skanerë të lëngjeve, ekzaminues këpucësh, detektorë të gjurmimit të eksplozivit, detektorë si dyer përmes të cilëve duhet të kalohet në këmbë, detektorë metalik për kontrolle manuale, dhe sistemi i kamerave CCTV.
+        \n\n\n
+        <b>Lista e Artikujve te Ndaluar</b>\n\n
+        Udhëzimet për klasifikimin e artikujve të ndaluar \n
+        Udhëzimet e dhëna më poshtë për format e mundshme të armëve dhe gjërave të kufizuara. Sidoqoftë, duhet të 
+        mbizotërojë një mendim praktik në vlerësim nëse një objekt jep arsye për të besuar se ai mund të përdoret si një armë.
+        \n\n
+        a) Armët e zjarrit: Çdo armë nga e cila mund të shkrepet një e shtënë nga forca e një
+shpërthimi ose ajrit të kompresuar apo gasit, duke përfshirë starterat apo pistoletat
+motorino;
+        \n\n
+        b) Thikat dhe mjetet e prerjes: përfshirë kordha, shpata, hapëse kartoni, thika gjuetie,
+thika suvenir, pajisje artesh marciale, vegla profesionale dhe thika të tjera me fije 6 cm të
+gjatë ose më të gjatë dhe /ose thika që konsiderohen të paligjshme nga ligji vendor;
+        \n\n
+        c) Çomange: shkop polici, shkop bejsbolli ose instrumente të ngjashme;
+        \n\n
+        d) Eksplozivët / Municionet / Lëngjet e djegshme / Korrozive: Çdo komponentë
+eksplozive ose zjarrvënëse, e cila mund të rezultojë në një shpërthim ose zjarr vetë ose
+në bashkëpunim me gjëra tjera. Këto përfshijnë materiale shpërthyese, kupa
+shpërthyese, fishekzjarrë, benzinë, lëngje të tjera djegëse, municion, etj, ose ndonjë
+kombinim i këtyre artikujve. Çdo substancë gërryese ose helmuese, duke përfshirë edhe
+gazet, nëse janë apo jo nën presion;
+        \n\n
+        e) Gjëra pa-aftësuese: Të gjitha gazrat lotsjellës, arrëmyshk, dhe kimikate të ngjashme
+dhe gazra qoftë në pistoletë, kuti, ose enë të tjera, dhe pajisje të tjera pa-aftësuese
+elektronike të tilla si të tilla trullosëse /tronditëse të tilla;
+        \n\n
+        f) Artikuj tjerë: Artikuj të tillë si kazmë akulli, shkop alpinisti, makina rroje, dhe
+gërshërë e zgjatur, e cila, edhe pse nuk mendohet zakonisht si një armë vdekjeprurëse
+ose e rrezikshme, mund të përdoret si një armë, duke përfshirë lodrën ose armët apo
+granatat "false";
+        \n\n
+        g) Artikujt e çdo lloji që shkaktojnë dyshime të arsyeshme se mund të përdoren për të
+simuluar një armë vdekjeprurëse; artikuj të tillë që përfshijnë, por nuk kufizohen vetëm
+në: objekte të përngjashëm me mjetet shpërthyese apo sende tjera që mund të japin
+pamjen e një arme apo sendi të rrezikshëm ;
+        \n\n
+        h) Artikujt dhe substancat për sulme kimike /biologjike: mundësitë për sulme kimike /
+biologjike përfshijnë përdorimin e agjentëve kimikë ose biologjikë për të kryer akte të
+paligjshme. Substanca të tilla të kufizuara kimike/biologjike përfshijnë, por nuk
+kufizohen si në vijim: mustardë squfuri, vx., klor, sarin, hidrogjen cianid, antraks,
+botulizmim, linë, tullareminë, dhe ethet hemorragjike virale (VHF).
+        \n\n
+        Artikuj që tregojnë mbi natyrën e substancave kimike/biologjike ose dyshimin e
+karakterit të tillë, duhet t’iu bëhen të njohura menjëherë autoriteteve të aeroportit,
+policisë, autoritetit ushtarak apo autoritetit tjetër relevant dhe të izolohen nga zonat
+publike të terminalit. Këto lista përqendrohen në përshkrimet e përgjithshme, janë të
+kufizuara në pikat përkatëse të sigurimit, dhe nuk përfshijnë mallra të rrezikshme.
+        \n\n\n
+        <b>Trajtimi i artikujve të ndaluar</b>\n\n
+        Bagazhi i kabinës, udhëtarët, stafi dhe gjërat e bartura
+Gjërat e ndaluara në vijim janë shembuj të gjërave që asnjëherë nuk duhet të merren në
+kabinën e aeroplanit, apo në hapësirat e kufizuara të sigurimit në aeroportin
+ndërkombëtar të Prishtinës, me përjashtim të personave të autorizuar të cilëve ju duhen
+për të ndërmarrë detyrat esenciale që mund të jenë në lidhmëni me operimet e
+aeroportit apo aeroplanit, hapësirave për përgatitje të ushqimit dhe restoranteve apo
+nga anëtarët e ekuipazhit të aeroplanit të cilët i kërkojnë këto gjëra për t’i kryer detyrat
+normale të lidhura me fluturimin. Mund të ketë dhe gjëra tjera për të cilat stafi i
+sigurimit ka shqetësime dhe të cilat mund të konfiskohen, nëse gjenden.
+        \n\n\n
+        <b>Përkufizimet gjenerike</b>\n
+        \n- Armët e zjarrit, revolet, dhe armët – secili objekt që mundet, apo që duket se
+mundet, të shkarkon një predhë. Kujdes i veçantë duhet t’i kushtohet gjërave të
+fshehta apo të kamufluara të kësaj natyre;
+        \n- Armët e mprehta/me teh dhe objektet e mprehta – secili send i mprehtë apo me
+teh që mund të shkakton lëndime;- Instrumentet e topitura – secili objekt i topitur që mund të shkakton lëndime;
+        \n- Eksplozivët, dhe substancat shumë të ndezshme që mund të përdoren për të
+lehtësuar një veprim të ndërhyrjes së paligjshme;
+        \n- Substancat kimike dhe toksike që mund të përdoren për të lehtësuar një veprim
+të ndërhyrjes së paligjshme.
+        \n\n\n
+        <u>Shembuj:</u>
+        \n\n
+        1. Armët e zjarrit, revolet dhe armët – pajisjet që munden, apo që duket se munden të
+shkarkojnë predha që mund të shkaktojnë lëndime serioze, përfshi:
+        \n- Armë zjarri prej të gjitha llojeve, siç janë pistoletat, revolverët, pushkët me saçme,
+pushkë gjahu,
+        \n- Armët lodra, armë zjarri kopje dhe imituese që mund të mendohen si të vërteta,
+        \n- Pjesët përbërëse të armëve të zjarrit, përjashtuar mjetet teleskopike për pamje
+        \n- Armë ajrore ose me CO2, siç janë pistoletat, pushkët me saçme, pushkët, dhe
+armë ajrore për predha sferike,
+        \n- Pistoletat për shkrepje të sinjalit, pistoletat shartuese,
+        \n- Harqet, dhe shigjetat,
+        \n- Fuzhnja dhe armë me shtizë,
+        \n- Llastiqe dhe katapulta
+        \n\n
+        2. Mjetet e trullosjes – mjete të projektuara për të trullosje ose imobilizim, përfshi:
+        \n- mjetet shokuese, siç janë armët trullosëse, pajisje elektroshoku, dhe shkopa
+trullosjeje,
+        \n- mjete për trullosjen dhe vrasjen e kafshëve,
+        \n- kimikate pa-aftësuese, gazra dhe spreje, arrëmyshk, sprej me piper, sprej me
+kapsaicinë, gaz lotsjellës, spreje acidike, dhe spreje neveritëse kafshësh,
+        \n\n
+        3. Objektet e mprehta me teh - secili send i mprehtë apo me teh që mund të shkakton
+lëndime serioze, përfshi:
+        \n- - Pajisje për prerje/goditje, siç janë sëpatat, sakicat, dhe hanxharët, 
+        \n- Akullthyeset,
+        \n- Brisqe të hapura të rrojës,
+        \n- Prerës kutie,
+        \n- Thikat me teh mbi 6 cm, sipas EN L 55/16, gazeta zyrtare e Bashkimit Evropian,
+        \n- Gërshërë me teh më të gjatë se 6 cm prej strumbullit,
+        \n- Pajisje të arteve marciale me teh, jatagan, dhe shpata
+        \n\n
+        4. mjete punëtorësh – pajisje që mund të shkaktojnë lëndime serioze apo kërcënime për
+sigurinë e aeroplanit, përfshi:
+        \n- levë,
+        \n- turjela, përfshi turjelat portative pa tel rrymë,
+        \n- pajisjet të mprehta apo shtiza mbi 6 cm që mund përdoren si armë, siç janë kaçavidat
+dhe daltat,
+        \n- sharrat, përfshi sharrat portative pa tel rrymë,
+        \n- pipëza saldimi,,
+        \n- armët me bulona dhe me gozhda.
+        \n\n
+        5.  Instrumentet e topitura - pajisje që mund të shkaktojnë lëndime serioze gjatë përdorimit për goditje, përfshi:
+        \n- Shkopinj të bejsbollit,
+        \n- Spathi golfi dhe shkopinj polici, stekë të biliardit, shkopinj nate
+        \n\n
+        6. Eksplozivët dhe substancat shumë të ndezshme - eksplozivët dhe substancat shumë të
+ndezshme si pajisje që munden, apo që duket se mund të shkaktojnë lëndime serioze
+apo kërcënime për sigurinë e aeroplanit, përfshi:
+        \n- Municion,
+        \n- Mjetet shpërthyese,
+        \n- Detonatorët dhe fitilat
+        \n- Material apo mjete të ngjashme apo imituese të eksplozivit,
+        \n- Minat dhe granatat dhe rezervat e tjera të eksplozivave ushtarake,
+        \n- Fishekzjarrët dhe mjetet tjera piroteknike,
+        \n- Kuti apo gëzhoja që prodhojnë tym,
+        \n- dinamiti, baruti dhe eksplozivët plastik.
+        \n\n
+        Trajtimi i artikujve të ndaluar:
+        \n- Bagazhi i aeroplanit
+        \n- Gjërat në vijim nuk mund të barten kurrë në bagazhin e aeroplanit. Mund të ketë dhegjëra tjera për të cilat 
+        stafi i sigurimit ka shqetësime dhe të cilat mund të konfiskohen, nëse gjenden.
+        \n- Municioni,
+        \n- Material shpërthyese
+        \n- Detonatorë dhe siguresa,
+        \n- Minat dhe granatat dhe rezervat e tjera të eksplozivave ushtarake,
+        \n- Mjete eksplozive,
+        \n- Fishekzjarrët dhe mjetet tjera piroteknike,
+        \n- Shpërthyes flake në çfarë do forme, dinamiti, baruti dhe eksplozivët plastik.
+        \n\n\n
+        <b>Security Procedures</b>\n
+        \n  Airport Security,
+        \n  Airside / Landside,
+        \n  Security Restricted Areas (SRA),
+        \n  Critical Parts of SRA,
+        \n  Security of Passengers &amp; Cabin Baggage,
+        \n  Security of Hold Baggage,
+        \n  Security of Aircraft,
+        \n  Security of Air Carrier Catering, Stores Supplies and Mail,
+        \n  Security of Aircraft Cleaning Operations,
+        \n  Security of Cargo, Courier, Express Parcels and Mail,
+        \n  List of Prohibited Items,
+        \n  Close Circuit TV System (CCTV)
+    </string>
+
+    <string name="title_medical">Kujdesi Mjekësor</string>
+    <string name="text_medical">
+        Kujdesi mjekësor në aeroportin tonë ofrohet nga Qendra e Shërbimit Mjekësor, që ndodhet në afërsi të pjesës së mbërritjeve të udhëtarëve në katin përdhesë (niveli 0).
+Kujdesi mjekësor ofrohet gjatë 24 orëve/ditë (7 ditë/javë) nga një personel plotësisht i kualifikuar (mjeku dhe infermierja).
+Shërbimet ofrohen qoftë në zyrat e Qendrës Mjekësore, apo edhe jashtë tyre kurdo dhe kudo që është e nevojshme brenda ambienteve të Aeroportit. Shërbimet shëndetësore në këtë mënyrë ju ofrohen udhëtarëve, personelit të Aeroportit dhe çdo personi tjetër që ka nevojë.
+Për më tepër, ato konsistojnë në trajtime të ndryshme: dhënien e terapisë; trajtimet e vogla kirurgjikale në raste emergjente.
+Shërbimi ynë ka në dispozicion edhe një autoambulancë krejtësisht të re, të përgatitur plotësisht me paisje të fundit, në rastin e transportit të mëtejmë mjekësor.
+        \n\n
+        <i>Kontakti:</i>
+        \n Telefoni mobil: +377(0)45811192
+        \n Telefoni në zyrë: +381(0)38 501502 ext. 1330
+        \n e-mail:       medical.service@limkakosovo.aero
+    </string>
+
+    <string name="title_ict">TIK</string>
+    <string name="text_ict">
+        Departamenti i Teknologjisë së Informacionit dhe Komunikimit (TIK) ka një rol vendimtar në përpunimin,
+         transmetimin dhe ruajtjen e sasive të mëdha të informatave me rëndësi jetike që përdoren në operimet e Aeroportit.
+        \n\n
+        Terminali i ri është i paisur me fjalën e fundit të artit të Teknologjisë së Informacionit dhe Komunikimit me sisteme tërësisht të automatizuara, të redundancës së plotë, disponueshmërisë së lartë, zgjidhjeve të kontinuitetit të biznesit, dhe monitorimit në kohë reale të gjitha sistemeve të TIK. Projekti është zbatuar në përputhje me rekomandimet e IATA-s.
+        \n\n
+        Aeroporti ynë është i paisur me teknologjinë më të fundit për sisteme të aeroportit - sistemet e menaxhimit me informacione të aeroportit; sistemi i paraqitjes së informacionit të fluturimit në monitor - FIDS; sistemi i kontrollit të nisjes - DCS; përdorimi i përbashkët i paisjeve në Terminal - CUTE; sistemi i bashkërendimit të bagazhit - BRS; sistemet e menaxhimit të burimeve - RMS; sistemet e Aeroportit dhe kompanive ajrore; sistemet e operimeve në hapësirën ajrore - VDGS, sistemet Master të sinkronizimit të kohës në të gjitha orat; sistemet e adresave publike; Master TV; sistemet e vëzhgimit me kamera - CCTV; sistemi i kontrollit të qasjes, dhe sistemi i menaxhimit të sigurisë.
+        \n\n
+        Infrastruktura e TIK ka implementuar teknologjitë më të fundit për të dhënat dhe komunikimin me nivel të lartë të mbrojtjes së të dhënave dhe kjo mbrojtje përfshin Private Cloud me infrastrukturën Blade dhe SAN, rrjetet e komunikimit aktiv-aktiv të të dhënave, lidhjet e shërbimeve publike; sistemet e komunikimit me zë; rrjetin celular publik, dhe radio sistemet private mobile.
+        \n\n
+        Gjithashtu, Terminali i ri është i paisur me sistemet e automatizimit, që sigurojnë menaxhimin dhe monitorimin e centralizuar për sistemin e trajtimit të bagazheve, urave për bording të pasagjerëve, mbrojtjen nga zjarri, sistemet e ndriçimit, HVAC, furnizimit me ujë, gjeneratorëve rezervë, furnizimit me energji elektrike, dhe shkallëve elektrike dhe ashensorëve.
+        \n\n
+        Projekti ynë TIK i implementuar me sukses është shpërblyer vitin e kaluar nga Albanian ICT Awards për arritjet e larta në fushën e TIK në nivel regjional.
+    </string>
+
+    <string name="title_info">Kontaktet</string>
+    <string name="text_info">
+        <i>Qendra e Informatave</i>\n
+        information@limakkosovo.aero
+        Linja fikse: 00381(0)385015021214
+        \n\n
+        <i>Valixhet e humbura dhe te gjetura</i>\n
+        lost.found@limakkosovo.aero
+        Linja fikse: 00381(0)385015021270
+        00381(0)385015021271
+        \n\n
+        <i>Marrëdhënie me Publikun</i>\n
+        vgara@limakkosovo.aero
+        Linja fikse: 00381(0)385015021041
+        \n\n
+        <i>Kujdesi Mjekësor</i>\n
+        medicalservice@limakkosovo.aero
+        Linja fikse: 00381(0)385015021331
+        Celular: 00377(0)45811192
+        \n\n
+        <i>Sigurimi</i>\n
+        security.teamleaders@limakkosovo.aero
+        Linja fikse: 00381(0)385015021362
+        Celular: 00377(0)45811316
+        \n\n
+        <i>Ankesat</i>\n
+        complaints@limakkosovo.aero
+        Linja fikse: 00381(0)385015021041
+        Celular: 00377(0)45811411
+        \n\n
+        <i>Mallra/Cargo</i>\n
+        jseferi@limakkosovo.aero
+        Linja fikse: 00381(0)385015023292
+        \n\n
+        <i>Koordinimi i orarit te fluturimeve</i>\n
+        scheduleprn@limakkosovo.aero
+        00381(0)385015021170
+        \n\n
+        <i>CIP and 17/02 Service</i>\n
+        lounge@limakkosovo.aero
+        00381(0)385015022202
+    </string>
+
+    <string name="title_passinfo">Info për udhëtarë</string>
+    <string name="text_passinfo">
+        Desku i informacionit është i vendosur në mes të terminalit ku udhëtarët mund të marrin informacion 24/7 
+        përmes thirrjeve telefonike, e-mail apo në kontakt të drejtëpërdrejtë.
+
+        \n\n<i>Kontakti:</i>\n
+        information@limakkosovo.aero\n
+        00381(0)3850150211214
+    </string>
+
+    <string name="title_coordination">Koordinimi i fluturimeve</string>
+    <string name="text_coordination">
+        Procesi i lehtësimit përqendrohet në bashkëpunimin vullnetar ndërmjet kompanive ajrore dhe
+        lehtësuesit/koordinatorit të orarit të fluturimeve të Aeroportit Ndërkombëtar Limak Kosovë.
+        Kompanitë ajrore dhe lehtësuesi/koordinatori i orarit i LKIA duhet të përdorin formatet e këmbimit
+        të mesazhit SSIM të krijuara për komunikim në aeroporte të Nivelit 2 (aeroporte të Nivelit, shih
+        WSG në www.iata.org/sked).
+        \n
+        Kalendari i aktiviteteve të koordinimit specifikon datat kur kompanitë ajrore paraqesin operimet e
+        tyre të planifikuara te lehtësuesi/koordinatori i orarit i Aeroportit Ndërkombëtar Limak Kosovë dhe
+        datat kur lehtësuesi/koordinatori duhet t\'iu përgjigjet kompanive ajrore për çdo sezon të fluturimit.
+        \n
+        Lehtësuesi/koordinatori i orarit i LKIA duhet t\\i përgjigjet secilës paraqitje fillestare të kompanive
+        ajrore në formatin SAL, duke renditur operimet e planifikuara të asaj kompanie ajrore të mbajtur në
+        bazën e të dhënave të lehtësuesit dhe rregullimet e mundshme të rekomanduara të orarit. Kompanitë
+        ajrore duhet të organizohen për t\'u takuar me lehtësuesin në Konferencat e orareve të fluturimit për
+        të zgjidhur ndonjë çështje të pazgjidhur.
+        \n
+        Kompanitë ajrore dhe operatorët e tjerë të aeroplanëve duhet të përditësojnë lehtësuesin/koordinatorin
+        e orarit të LKIA me të gjitha ndryshimet në operimet e tyre të planifikuara menjëherë pasi të bëhen të njohura.
+        \n
+        Për këtë shkak, lehtësuesi/koordinatori i orarit do të informojë aeroportin dhe të gjitha palët
+        relevante për ndryshimet e planifikuar të operimeve.
+    </string>
+
+    <string name="title_media">Kërkesa nga Media</string>
+    <string name="text_media">
+        Aeroporti Ndërkombëtar i Prishtinës \'Adem Jashari\' vazhdon të përgjigjet në të gjitha kërkesat e mediave
+        që kanë të bëjnë me informacion për publik. Ne kemi bërë përpjekje të pafund që të jemi në dispozicion të mediave.
+        \n\n\n
+        <b>Kontakti:</b>\n
+        \n Valentina Gara
+        \n Menaxher për Marrëdhënie me Publikun
+        \n\n E-mail: vgara@limakkosovo.aero
+        \n Tel: 00381(0) 38 501 502 1041
+        \n\n Aeroporti Ndërkombëtar i Prishtinës \'Adem Jashari\'
+        \n Limak Kosovo International Airport
+        \n Vrellë, Lipjan 10070
+        \n Republika e Kosovës
+    </string>
+
+    <string name="btnManagement"><u>Integrated Management System Policy [PDF]</u></string>
+
+    <string name="title_activity_news_full">NewsFullActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

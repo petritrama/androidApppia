@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/airline_card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:background="@drawable/navdraw_listitem_ripple"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.65"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAirline"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="18sp"
+                android:textColor="@color/backgroundColor"
+                android:gravity="left|bottom"
+                android:paddingRight="5dp"/>
+
+            <TextView
+                android:id="@+id/txtWebsite"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:paddingRight="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivAirlineLogo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="5dp"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

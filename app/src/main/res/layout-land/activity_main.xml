@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/rlMain">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ivBackground"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:padding="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="75dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:id="@+id/llTitleBar"
+        android:background="@color/backgroundColor"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/ivLogo"
+            android:paddingLeft="8dp"
+            android:paddingRight="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tvTitle"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:text="@string/lblTitle"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rlBody"
+        android:layout_marginTop="150dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnFlightInfo"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="20dp" />
+
+        <Button
+            android:id="@+id/btnDepartures"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="20dp" />
+
+        <Button
+            android:id="@+id/btnDestination"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_alignTop="@+id/btnServices"
+            android:layout_alignLeft="@+id/btnFlightInfo"
+            android:layout_alignStart="@+id/btnFlightInfo" />
+
+        <Button
+            android:id="@+id/btnServices"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/btnDepartures"
+            android:layout_alignLeft="@+id/btnDepartures"
+            android:layout_alignStart="@+id/btnDepartures" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/llFooter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/ivLyon"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:padding="2dp" />
+
+        <ImageView
+            android:id="@+id/ivLimak"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4"
+            android:padding="4dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+        <ImageView
+            android:id="@+id/ivISO1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:padding="2dp" />
+
+        <ImageView
+            android:id="@+id/ivISO2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:padding="2dp" />
+
+        <ImageView
+            android:id="@+id/ivISO3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:padding="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:id="@+id/llFooter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/backgroundColor"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tvFooter"
+            android:gravity="center"
+            android:text="@string/lblFooter"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                tools:context="aero.project.petritrama.prishtinainternationalairportademjashari.DestinationsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_btnback"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"/>
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="right">
+
+        <RelativeLayout
+            android:id="@+id/explore_content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:focusable="false"
+            android:layoutDirection="rtl">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_margin="10dp"
+                android:elevation="5dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivImage"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtTitle"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scrollbars="vertical"
+                android:verticalScrollbarPosition="right">
+
+                <TextView
+                    android:id="@+id/txtContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAlignment="center"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="14sp"/>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/explore_drawer"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/white"
+            android:verticalScrollbarPosition="right"
+            android:choiceMode="singleChoice"
+            android:dividerHeight="0dp"
+            android:padding="0dp"/>
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</RelativeLayout>

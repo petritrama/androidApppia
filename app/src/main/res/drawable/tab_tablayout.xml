@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:exitFadeDuration="@android:integer/config_shortAnimTime"
+    android:color="@color/flightInfo">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/flightInfo" />
+        </shape>
+    </item>
+
+</selector>

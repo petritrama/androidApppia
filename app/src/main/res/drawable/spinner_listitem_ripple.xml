@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:color="@color/backgroundColor"
+          android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background_overlay"/>
+        </shape>
+    </item>
+
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/backgroundColorDark"/>
+        </shape>
+    </item>
+
+</selector>

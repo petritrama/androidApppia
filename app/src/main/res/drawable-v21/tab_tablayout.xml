@@ -1,0 +1,11 @@
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/flightInfo">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/backgroundColor" />
+        </shape>
+    </item>
+
+</ripple>
